@@ -1918,7 +1918,7 @@
     },
     "liveModels": 607
   },
-  "generatedAt": "2026-10-10T02:02:19.631Z",
+  "generatedAt": "2026-10-10T13:44:23.235Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 126,
@@ -2017,18 +2017,7 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2025-10-06",
-      "id": "alibaba/qwen3-vl-30b-a3b-instruct",
-      "to": "2025-10-04"
-    },
-    {
-      "from": "2025-07-12",
-      "id": "moonshotai/kimi-k2-0905",
-      "to": "2025-09-04"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2043,7 +2032,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4032 条（对话类 3118 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4034 条（对话类 3118 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2055,7 +2044,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 475 条；api.json 226 provider / 8445 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
+      "note": "models.json 475 条；api.json 226 provider / 8443 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
       "ok": true
     },
     "openrouter": {
@@ -2067,7 +2056,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "414 条（language 268 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "415 条（language 268 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
@@ -2177,7 +2166,5 @@
     "withFlop": 86
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "2 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }
