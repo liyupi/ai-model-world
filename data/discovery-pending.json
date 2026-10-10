@@ -1,11 +1,47 @@
 {
   "_note": "只有单一上游源收录、尚未达到多源佐证门槛的模型。等到第二个独立源也收录它，下一次同步就会自动晋升进 data/models.json。例外：厂商已在 src/data/vendor-registry.ts 登记的，openrouter 或 vercel-gateway 单源即晋升，不会出现在这里。",
-  "generatedAt": "2026-10-09T13:49:23.715Z",
+  "generatedAt": "2026-10-10T02:02:19.631Z",
   "pending": [
     {
-      "id": "anthropic/claude-opus-4.8-fast",
+      "id": "aion-labs/aion-2.0",
       "sources": [
-        "vercel-gateway"
+        "openrouter"
+      ]
+    },
+    {
+      "id": "aion-labs/aion-3.0",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "aion-labs/aion-3.0-mini",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "aion-labs/aion-3.5",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "aion-labs/aion-3.5-mini",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "aion-labs/aion-rp-llama-3.1-8b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "anthracite-org/magnum-v4-72b",
+      "sources": [
+        "openrouter"
       ]
     },
     {
@@ -27,6 +63,12 @@
       ]
     },
     {
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
       "id": "inclusionai/ling-3.1-flash-free",
       "sources": [
         "vercel-gateway"
@@ -36,6 +78,24 @@
       "id": "interfaze/interfaze-beta",
       "sources": [
         "vercel-gateway"
+      ]
+    },
+    {
+      "id": "mancer/weaver",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "sources": [
+        "openrouter"
       ]
     },
     {
@@ -159,15 +219,117 @@
       ]
     },
     {
+      "id": "openai/o3-mini-high",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
       "id": "openai/o4-mini-fast",
       "sources": [
         "vercel-gateway"
       ]
     },
     {
+      "id": "openai/o4-mini-high",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "perceptron/perceptron-mk1",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "poolside/laguna-s-2.1-free",
+      "sources": [
+        "vercel-gateway"
+      ]
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "relace/relace-apply-3",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "relace/relace-search",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "sao10k/l3-lunaris-8b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "sao10k/l3.1-euryale-70b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "sao10k/l3.3-euryale-70b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
       "id": "stealth/glyph-cluster",
       "sources": [
         "vercel-gateway"
+      ]
+    },
+    {
+      "id": "thedrummer/cydonia-24b-v4.1",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "thedrummer/skyfall-36b-v2",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "thedrummer/unslopnemo-12b",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "typesafe/jev-router",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "unbiased/pareto-26.10-preview",
+      "sources": [
+        "openrouter"
+      ]
+    },
+    {
+      "id": "undi95/remm-slerp-l2-13b",
+      "sources": [
+        "openrouter"
       ]
     }
   ]
