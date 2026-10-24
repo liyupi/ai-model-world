@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-23T13:46:38.821Z",
+  "generatedAt": "2026-10-24T01:52:45.328Z",
   "models": [
     {
       "benchmarks": {
@@ -4401,7 +4401,7 @@
         "totalB": 235.09
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0574,
+        "cachedInputPerMTok": 0.11,
         "inputPerMTok": 0.2,
         "outputPerMTok": 0.6
       },
@@ -6469,7 +6469,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.07,
         "inputPerMTok": 0.2,
-        "outputPerMTok": 0.8964
+        "outputPerMTok": 0.89544
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -34285,7 +34285,7 @@
         "totalB": 681.41
       },
       "pricing": {
-        "cachedInputPerMTok": 0.13,
+        "cachedInputPerMTok": 0.092736,
         "inputPerMTok": 0.28,
         "outputPerMTok": 0.42
       },
@@ -48709,7 +48709,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
+        "cachedInputPerMTok": 0.049,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -52021,7 +52021,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -52049,7 +52049,7 @@
         "totalB": 70.55
       },
       "pricing": {
-        "cachedInputPerMTok": null,
+        "cachedInputPerMTok": 0.16,
         "inputPerMTok": 0.72,
         "outputPerMTok": 0.72
       },
@@ -52067,6 +52067,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -53311,7 +53312,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 0.59,
+        "inputPerMTok": 0.6,
         "outputPerMTok": 0.71
       },
       "provenance": {
@@ -58653,7 +58654,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": null,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -58681,15 +58682,16 @@
         "activeB": null,
         "confidence": "estimated",
         "sizeTier": 1,
-        "sizeTierBasis": "naming",
+        "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": null,
-        "outputPerMTok": null
+        "cachedInputPerMTok": 0.015,
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.6
       },
       "provenance": {
+        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -58698,6 +58700,9 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -60108,8 +60113,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.02,
-        "inputPerMTok": 0.2,
-        "outputPerMTok": 0.2
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.15
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -60251,8 +60256,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.33615,
-        "outputPerMTok": 0.4482
+        "inputPerMTok": 0.33579,
+        "outputPerMTok": 0.44772
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -68776,6 +68781,150 @@
       "retiredAt": null,
       "scores": [],
       "slug": "moonshotai-kimi-k3-fast",
+      "trainingComputeFlop": null,
+      "vendorId": "moonshotai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-10-24T01:52:45.328Z",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3.1 Pro",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.2,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-23",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "moonshotai-kimi-k3-1-pro",
+      "trainingComputeFlop": null,
+      "vendorId": "moonshotai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-10-24T01:52:45.328Z",
+      "id": "moonshotai/kimi-k3.1-pro-highspeed",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 1048576,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3.1 PRO Highspeed",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 5,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.2,
+        "inputPerMTok": 4,
+        "outputPerMTok": 20
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "vercel-gateway",
+        "maxOutput": "vercel-gateway",
+        "modalities": "vercel-gateway",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "vercel-gateway",
+        "pricing.inputPerMTok": "vercel-gateway",
+        "pricing.outputPerMTok": "vercel-gateway",
+        "releaseDate": "vercel-gateway",
+        "releaseDatePrecision": "vercel-gateway",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-23",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "moonshotai-kimi-k3-1-pro-highspeed",
       "trainingComputeFlop": null,
       "vendorId": "moonshotai"
     },
@@ -87954,7 +88103,7 @@
         "totalB": 19.11
       },
       "pricing": {
-        "cachedInputPerMTok": 0.02,
+        "cachedInputPerMTok": 0.0275,
         "inputPerMTok": 0.055,
         "outputPerMTok": 0.2
       },
@@ -105810,43 +105959,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 418 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
       "note": "请求 239 个开源模型，成功 235，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
-      "note": "4244 条（对话类 3247 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
+      "note": "4260 条（对话类 3248 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
       "note": "7/7 个分榜，共 334 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
-      "note": "models.json 602 条；api.json 230 provider / 8847 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
+      "note": "models.json 603 条；api.json 230 provider / 8879 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
-      "note": "468 条；已剔除 artificial_analysis 286 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
+      "note": "469 条；已剔除 artificial_analysis 287 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -105855,8 +106004,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-23T13:46:38.821Z",
-      "note": "478 条（language 316 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-24T01:52:45.328Z",
+      "note": "480 条（language 318 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
