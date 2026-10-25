@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-10-24T13:42:33.129Z",
+  "generatedAt": "2026-10-25T01:54:39.692Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -786,10 +786,6 @@
       "basis": "price+naming",
       "tier": 2
     },
-    "openai/gpt-3.5-turbo-instruct": {
-      "basis": "price+naming",
-      "tier": 2
-    },
     "openai/gpt-4": {
       "basis": "price",
       "tier": 5
@@ -1087,6 +1083,10 @@
       "tier": 2
     },
     "perceptron/perceptron-mk1": {
+      "basis": "price",
+      "tier": 2
+    },
+    "perceptron/perceptron-mk1.5": {
       "basis": "price",
       "tier": 2
     },

@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-24T13:42:33.129Z",
+  "generatedAt": "2026-10-25T01:54:39.692Z",
   "models": [
     {
       "benchmarks": {
@@ -1828,6 +1828,77 @@
       "slug": "aisingapore-gemma-sea-lion-v4-27b-it",
       "trainingComputeFlop": null,
       "vendorId": "aisingapore"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-10-25T01:54:39.692Z",
+      "id": "aleph-alpha/kolibri-1",
+      "knowledgeCutoff": "2026-06-18",
+      "license": "Apache-2.0",
+      "maxOutput": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kolibri 1",
+      "openWeights": true,
+      "params": {
+        "activeB": null,
+        "confidence": "exact",
+        "totalB": 77.4
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.084,
+        "inputPerMTok": 0.16,
+        "outputPerMTok": 0.56
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "license": "huggingface",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-03",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "aleph-alpha-kolibri-1",
+      "trainingComputeFlop": null,
+      "vendorId": "aleph-alpha"
     },
     {
       "benchmarks": {
@@ -12467,7 +12538,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.085,
-        "inputPerMTok": 0.42,
+        "inputPerMTok": 0.4,
         "outputPerMTok": 3
       },
       "provenance": {
@@ -51546,6 +51617,73 @@
       },
       "coding": [],
       "contextWindow": 128000,
+      "firstSeenAt": "2026-10-25T01:54:39.692Z",
+      "id": "liquid/lfm-2.5-2.6b",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "LFM 2.5 2.6B",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "totalB": 2.6
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.04,
+        "inputPerMTok": 0.35,
+        "outputPerMTok": 0.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.totalB": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-08-11",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "liquid-lfm-2-5-2-6b",
+      "trainingComputeFlop": null,
+      "vendorId": "liquid"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 128000,
       "firstSeenAt": "2026-10-14T01:51:20.930Z",
       "id": "liquid/lfm-2.5-24b-a2b",
       "knowledgeCutoff": null,
@@ -72310,12 +72448,13 @@
         "pricing.outputPerMTok": "openrouter",
         "releaseDate": "epoch.ai",
         "releaseDatePrecision": "epoch.ai",
+        "retiredAt": "derived",
         "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2023-06-13",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-10-25",
       "scores": [
         {
           "attribution": "third-party",
@@ -90510,6 +90649,80 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
+        "promptCaching": false,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 36864,
+      "firstSeenAt": "2026-10-25T01:54:39.692Z",
+      "id": "perceptron/perceptron-mk1.5",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 8192,
+      "modalities": {
+        "input": [
+          "audio",
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Perceptron Mk1.5",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 1.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-09-25",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "perceptron-perceptron-mk1-5",
+      "trainingComputeFlop": null,
+      "vendorId": "perceptron"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
         "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
@@ -91733,6 +91946,68 @@
         }
       ],
       "slug": "reflection-beam-1-0-501b-a23b",
+      "trainingComputeFlop": null,
+      "vendorId": "reflection"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": null,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-10-25T01:54:39.692Z",
+      "id": "reflection/beam-free",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Beam Free",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "unknown",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
+      },
+      "provenance": {
+        "contextWindow": "vercel-gateway",
+        "maxOutput": "vercel-gateway",
+        "modalities": "vercel-gateway",
+        "name": "derived",
+        "releaseDate": "vercel-gateway",
+        "releaseDatePrecision": "vercel-gateway",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-16",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "reflection-beam-free",
       "trainingComputeFlop": null,
       "vendorId": "reflection"
     },
@@ -106034,43 +106309,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 418 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
-      "note": "请求 239 个开源模型，成功 235，失败 4",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
+      "note": "请求 240 个开源模型，成功 236，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
-      "note": "4260 条（对话类 3248 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
+      "note": "4307 条（对话类 3295 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
       "note": "7/7 个分榜，共 334 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
-      "note": "models.json 604 条；api.json 230 provider / 8893 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
+      "note": "models.json 606 条；api.json 232 provider / 8904 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
-      "note": "469 条；已剔除 artificial_analysis 287 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
+      "note": "467 条；已剔除 artificial_analysis 286 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -106079,7 +106354,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-24T13:42:33.129Z",
+      "fetchedAt": "2026-10-25T01:54:39.692Z",
       "note": "480 条（language 318 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
@@ -106124,6 +106399,16 @@
       "motif": "merlion",
       "name": "Aisingapore",
       "nameZh": "AI Singapore"
+    },
+    {
+      "accentColor": "#7c8da6",
+      "continent": "west",
+      "country": "ZZ",
+      "homepage": null,
+      "id": "aleph-alpha",
+      "motif": "wanderer",
+      "name": "Aleph Alpha",
+      "nameZh": "Aleph Alpha"
     },
     {
       "accentColor": "#615ced",
