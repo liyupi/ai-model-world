@@ -1965,7 +1965,7 @@
     },
     "liveModels": 693
   },
-  "generatedAt": "2026-10-25T01:54:39.692Z",
+  "generatedAt": "2026-10-25T13:43:07.179Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2079,7 +2079,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 606 条；api.json 232 provider / 8904 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "note": "models.json 606 条；api.json 232 provider / 8929 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
