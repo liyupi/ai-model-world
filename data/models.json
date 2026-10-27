@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-26T14:50:27.449Z",
+  "generatedAt": "2026-10-27T01:57:31.022Z",
   "models": [
     {
       "benchmarks": {
@@ -6540,7 +6540,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.07,
         "inputPerMTok": 0.2,
-        "outputPerMTok": 0.89544
+        "outputPerMTok": 0.89504
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -8604,7 +8604,7 @@
         "webdev_arena_elo": 1357.38
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -8659,7 +8659,7 @@
         "totalB": 27.78
       },
       "pricing": {
-        "cachedInputPerMTok": 0.27,
+        "cachedInputPerMTok": null,
         "inputPerMTok": 0.3,
         "outputPerMTok": 2.4
       },
@@ -8677,7 +8677,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "openrouter",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -36184,7 +36183,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.028,
-        "inputPerMTok": 0.142,
+        "inputPerMTok": 0.15,
         "outputPerMTok": 0.3
       },
       "provenance": {
@@ -37752,7 +37751,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.006,
         "inputPerMTok": 0.23184,
-        "outputPerMTok": 1
+        "outputPerMTok": 0.96
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -38430,7 +38429,7 @@
         "modalities": "vercel-gateway",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.cachedInputPerMTok": "vercel-gateway",
         "pricing.inputPerMTok": "vercel-gateway",
         "pricing.outputPerMTok": "vercel-gateway",
         "releaseDate": "vercel-gateway",
@@ -48855,7 +48854,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
+        "cachedInputPerMTok": 0.049,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -49972,11 +49971,12 @@
         "pricing.outputPerMTok": "litellm",
         "releaseDate": "openrouter",
         "releaseDatePrecision": "openrouter",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2025-10-20",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-10-27",
       "scores": [],
       "slug": "ibm-granite-4-0-h-micro",
       "trainingComputeFlop": null,
@@ -58867,7 +58867,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": null,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -58895,16 +58895,15 @@
         "activeB": null,
         "confidence": "estimated",
         "sizeTier": 1,
-        "sizeTierBasis": "price+naming",
+        "sizeTierBasis": "naming",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.015,
-        "inputPerMTok": 0.15,
-        "outputPerMTok": 0.6
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -58913,9 +58912,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "litellm",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -60469,8 +60465,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.33579,
-        "outputPerMTok": 0.44772
+        "inputPerMTok": 0.33564,
+        "outputPerMTok": 0.44752
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -87327,6 +87323,152 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-10-27T01:57:31.022Z",
+      "id": "openai/gpt-6.1-terra",
+      "knowledgeCutoff": "2026-06-01",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Terra",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 1,
+        "outputPerMTok": 5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-26",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-1-terra",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-10-27T01:57:31.022Z",
+      "id": "openai/gpt-6.1-terra-pro",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.1 Terra PRO",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 1,
+        "outputPerMTok": 5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-26",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-1-terra-pro",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
         "promptCaching": false,
         "reasoning": null,
         "structuredOutput": null,
@@ -106309,43 +106451,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 418 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
       "note": "请求 240 个开源模型，成功 236，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
-      "note": "4307 条（对话类 3295 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
+      "note": "4323 条（对话类 3309 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
       "note": "7/7 个分榜，共 334 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
-      "note": "models.json 606 条；api.json 232 provider / 8926 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
+      "note": "models.json 607 条；api.json 232 provider / 8946 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
-      "note": "466 条；已剔除 artificial_analysis 285 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
+      "note": "464 条；已剔除 artificial_analysis 283 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -106354,8 +106496,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-26T14:50:27.449Z",
-      "note": "480 条（language 318 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-27T01:57:31.022Z",
+      "note": "482 条（language 320 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },

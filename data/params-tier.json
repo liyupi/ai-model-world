@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-10-26T14:50:27.449Z",
+  "generatedAt": "2026-10-27T01:57:31.022Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -566,10 +566,6 @@
       "basis": "naming",
       "tier": 1
     },
-    "ibm/granite-4.0-h-micro": {
-      "basis": "price+naming",
-      "tier": 1
-    },
     "inception/mercury-2": {
       "basis": "price",
       "tier": 1
@@ -679,7 +675,7 @@
       "tier": 1
     },
     "minimax/minimax-m3.1-flash-preview": {
-      "basis": "price+naming",
+      "basis": "naming",
       "tier": 1
     },
     "minimax/minimax-text-01": {
@@ -1011,6 +1007,14 @@
       "tier": 3
     },
     "openai/gpt-6.1-sol-pro": {
+      "basis": "price+naming",
+      "tier": 4
+    },
+    "openai/gpt-6.1-terra": {
+      "basis": "price",
+      "tier": 2
+    },
+    "openai/gpt-6.1-terra-pro": {
       "basis": "price+naming",
       "tier": 4
     },
