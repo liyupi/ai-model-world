@@ -115,7 +115,7 @@
     "epochParamStrippedMatches": 4,
     "fromModelsDev": 607,
     "models": 728,
-    "pendingDiscoveries": 89,
+    "pendingDiscoveries": 90,
     "promotedDiscoveries": 87,
     "quickPromotedDiscoveries": 25,
     "releaseDateOutliersDropped": 21,
@@ -126,8 +126,8 @@
   },
   "coverage": {
     "benchmarks.aime": {
-      "filled": 211,
-      "pct": 29,
+      "filled": 212,
+      "pct": 29.1,
       "total": 728
     },
     "benchmarks.arc_agi_2": {
@@ -146,8 +146,8 @@
       "total": 728
     },
     "benchmarks.gpqa_diamond": {
-      "filled": 214,
-      "pct": 29.4,
+      "filled": 215,
+      "pct": 29.5,
       "total": 728
     },
     "benchmarks.swe_bench_pro": {
@@ -311,13 +311,13 @@
       "total": 728
     },
     "scores.三条以上榜单": {
-      "filled": 299,
-      "pct": 41.1,
+      "filled": 300,
+      "pct": 41.2,
       "total": 728
     },
     "scores.任一成绩": {
-      "filled": 376,
-      "pct": 51.6,
+      "filled": 377,
+      "pct": 51.8,
       "total": 728
     },
     "trainingComputeFlop": {
@@ -333,11 +333,11 @@
   },
   "epochBenchmarkRows": {
     "_note": "有分数的 CSV 行数，仅用于确认解析器读到了东西。**不是模型数，不要当覆盖率分母用**，见 epochMatch。",
-    "aime": 297,
+    "aime": 298,
     "arc_agi_2": 272,
     "eci": 244,
     "fiction_live": 40,
-    "gpqa_diamond": 315,
+    "gpqa_diamond": 316,
     "swe_bench_verified": 35,
     "webdev_arena_elo": 128
   },
@@ -411,12 +411,12 @@
         "curated": true,
         "file": "otis_mock_aime_2024_2025.csv",
         "inEci": true,
-        "landed": 211,
+        "landed": 212,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 305,
+        "rows": 306,
         "scoreColumn": "mean_score",
-        "scored": 297,
+        "scored": 298,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -741,12 +741,12 @@
         "curated": false,
         "file": "ebr_bench.csv",
         "inEci": true,
-        "landed": 33,
+        "landed": 34,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 27,
+        "rows": 28,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 27,
+        "scored": 28,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -891,12 +891,12 @@
         "curated": false,
         "file": "frontiermath_tier_4_v2.csv",
         "inEci": true,
-        "landed": 84,
+        "landed": 85,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 77,
+        "rows": 78,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 77,
+        "scored": 78,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -906,12 +906,12 @@
         "curated": false,
         "file": "frontiermath_tiers_1_3_v2.csv",
         "inEci": true,
-        "landed": 112,
+        "landed": 113,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 121,
+        "rows": 122,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 121,
+        "scored": 122,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -921,12 +921,12 @@
         "curated": false,
         "file": "furniture_assembly.csv",
         "inEci": true,
-        "landed": 40,
+        "landed": 41,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 34,
+        "rows": 35,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 34,
+        "scored": 35,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -981,12 +981,12 @@
         "curated": true,
         "file": "gpqa_diamond.csv",
         "inEci": true,
-        "landed": 214,
+        "landed": 215,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 325,
+        "rows": 326,
         "scoreColumn": "mean_score",
-        "scored": 315,
+        "scored": 316,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1176,12 +1176,12 @@
         "curated": false,
         "file": "mystery_game_puzzles.csv",
         "inEci": true,
-        "landed": 104,
+        "landed": 105,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 141,
+        "rows": 142,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 141,
+        "scored": 142,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1326,12 +1326,12 @@
         "curated": false,
         "file": "simpleqa_verified.csv",
         "inEci": true,
-        "landed": 108,
+        "landed": 109,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 92,
+        "rows": 93,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 92,
+        "scored": 93,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1626,10 +1626,10 @@
     "_note": "「上游有多少 / 我们接住多少」。**分母必须用去重后的模型实体，不是 CSV 行数。**Epoch 的一个模型会占很多行（每个 reasoning effort 一行、带日期的快照版本各占一行），拿行数当分母算出来的 ECI「丢了 69%」是假告警，真实情况见 upstreamModels/matchedModels。剩下的未匹配绝大多数是压根不在 models.dev 收录范围里的历史模型（Claude 2、Gemini 1.5、Llama 3-70B 这类），不是名称归一化的问题——unmatchedSamples 可以逐条核对。另外 matchedModels 与 landedModels 数的是两个不同的群体，两边不相等不是矛盾：前者数「上游有多少个模型被我们接住了」，后者数「我们有多少个模型这一列拿到了值」。grok-4.20 与 grok-4.20-reasoning 在我们这边是两个模型、在 Epoch 那边是同一个实体，于是 landed 会大于 matched；反过来某个实体是靠别的别名键接住的、那个键上恰好没有这一项成绩时，matched 又会大于 landed。",
     "byBenchmark": {
       "aime": {
-        "landedModels": 211,
-        "matchedModels": 156,
-        "upstreamModels": 197,
-        "upstreamRows": 297
+        "landedModels": 212,
+        "matchedModels": 157,
+        "upstreamModels": 198,
+        "upstreamRows": 298
       },
       "arc_agi_2": {
         "landedModels": 120,
@@ -1650,10 +1650,10 @@
         "upstreamRows": 40
       },
       "gpqa_diamond": {
-        "landedModels": 214,
-        "matchedModels": 163,
-        "upstreamModels": 216,
-        "upstreamRows": 315
+        "landedModels": 215,
+        "matchedModels": 164,
+        "upstreamModels": 217,
+        "upstreamRows": 316
       },
       "swe_bench_verified": {
         "landedModels": 48,
@@ -1671,9 +1671,9 @@
     "matchTiers": {
       "loose": 35,
       "param-stripped": 4,
-      "strict": 220
+      "strict": 221
     },
-    "matchedEntities": 286,
+    "matchedEntities": 287,
     "unmatchedSamples": [
       {
         "benchmarks": [
@@ -1913,7 +1913,7 @@
         "organization": "Google DeepMind"
       }
     ],
-    "upstreamEntities": 418
+    "upstreamEntities": 419
   },
   "failures": [],
   "fallbackCoverage": {
@@ -1965,7 +1965,7 @@
     },
     "liveModels": 694
   },
-  "generatedAt": "2026-10-27T13:50:44.753Z",
+  "generatedAt": "2026-10-28T01:43:45.001Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2060,7 +2060,7 @@
       "ok": true
     },
     "epoch.ai": {
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 418 个模型实体；合规拦截 1 个文件",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 419 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
@@ -2068,7 +2068,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4323 条（对话类 3309 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4332 条（对话类 3318 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2080,11 +2080,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 607 条；api.json 232 provider / 8947 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "note": "models.json 607 条；api.json 232 provider / 8940 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "note": "463 条；已剔除 artificial_analysis 282 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "464 条；已剔除 artificial_analysis 282 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2092,7 +2092,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "482 条（language 320 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "498 条（language 320 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
