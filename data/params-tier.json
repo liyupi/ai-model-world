@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-10-28T13:41:13.270Z",
+  "generatedAt": "2026-10-29T01:44:45.191Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -460,7 +460,7 @@
     },
     "google/gemini-3-pro-image-preview": {
       "basis": "price+naming",
-      "tier": 5
+      "tier": 4
     },
     "google/gemini-3-pro-preview": {
       "basis": "price+naming",
@@ -472,7 +472,7 @@
     },
     "google/gemini-3.1-flash-image-preview": {
       "basis": "price+naming",
-      "tier": 3
+      "tier": 2
     },
     "google/gemini-3.1-flash-lite": {
       "basis": "price+naming",

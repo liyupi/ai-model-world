@@ -39,7 +39,7 @@
     {
       "id": "ale_bench",
       "inEci": false,
-      "models": 156,
+      "models": 159,
       "randomBaseline": null,
       "releaseDate": "2025-06-10",
       "scoreCeiling": null,
@@ -63,7 +63,7 @@
     {
       "id": "apex_agents",
       "inEci": true,
-      "models": 64,
+      "models": 68,
       "randomBaseline": 0,
       "releaseDate": "2026-01-21",
       "scoreCeiling": 100,
@@ -75,7 +75,7 @@
     {
       "id": "arc_agi",
       "inEci": true,
-      "models": 119,
+      "models": 121,
       "randomBaseline": 0,
       "releaseDate": "2019-11-05",
       "scoreCeiling": 100,
@@ -87,7 +87,7 @@
     {
       "id": "arc_agi_2",
       "inEci": true,
-      "models": 120,
+      "models": 122,
       "randomBaseline": 0,
       "releaseDate": "2025-03-24",
       "scoreCeiling": 100,
@@ -315,7 +315,7 @@
     {
       "id": "critpt",
       "inEci": false,
-      "models": 180,
+      "models": 192,
       "randomBaseline": 0,
       "releaseDate": "2025-09-30",
       "scoreCeiling": 100,
@@ -327,7 +327,7 @@
     {
       "id": "cursorbench",
       "inEci": false,
-      "models": 17,
+      "models": 19,
       "randomBaseline": 0,
       "releaseDate": "2026-03-11",
       "scoreCeiling": 100,
@@ -603,7 +603,7 @@
     {
       "id": "gso",
       "inEci": true,
-      "models": 41,
+      "models": 47,
       "randomBaseline": 0,
       "releaseDate": "2025-05-29",
       "scoreCeiling": 100,
@@ -759,7 +759,7 @@
     {
       "id": "mirrorcode",
       "inEci": true,
-      "models": 10,
+      "models": 16,
       "randomBaseline": 0,
       "releaseDate": "2026-06-26",
       "scoreCeiling": 100,
@@ -891,7 +891,7 @@
     {
       "id": "proofbench",
       "inEci": true,
-      "models": 96,
+      "models": 97,
       "randomBaseline": 0,
       "releaseDate": "2026-01-30",
       "scoreCeiling": 100,
@@ -903,7 +903,7 @@
     {
       "id": "rli",
       "inEci": true,
-      "models": 22,
+      "models": 23,
       "randomBaseline": 0,
       "releaseDate": "2025-10-29",
       "scoreCeiling": 100,
@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-28T13:41:13.270Z",
+  "generatedAt": "2026-10-29T01:44:45.191Z",
   "models": [
     {
       "benchmarks": {
@@ -4996,7 +4996,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.055,
         "inputPerMTok": 0.3,
-        "outputPerMTok": 3
+        "outputPerMTok": 2.89855072
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -8455,12 +8455,22 @@
         "params.totalB": "huggingface",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-03-02",
       "releaseDatePrecision": "day",
       "retiredAt": null,
-      "scores": [],
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        }
+      ],
       "slug": "alibaba-qwen3-5-0-8b",
       "trainingComputeFlop": null,
       "vendorId": "alibaba"
@@ -8811,12 +8821,22 @@
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-03-02",
       "releaseDatePrecision": "day",
       "retiredAt": null,
-      "scores": [],
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        }
+      ],
       "slug": "alibaba-qwen3-5-2b",
       "trainingComputeFlop": null,
       "vendorId": "alibaba"
@@ -9167,6 +9187,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "critpt",
+          "score": 0.86,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "dtbench",
           "score": 87.47,
           "source": "epoch.ai",
@@ -9304,6 +9332,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
         }
       ],
       "slug": "alibaba-qwen3-5-4b",
@@ -9404,7 +9440,7 @@
         {
           "attribution": "third-party",
           "league": "critpt",
-          "score": 0.29,
+          "score": 0.57,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -10850,7 +10886,7 @@
         "totalB": 35.95
       },
       "pricing": {
-        "cachedInputPerMTok": 0.02,
+        "cachedInputPerMTok": 0.025,
         "inputPerMTok": 0.375,
         "outputPerMTok": 2.25
       },
@@ -10872,7 +10908,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.cachedInputPerMTok": "openrouter",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "epoch.ai",
@@ -14638,12 +14674,22 @@
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2024-12-03",
       "releaseDatePrecision": "day",
       "retiredAt": null,
-      "scores": [],
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        }
+      ],
       "slug": "amazon-nova-micro",
       "trainingComputeFlop": null,
       "vendorId": "amazon"
@@ -14710,12 +14756,22 @@
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2024-12-05",
       "releaseDatePrecision": "day",
       "retiredAt": null,
-      "scores": [],
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        }
+      ],
       "slug": "amazon-nova-micro-v1",
       "trainingComputeFlop": null,
       "vendorId": "amazon"
@@ -15354,6 +15410,14 @@
           "source": "livebench",
           "sourceUrl": "https://livebench.ai/#/?release=2025-04-25",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 4.6,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
         }
       ],
       "contextWindow": 200000,
@@ -15508,6 +15572,14 @@
           "score": 55.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 4.6,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         },
         {
@@ -17921,6 +17993,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://cognition.com/frontiercode",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1587,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
         }
       ],
       "contextWindow": 1000000,
@@ -17988,6 +18068,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1587,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
         },
         {
           "attribution": "third-party",
@@ -25925,7 +26013,7 @@
     {
       "benchmarks": {
         "aime": 100,
-        "arc_agi_2": null,
+        "arc_agi_2": 83.89,
         "eci": 166.18,
         "fiction_live": null,
         "gpqa_diamond": 95.58,
@@ -26030,6 +26118,7 @@
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
+        "benchmarks.arc_agi_2": "epoch.ai",
         "benchmarks.eci": "epoch.ai",
         "benchmarks.gpqa_diamond": "epoch.ai",
         "benchmarks.webdev_arena_elo": "epoch.ai",
@@ -26078,6 +26167,22 @@
           "score": 75.5,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi",
+          "score": 96.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi_2",
+          "score": 83.89,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         },
         {
@@ -34429,7 +34534,7 @@
         "totalB": 681.41
       },
       "pricing": {
-        "cachedInputPerMTok": 0.092736,
+        "cachedInputPerMTok": 0.075,
         "inputPerMTok": 0.28,
         "outputPerMTok": 0.42
       },
@@ -37693,6 +37798,14 @@
           "unit": "pct"
         },
         {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 47.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
           "attribution": "vendor-self-reported",
           "league": "nl2repo",
           "score": 64,
@@ -37749,7 +37862,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.23184,
+        "inputPerMTok": 0.223,
         "outputPerMTok": 1
       },
       "provenance": {
@@ -37837,6 +37950,14 @@
           "score": 14.29,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 47.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
           "unit": "pct"
         },
         {
@@ -37983,7 +38104,7 @@
     {
       "benchmarks": {
         "aime": 99.44,
-        "arc_agi_2": 72.92,
+        "arc_agi_2": 78.06,
         "eci": 155.93,
         "fiction_live": null,
         "gpqa_diamond": 93.18,
@@ -38016,6 +38137,14 @@
           "unit": "pct"
         },
         {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 47.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
           "attribution": "vendor-self-reported",
           "league": "nl2repo",
           "score": 68.2,
@@ -38034,7 +38163,7 @@
         {
           "attribution": "third-party",
           "league": "ale_bench",
-          "score": 1092.35,
+          "score": 1622,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -38117,7 +38246,7 @@
         {
           "attribution": "third-party",
           "league": "ale_bench",
-          "score": 1092.35,
+          "score": 1622,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -38125,7 +38254,7 @@
         {
           "attribution": "third-party",
           "league": "apex_agents",
-          "score": 39.5,
+          "score": 69.8,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -38141,7 +38270,7 @@
         {
           "attribution": "third-party",
           "league": "arc_agi_2",
-          "score": 72.92,
+          "score": 78.06,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
@@ -38157,9 +38286,17 @@
         {
           "attribution": "third-party",
           "league": "critpt",
-          "score": 14.29,
+          "score": 24,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 47.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
           "unit": "pct"
         },
         {
@@ -38293,7 +38430,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 11.58,
+          "score": 19.92,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -42901,14 +43038,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 5,
+        "sizeTier": 4,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.2,
         "inputPerMTok": 2,
-        "outputPerMTok": 120
+        "outputPerMTok": 12
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -42921,7 +43058,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -43506,14 +43643,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 3,
+        "sizeTier": 2,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.5,
-        "outputPerMTok": 60
+        "outputPerMTok": 3
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -43526,7 +43663,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "vercel-gateway",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -46262,6 +46399,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 41.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "webdev_arena_elo",
           "score": 1587.26,
           "source": "epoch.ai",
@@ -46480,6 +46625,14 @@
           "score": 50.38,
           "source": "epoch.ai",
           "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 41.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         },
         {
@@ -47247,6 +47400,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "rli",
+          "score": 17.08,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simpleqa_verified",
           "score": 76,
           "source": "epoch.ai",
@@ -47272,7 +47433,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 41.36,
+          "score": 41.12,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -48853,7 +49014,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
+        "cachedInputPerMTok": 0.049,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -50092,7 +50253,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.015,
         "inputPerMTok": 0.06,
-        "outputPerMTok": 0.25
+        "outputPerMTok": 0.15
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -52594,8 +52755,8 @@
         "totalB": 8.03
       },
       "pricing": {
-        "cachedInputPerMTok": 0.03,
-        "inputPerMTok": 0.02,
+        "cachedInputPerMTok": 0.0272,
+        "inputPerMTok": 0.025,
         "outputPerMTok": 0.05
       },
       "provenance": {
@@ -52809,6 +52970,14 @@
           "score": 16.8,
           "source": "epoch.ai",
           "sourceUrl": "https://balrogai.com/",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -53524,7 +53693,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 0.6,
+        "inputPerMTok": 0.59,
         "outputPerMTok": 0.71
       },
       "provenance": {
@@ -55545,7 +55714,7 @@
     {
       "benchmarks": {
         "aime": null,
-        "arc_agi_2": null,
+        "arc_agi_2": 57.5,
         "eci": 155.11,
         "fiction_live": null,
         "gpqa_diamond": null,
@@ -55616,6 +55785,7 @@
         "outputPerMTok": 4.25
       },
       "provenance": {
+        "benchmarks.arc_agi_2": "epoch.ai",
         "benchmarks.eci": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
@@ -55646,6 +55816,22 @@
           "score": 33.4,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi",
+          "score": 89,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi_2",
+          "score": 57.5,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         },
         {
@@ -55940,6 +56126,14 @@
           "score": 99.44,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "apex_agents",
+          "score": 66.1,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -56473,6 +56667,14 @@
           "score": 11.6,
           "source": "epoch.ai",
           "sourceUrl": "https://balrogai.com/",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -62458,6 +62660,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "apex_agents",
+          "score": 51.6,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "critpt",
           "score": 10.57,
           "source": "epoch.ai",
@@ -62594,9 +62804,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.068,
-        "inputPerMTok": 0.68,
-        "outputPerMTok": 2.09
+        "cachedInputPerMTok": 0.14,
+        "inputPerMTok": 1.36,
+        "outputPerMTok": 4.18
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -62635,6 +62845,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "apex_agents",
+          "score": 51.6,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -69010,7 +69228,16 @@
         "structuredOutput": null,
         "toolCall": true
       },
-      "coding": [],
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1932.75,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        }
+      ],
       "contextWindow": 1048576,
       "firstSeenAt": "2026-10-24T01:52:45.328Z",
       "id": "moonshotai/kimi-k3.1-pro",
@@ -69045,6 +69272,7 @@
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
+        "coding": "derived",
         "contextWindow": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
@@ -69056,12 +69284,38 @@
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "scores": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-10-23",
       "releaseDatePrecision": "day",
       "retiredAt": null,
-      "scores": [],
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1932.75,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 24.57,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "proofbench",
+          "score": 91,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.vals.ai/benchmarks/proof_bench",
+          "unit": "pct"
+        }
+      ],
       "slug": "moonshotai-kimi-k3-1-pro",
       "trainingComputeFlop": null,
       "vendorId": "moonshotai"
@@ -73972,6 +74226,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://aider.chat/docs/leaderboards/#polyglot-leaderboard",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
         }
       ],
       "contextWindow": 128000,
@@ -74171,6 +74433,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "hle",
           "score": 2.72,
           "source": "epoch.ai",
@@ -74319,6 +74589,14 @@
           "score": 23.1,
           "source": "epoch.ai",
           "sourceUrl": "https://aider.chat/docs/leaderboards/#polyglot-leaderboard",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         }
       ],
@@ -74517,6 +74795,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "hle",
           "score": 2.72,
           "source": "epoch.ai",
@@ -74665,6 +74951,14 @@
           "score": 23.1,
           "source": "epoch.ai",
           "sourceUrl": "https://aider.chat/docs/leaderboards/#polyglot-leaderboard",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         }
       ],
@@ -74864,6 +75158,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "hle",
           "score": 2.72,
           "source": "epoch.ai",
@@ -75020,6 +75322,14 @@
           "score": 69.29,
           "source": "livebench",
           "sourceUrl": "https://livebench.ai/#/?release=2025-04-25",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         }
       ],
@@ -75215,6 +75525,14 @@
           "score": 47.89,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         },
         {
@@ -75997,6 +76315,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 4.44,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "webdev_arena_elo",
           "score": 1419.52,
           "source": "epoch.ai",
@@ -76308,6 +76634,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 4.44,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "mystery_game_puzzles",
           "score": 23,
           "source": "epoch.ai",
@@ -76481,6 +76815,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 4.44,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -76791,6 +77133,14 @@
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "minutes"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 4.44,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -81427,6 +81777,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 16.86,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -86145,6 +86503,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 26.67,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "webdev_arena_elo",
           "score": 1581.95,
           "source": "epoch.ai",
@@ -86345,6 +86711,14 @@
           "score": 44.49,
           "source": "epoch.ai",
           "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 26.67,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         },
         {
@@ -87327,7 +87701,16 @@
         "structuredOutput": null,
         "toolCall": true
       },
-      "coding": [],
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 2608.82,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        }
+      ],
       "contextWindow": 1050000,
       "firstSeenAt": "2026-10-27T01:57:31.022Z",
       "id": "openai/gpt-6.1-terra",
@@ -87364,6 +87747,7 @@
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
+        "coding": "derived",
         "contextWindow": "models.dev",
         "knowledgeCutoff": "models.dev",
         "maxOutput": "models.dev",
@@ -87389,6 +87773,30 @@
           "score": 100,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 2608.82,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "apex_agents",
+          "score": 68.3,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 28,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -89436,7 +89844,7 @@
           "league": "gso",
           "score": 1.3,
           "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         }
       ],
@@ -89630,7 +90038,7 @@
           "league": "gso",
           "score": 1.3,
           "source": "epoch.ai",
-          "sourceUrl": "https://epoch.ai/benchmarks",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         },
         {
@@ -89891,6 +90299,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "gso",
+          "score": 3.6,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "ale_bench",
           "score": 826.17,
           "source": "epoch.ai",
@@ -90122,6 +90538,14 @@
           "score": 79.61,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gso",
+          "score": 3.6,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gso-bench.github.io/leaderboard.html",
           "unit": "pct"
         },
         {
@@ -92362,6 +92786,14 @@
           "score": 29.2,
           "source": "epoch.ai",
           "sourceUrl": "https://balrogai.com/",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "critpt",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         }
       ],
@@ -99647,6 +100079,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 32.22,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "webdev_arena_elo",
           "score": 1555.1,
           "source": "epoch.ai",
@@ -99890,6 +100330,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 32.22,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "posttrainbench",
           "score": 23.45,
           "source": "epoch.ai",
@@ -100063,6 +100511,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 41.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -100313,6 +100769,14 @@
           "score": 48.45,
           "source": "epoch.ai",
           "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 41.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         },
         {
@@ -106518,43 +106982,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 419 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
       "note": "请求 240 个开源模型，成功 236，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
-      "note": "4345 条（对话类 3331 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "note": "4394 条（对话类 3371 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
       "note": "7/7 个分榜，共 335 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
-      "note": "models.json 607 条；api.json 233 provider / 8936 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "note": "models.json 607 条；api.json 233 provider / 8889 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
-      "note": "464 条；已剔除 artificial_analysis 191 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "note": "457 条；已剔除 artificial_analysis 187 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -106563,8 +107027,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-28T13:41:13.270Z",
-      "note": "498 条（language 320 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "note": "499 条（language 321 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
