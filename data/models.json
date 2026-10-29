@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-29T01:44:45.191Z",
+  "generatedAt": "2026-10-29T13:41:25.671Z",
   "models": [
     {
       "benchmarks": {
@@ -6020,14 +6020,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 2,
+        "sizeTier": 1,
         "sizeTierBasis": "price",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.1,
-        "inputPerMTok": 0.4,
-        "outputPerMTok": 1.6
+        "cachedInputPerMTok": 0.135,
+        "inputPerMTok": 0.3,
+        "outputPerMTok": 1
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -6037,9 +6037,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
         "scores": "derived",
@@ -36287,7 +36287,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.028,
-        "inputPerMTok": 0.142,
+        "inputPerMTok": 0.15,
         "outputPerMTok": 0.3
       },
       "provenance": {
@@ -37862,8 +37862,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.223,
-        "outputPerMTok": 1
+        "inputPerMTok": 0.244926,
+        "outputPerMTok": 1.19015
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -42182,9 +42182,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.5,
-        "outputPerMTok": 3
+        "cachedInputPerMTok": 0.0675,
+        "inputPerMTok": 0.675,
+        "outputPerMTok": 4.05
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -42200,9 +42200,9 @@
         "modalities": "vercel-gateway",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "vercel-gateway",
-        "pricing.inputPerMTok": "vercel-gateway",
-        "pricing.outputPerMTok": "vercel-gateway",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "epoch.ai",
         "releaseDatePrecision": "epoch.ai",
         "scores": "derived",
@@ -49014,7 +49014,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.049,
+        "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -55927,8 +55927,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.2,
-        "inputPerMTok": 4,
-        "outputPerMTok": 20
+        "inputPerMTok": 5.4,
+        "outputPerMTok": 27
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -55939,8 +55939,8 @@
         "name": "derived",
         "params.sizeTier": "derived",
         "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "epoch.ai",
         "releaseDatePrecision": "epoch.ai",
         "scores": "derived",
@@ -57138,7 +57138,6 @@
       "maxOutput": null,
       "modalities": {
         "input": [
-          "image",
           "text"
         ],
         "output": [
@@ -60666,8 +60665,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.3345,
-        "outputPerMTok": 0.446
+        "inputPerMTok": 0.33399,
+        "outputPerMTok": 0.44532
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -71535,9 +71534,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.02,
-        "inputPerMTok": 0.15,
-        "outputPerMTok": 0.5
+        "cachedInputPerMTok": 0.0135,
+        "inputPerMTok": 0.081,
+        "outputPerMTok": 0.4725
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -71546,9 +71545,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
         "vendorId": "derived"
@@ -84856,9 +84855,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.02,
-        "inputPerMTok": 0.2,
-        "outputPerMTok": 1.2
+        "cachedInputPerMTok": 0.027,
+        "inputPerMTok": 0.2703,
+        "outputPerMTok": 1.621
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -84867,9 +84866,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "openrouter",
         "releaseDatePrecision": "openrouter",
         "vendorId": "derived"
@@ -85396,9 +85395,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.4,
-        "inputPerMTok": 4,
-        "outputPerMTok": 20
+        "cachedInputPerMTok": 0.675,
+        "inputPerMTok": 5.4,
+        "outputPerMTok": 27
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -85407,9 +85406,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "openrouter",
         "releaseDatePrecision": "openrouter",
         "scores": "derived",
@@ -85853,14 +85852,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 5,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.2,
-        "inputPerMTok": 2,
-        "outputPerMTok": 12
+        "cachedInputPerMTok": 0.27,
+        "inputPerMTok": 2.7,
+        "outputPerMTok": 16.2
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -85869,9 +85868,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "openrouter",
         "releaseDatePrecision": "openrouter",
         "vendorId": "derived"
@@ -104446,7 +104445,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -104483,7 +104482,7 @@
         "totalB": 31.22
       },
       "pricing": {
-        "cachedInputPerMTok": 0.01,
+        "cachedInputPerMTok": null,
         "inputPerMTok": 0.0605,
         "outputPerMTok": 0.4
       },
@@ -104501,9 +104500,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "litellm",
         "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "litellm",
+        "pricing.outputPerMTok": "openrouter",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
@@ -106636,7 +106634,7 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.075,
+        "cachedInputPerMTok": 0.09,
         "inputPerMTok": 0.37,
         "outputPerMTok": 1.25
       },
@@ -106647,9 +106645,9 @@
         "modalities": "openrouter",
         "name": "derived",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "litellm",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
         "vendorId": "derived"
@@ -106982,42 +106980,42 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 81 个；训练算力 329 行；去重后 419 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "请求 240 个开源模型，成功 236，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
-      "note": "4394 条（对话类 3371 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
+      "note": "4512 条（对话类 3489 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "7/7 个分榜，共 335 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
-      "note": "models.json 607 条；api.json 233 provider / 8889 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
+      "note": "models.json 607 条；api.json 233 provider / 8908 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "457 条；已剔除 artificial_analysis 187 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
@@ -107027,7 +107025,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-29T01:44:45.191Z",
+      "fetchedAt": "2026-10-29T13:41:25.671Z",
       "note": "499 条（language 321 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }

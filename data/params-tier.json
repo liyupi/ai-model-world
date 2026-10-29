@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-10-29T01:44:45.191Z",
+  "generatedAt": "2026-10-29T13:41:25.671Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -48,7 +48,7 @@
     },
     "alibaba/qwen3-coder": {
       "basis": "price",
-      "tier": 2
+      "tier": 1
     },
     "alibaba/qwen3-coder-flash": {
       "basis": "price+naming",
@@ -972,7 +972,7 @@
     },
     "openai/gpt-5.6-terra-pro": {
       "basis": "price+naming",
-      "tier": 4
+      "tier": 5
     },
     "openai/gpt-6-astra": {
       "basis": "price",
