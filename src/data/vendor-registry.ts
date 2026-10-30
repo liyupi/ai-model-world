@@ -139,6 +139,13 @@ export const VENDOR_REGISTRY: Record<string, VendorProfile> = {
     country: 'US',
     homepage: 'https://reka.ai',
   },
+  writer: {
+    nameZh: 'Writer',
+    motif: 'quill', // 羽毛笔，Palmyra 系列取名自棕榈，书写意象一脉相承
+    accentColor: '#1e293b',
+    country: 'US',
+    homepage: 'https://writer.com',
+  },
   liquid: {
     nameZh: 'Liquid AI',
     motif: 'droplet',
@@ -379,6 +386,13 @@ export const VENDOR_REGISTRY: Record<string, VendorProfile> = {
     country: 'KR',
     homepage: 'https://upstage.ai',
   },
+  openbmb: {
+    nameZh: 'OpenBMB',
+    motif: 'brick', // 大模型「积木」：开源社区把基座模型做成可拼装的构件
+    accentColor: '#2563eb',
+    country: 'CN',
+    homepage: 'https://www.openbmb.ai',
+  },
   naver: {
     nameZh: 'NAVER',
     motif: 'hyperclova',
@@ -407,6 +421,7 @@ const ALIASES: Record<string, string> = {
   deepmind: 'google',
   'meta-llama': 'meta',
   llama: 'meta',
+  rekaai: 'reka',
   'x-ai': 'xai',
   '01-ai': '01-ai',
   '01ai': '01-ai',
