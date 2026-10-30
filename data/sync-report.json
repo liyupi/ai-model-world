@@ -136,8 +136,8 @@
       "total": 728
     },
     "benchmarks.eci": {
-      "filled": 225,
-      "pct": 30.9,
+      "filled": 226,
+      "pct": 31,
       "total": 728
     },
     "benchmarks.fiction_live": {
@@ -286,8 +286,8 @@
       "total": 728
     },
     "pricing.cachedInputPerMTok": {
-      "filled": 432,
-      "pct": 59.3,
+      "filled": 431,
+      "pct": 59.2,
       "total": 728
     },
     "pricing.inputPerMTok": {
@@ -335,7 +335,7 @@
     "_note": "有分数的 CSV 行数，仅用于确认解析器读到了东西。**不是模型数，不要当覆盖率分母用**，见 epochMatch。",
     "aime": 298,
     "arc_agi_2": 284,
-    "eci": 244,
+    "eci": 246,
     "fiction_live": 40,
     "gpqa_diamond": 316,
     "swe_bench_verified": 35,
@@ -546,12 +546,12 @@
         "curated": false,
         "file": "blueprint_bench_2_external.csv",
         "inEci": false,
-        "landed": 38,
+        "landed": 39,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 34,
+        "rows": 35,
         "scoreColumn": "Score",
-        "scored": 34,
+        "scored": 35,
         "selfRun": false,
         "supersededBy": null,
         "unit": "pct",
@@ -756,12 +756,12 @@
         "curated": true,
         "file": "epoch_capabilities_index/eci_scores.csv",
         "inEci": false,
-        "landed": 225,
+        "landed": 226,
         "multiplier": 1,
         "outOfRange": 0,
-        "rows": 270,
+        "rows": 273,
         "scoreColumn": "eci",
-        "scored": 244,
+        "scored": 246,
         "selfRun": true,
         "supersededBy": null,
         "unit": "index",
@@ -861,12 +861,12 @@
         "curated": false,
         "file": "frontiermath_erdos.csv",
         "inEci": false,
-        "landed": 13,
+        "landed": 14,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 13,
+        "rows": 14,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 13,
+        "scored": 14,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1491,12 +1491,12 @@
         "curated": false,
         "file": "vending_bench_2_external.csv",
         "inEci": false,
-        "landed": 100,
+        "landed": 101,
         "multiplier": 1,
         "outOfRange": 0,
-        "rows": 70,
+        "rows": 71,
         "scoreColumn": "Score",
-        "scored": 70,
+        "scored": 71,
         "selfRun": false,
         "supersededBy": null,
         "unit": "usd",
@@ -1566,12 +1566,12 @@
         "curated": false,
         "file": "weirdml_v3_external.csv",
         "inEci": true,
-        "landed": 29,
+        "landed": 30,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 24,
+        "rows": 25,
         "scoreColumn": "Max performance",
-        "scored": 24,
+        "scored": 25,
         "selfRun": false,
         "supersededBy": null,
         "unit": "pct",
@@ -1638,10 +1638,10 @@
         "upstreamRows": 284
       },
       "eci": {
-        "landedModels": 225,
-        "matchedModels": 150,
-        "upstreamModels": 224,
-        "upstreamRows": 244
+        "landedModels": 226,
+        "matchedModels": 152,
+        "upstreamModels": 226,
+        "upstreamRows": 246
       },
       "fiction_live": {
         "landedModels": 46,
@@ -1929,8 +1929,8 @@
       "contextWindow": 593,
       "maxOutput": 568,
       "modalities": 607,
-      "pricing.inputPerMTok": 483,
-      "pricing.outputPerMTok": 475
+      "pricing.inputPerMTok": 484,
+      "pricing.outputPerMTok": 476
     },
     "bySource": {
       "contextWindow": {
@@ -1948,24 +1948,24 @@
         "vercel-gateway": 36
       },
       "pricing.cachedInputPerMTok": {
-        "litellm": 49,
-        "openrouter": 28,
+        "litellm": 48,
+        "openrouter": 27,
         "vercel-gateway": 10
       },
       "pricing.inputPerMTok": {
-        "litellm": 61,
+        "litellm": 60,
         "openrouter": 39,
         "vercel-gateway": 10
       },
       "pricing.outputPerMTok": {
-        "litellm": 59,
+        "litellm": 58,
         "openrouter": 39,
         "vercel-gateway": 10
       }
     },
     "liveModels": 694
   },
-  "generatedAt": "2026-10-29T13:41:25.671Z",
+  "generatedAt": "2026-10-30T01:43:52.676Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2063,7 +2063,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4512 条（对话类 3489 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4526 条（对话类 3490 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2075,11 +2075,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 607 条；api.json 233 provider / 8908 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "note": "models.json 607 条；api.json 233 provider / 8917 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "note": "457 条；已剔除 artificial_analysis 187 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "456 条；已剔除 artificial_analysis 186 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2087,14 +2087,14 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "499 条（language 321 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "500 条（language 321 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
   "trainingCompute": {
     "_note": "ModelRecord.trainingComputeFlop 的落地情况，来源 Epoch model_metadata.csv。闭源模型从不公布参数量，训练算力是唯一有第三方估算的「体型」代理，closedFlagships 数的是 openai / anthropic / google / xai 里有 ECI 的模型。without 如实列出没拿到的闭源旗舰——多数是 Epoch 也没估算，不是匹配问题。",
     "closedFlagships": {
-      "total": 106,
+      "total": 107,
       "withFlop": 12,
       "without": [
         "anthropic/claude-3-5-haiku-20241022",
@@ -2177,6 +2177,7 @@
         "openai/gpt-6-luna",
         "openai/gpt-6-sol",
         "openai/gpt-6.1-sol",
+        "openai/gpt-6.1-terra",
         "openai/o1",
         "openai/o3",
         "openai/o3-mini",
