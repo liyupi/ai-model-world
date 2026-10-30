@@ -3,7 +3,7 @@
   "coding": {
     "_note": "ModelRecord.coding[] 的落地情况。一个赛制一条成绩，跨赛制永不混算。byLeague 是「该赛制覆盖了几个模型」，各赛制之间会重叠（一个模型可以有多条成绩）。flagship 是广场首屏当家门面的命中率——全站覆盖率会被长尾微调模型稀释，首屏才是用户真正看到的东西；without 如实列出仍然没有任何编程成绩的门面。modelsOnlyElo 是只有 WebDev Arena Elo、没有任何百分数成绩的模型：它们能排名，但读不出「解决了几成任务」，前端别把 Elo 塞进百分数的分位池。",
     "byAttribution": {
-      "third-party": 946,
+      "third-party": 958,
       "vendor-self-reported": 232
     },
     "byLeague": {
@@ -21,7 +21,7 @@
       "livecodebench": 8,
       "livecodebench_pro": 2,
       "livecodebench_v6": 1,
-      "mirrorcode": 16,
+      "mirrorcode": 28,
       "mle_bench": 2,
       "nl2repo": 16,
       "program_bench": 3,
@@ -42,7 +42,7 @@
     "byUnit": {
       "elo": 134,
       "index": 183,
-      "pct": 861
+      "pct": 873
     },
     "flagship": {
       "total": 40,
@@ -350,7 +350,7 @@
     "deepswe": 69,
     "frontier_code": 42,
     "gso": 36,
-    "mirrorcode": 15,
+    "mirrorcode": 25,
     "terminal_bench_2_0": 198
   },
   "epochFilesSkipped": {
@@ -1146,12 +1146,12 @@
         "curated": true,
         "file": "mirrorcode.csv",
         "inEci": true,
-        "landed": 16,
+        "landed": 28,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 15,
+        "rows": 25,
         "scoreColumn": "mean_score",
-        "scored": 15,
+        "scored": 25,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1965,7 +1965,7 @@
     },
     "liveModels": 694
   },
-  "generatedAt": "2026-10-30T01:43:52.676Z",
+  "generatedAt": "2026-10-30T13:41:27.831Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2063,7 +2063,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4526 条（对话类 3490 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4537 条（对话类 3500 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2075,7 +2075,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 607 条；api.json 233 provider / 8917 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "note": "models.json 607 条；api.json 233 provider / 8925 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
