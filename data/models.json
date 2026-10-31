@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-31T01:42:19.920Z",
+  "generatedAt": "2026-10-31T13:41:41.120Z",
   "models": [
     {
       "benchmarks": {
@@ -37846,8 +37846,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.245784,
-        "outputPerMTok": 1.19015
+        "inputPerMTok": 0.255552,
+        "outputPerMTok": 1.2
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -91779,9 +91779,9 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "vercel-gateway",
+        "pricing.inputPerMTok": "vercel-gateway",
+        "pricing.outputPerMTok": "vercel-gateway",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
         "vendorId": "derived"
@@ -91807,7 +91807,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": null,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -91868,14 +91868,13 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.03,
-        "inputPerMTok": 0.06,
-        "outputPerMTok": 0.12
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
         "benchmarks.swe_bench_pro": "models.dev",
         "benchmarks.swe_bench_vendor": "models.dev",
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "coding": "derived",
@@ -91884,9 +91883,6 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
@@ -106892,43 +106888,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 329 行；去重后 419 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "请求 240 个开源模型，成功 236，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
-      "note": "4545 条（对话类 3506 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
+      "note": "4550 条（对话类 3509 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "7/7 个分榜，共 335 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
-      "note": "models.json 607 条；api.json 234 provider / 8929 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
+      "note": "models.json 607 条；api.json 235 provider / 8930 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
-      "note": "456 条；已剔除 artificial_analysis 186 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
+      "note": "452 条；已剔除 artificial_analysis 186 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -106937,7 +106933,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-31T01:42:19.920Z",
+      "fetchedAt": "2026-10-31T13:41:41.120Z",
       "note": "499 条（language 320 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
