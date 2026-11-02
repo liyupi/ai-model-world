@@ -1954,7 +1954,7 @@
     },
     "liveModels": 695
   },
-  "generatedAt": "2026-11-01T13:42:01.081Z",
+  "generatedAt": "2026-11-02T01:42:42.598Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
