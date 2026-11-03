@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-02T13:42:10.499Z",
+  "generatedAt": "2026-11-03T01:42:29.100Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -605,6 +605,10 @@
     "mancer/weaver": {
       "basis": "price",
       "tier": 1
+    },
+    "meituan/longcat-2.5": {
+      "basis": "price",
+      "tier": 2
     },
     "meituan/longcat-2.5-preview": {
       "basis": "price",
@@ -1323,6 +1327,10 @@
       "tier": 2
     },
     "zhipuai/glm-5.3-flashx": {
+      "basis": "price",
+      "tier": 2
+    },
+    "zhipuai/glm-5.3-flashx-legal": {
       "basis": "price",
       "tier": 2
     },
