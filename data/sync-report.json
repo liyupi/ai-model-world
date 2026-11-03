@@ -332,11 +332,11 @@
   },
   "epochBenchmarkRows": {
     "_note": "有分数的 CSV 行数，仅用于确认解析器读到了东西。**不是模型数，不要当覆盖率分母用**，见 epochMatch。",
-    "aime": 298,
+    "aime": 299,
     "arc_agi_2": 284,
     "eci": 244,
     "fiction_live": 40,
-    "gpqa_diamond": 316,
+    "gpqa_diamond": 317,
     "swe_bench_verified": 35,
     "webdev_arena_elo": 128
   },
@@ -417,9 +417,9 @@
         "landed": 212,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 306,
+        "rows": 307,
         "scoreColumn": "mean_score",
-        "scored": 298,
+        "scored": 299,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -597,9 +597,9 @@
         "landed": 107,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 154,
+        "rows": 155,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 154,
+        "scored": 155,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -747,9 +747,9 @@
         "landed": 34,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 28,
+        "rows": 29,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 28,
+        "scored": 29,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -897,9 +897,9 @@
         "landed": 85,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 78,
+        "rows": 79,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 78,
+        "scored": 79,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -912,9 +912,9 @@
         "landed": 113,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 122,
+        "rows": 123,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 122,
+        "scored": 123,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -927,9 +927,9 @@
         "landed": 41,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 35,
+        "rows": 36,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 35,
+        "scored": 36,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -987,9 +987,9 @@
         "landed": 215,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 326,
+        "rows": 327,
         "scoreColumn": "mean_score",
-        "scored": 316,
+        "scored": 317,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1167,9 +1167,9 @@
         "landed": 105,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 142,
+        "rows": 143,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 142,
+        "scored": 143,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1317,9 +1317,9 @@
         "landed": 109,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 93,
+        "rows": 94,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 93,
+        "scored": 94,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1617,8 +1617,8 @@
       "aime": {
         "landedModels": 212,
         "matchedModels": 157,
-        "upstreamModels": 198,
-        "upstreamRows": 298
+        "upstreamModels": 199,
+        "upstreamRows": 299
       },
       "arc_agi_2": {
         "landedModels": 122,
@@ -1641,8 +1641,8 @@
       "gpqa_diamond": {
         "landedModels": 215,
         "matchedModels": 164,
-        "upstreamModels": 217,
-        "upstreamRows": 316
+        "upstreamModels": 218,
+        "upstreamRows": 317
       },
       "swe_bench_verified": {
         "landedModels": 48,
@@ -1902,7 +1902,7 @@
         "organization": "Google DeepMind"
       }
     ],
-    "upstreamEntities": 419
+    "upstreamEntities": 420
   },
   "failures": [],
   "fallbackCoverage": {
@@ -1954,7 +1954,7 @@
     },
     "liveModels": 697
   },
-  "generatedAt": "2026-11-03T01:42:29.100Z",
+  "generatedAt": "2026-11-03T13:42:09.222Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2046,7 +2046,7 @@
       "ok": true
     },
     "epoch.ai": {
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 334 行；去重后 419 个模型实体；合规拦截 1 个文件",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 334 行；去重后 420 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
@@ -2054,7 +2054,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4553 条（对话类 3511 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4560 条（对话类 3511 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2066,7 +2066,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 607 条；api.json 235 provider / 8934 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
+      "note": "models.json 607 条；api.json 235 provider / 8926 条；benchmarks[] 1173 条，已拦截 AA 血缘 183 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
