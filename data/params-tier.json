@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-04T01:42:10.083Z",
+  "generatedAt": "2026-11-04T13:42:23.083Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -1173,6 +1173,10 @@
     "tencent/hy-mt2-pro": {
       "basis": "price+naming",
       "tier": 3
+    },
+    "tencent/hy4": {
+      "basis": "price",
+      "tier": 2
     },
     "unbiased/pareto": {
       "basis": "price",
