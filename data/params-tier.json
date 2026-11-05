@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-05T01:42:43.213Z",
+  "generatedAt": "2026-11-05T13:41:50.393Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -590,6 +590,10 @@
       "basis": "price+naming",
       "tier": 1
     },
+    "inclusionai/ling-3.0-tiny": {
+      "basis": "price+naming",
+      "tier": 1
+    },
     "inclusionai/ling-3.1-flash-1019": {
       "basis": "price+naming",
       "tier": 1
@@ -662,15 +666,7 @@
       "basis": "price",
       "tier": 1
     },
-    "minimax/minimax-01": {
-      "basis": "price",
-      "tier": 2
-    },
     "minimax/minimax-m1": {
-      "basis": "price",
-      "tier": 2
-    },
-    "minimax/minimax-m2-her": {
       "basis": "price",
       "tier": 2
     },
