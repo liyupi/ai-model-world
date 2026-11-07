@@ -287,8 +287,8 @@
       "total": 738
     },
     "pricing.cachedInputPerMTok": {
-      "filled": 436,
-      "pct": 59.1,
+      "filled": 437,
+      "pct": 59.2,
       "total": 738
     },
     "pricing.inputPerMTok": {
@@ -317,8 +317,8 @@
       "total": 738
     },
     "scores.任一成绩": {
-      "filled": 385,
-      "pct": 52.2,
+      "filled": 387,
+      "pct": 52.4,
       "total": 738
     },
     "trainingComputeFlop": {
@@ -1584,10 +1584,10 @@
       }
     },
     "nonEpochLeagues": {
-      "arena_document": 42,
+      "arena_document": 50,
       "arena_image_edit": 16,
       "arena_image_to_video": 7,
-      "arena_search": 13,
+      "arena_search": 55,
       "arena_text_to_image": 16,
       "arena_text_to_video": 7,
       "arena_video_edit": 3,
@@ -1955,7 +1955,7 @@
     },
     "liveModels": 703
   },
-  "generatedAt": "2026-11-07T01:41:56.070Z",
+  "generatedAt": "2026-11-07T13:41:39.080Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2056,7 +2056,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4765 条（对话类 3715 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4770 条（对话类 3715 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2064,11 +2064,11 @@
       "ok": true
     },
     "lmarena": {
-      "note": "7/7 个分榜，共 344 条 Arena 分",
+      "note": "7/7 个分榜，共 346 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 609 条；api.json 235 provider / 8938 条；benchmarks[] 1174 条，已拦截 AA 血缘 184 条，非编程口径跳过 609 条",
+      "note": "models.json 609 条；api.json 235 provider / 8943 条；benchmarks[] 1174 条，已拦截 AA 血缘 184 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
