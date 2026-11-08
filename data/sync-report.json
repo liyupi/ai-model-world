@@ -118,7 +118,7 @@
     "models": 738,
     "pendingDiscoveries": 89,
     "promotedDiscoveries": 94,
-    "quickPromotedDiscoveries": 23,
+    "quickPromotedDiscoveries": 22,
     "releaseDateOutliersDropped": 22,
     "resurrected": 0,
     "retiredThisRun": 35,
@@ -1938,24 +1938,24 @@
         "vercel-gateway": 39
       },
       "pricing.cachedInputPerMTok": {
-        "litellm": 48,
+        "litellm": 49,
         "openrouter": 30,
-        "vercel-gateway": 15
+        "vercel-gateway": 14
       },
       "pricing.inputPerMTok": {
-        "litellm": 64,
+        "litellm": 65,
         "openrouter": 37,
-        "vercel-gateway": 14
+        "vercel-gateway": 13
       },
       "pricing.outputPerMTok": {
-        "litellm": 62,
+        "litellm": 63,
         "openrouter": 37,
-        "vercel-gateway": 14
+        "vercel-gateway": 13
       }
     },
     "liveModels": 703
   },
-  "generatedAt": "2026-11-07T13:41:39.080Z",
+  "generatedAt": "2026-11-08T01:42:12.895Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2025,7 +2025,6 @@
       "liquid/lfm-3-1.7b",
       "meituan/longcat-2.5",
       "minimax/minimax-m1",
-      "moonshotai/kimi-k3.1-pro-highspeed",
       "nvidia/switchyard",
       "openai/gpt-6-astra-pro",
       "openai/gpt-6-luna-pro",
@@ -2056,7 +2055,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "4770 条（对话类 3715 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "4870 条（对话类 3815 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2068,7 +2067,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 609 条；api.json 235 provider / 8943 条；benchmarks[] 1174 条，已拦截 AA 血缘 184 条，非编程口径跳过 609 条",
+      "note": "models.json 609 条；api.json 235 provider / 8946 条；benchmarks[] 1174 条，已拦截 AA 血缘 184 条，非编程口径跳过 609 条",
       "ok": true
     },
     "openrouter": {
