@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-09T01:42:18.818Z",
+  "generatedAt": "2026-11-09T13:41:36.354Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -757,10 +757,6 @@
     "moonshotai/kimi-k3-fast": {
       "basis": "price+naming",
       "tier": 3
-    },
-    "moonshotai/kimi-k3.1-pro": {
-      "basis": "price+naming",
-      "tier": 4
     },
     "moonshotai/kimi-k3.1-pro-highspeed": {
       "basis": "price+naming",
