@@ -1,6 +1,6 @@
 {
   "_note": "只有单一上游源收录、尚未达到多源佐证门槛的模型。等到第二个独立源也收录它，下一次同步就会自动晋升进 data/models.json。例外：厂商已在 src/data/vendor-registry.ts 登记的，openrouter 或 vercel-gateway 单源即晋升，不会出现在这里。",
-  "generatedAt": "2026-11-09T13:41:36.354Z",
+  "generatedAt": "2026-11-10T01:42:49.090Z",
   "pending": [
     {
       "id": "aion-labs/aion-3.5",
@@ -22,6 +22,12 @@
     },
     {
       "id": "anthropic/claude-fable-5.1-batch",
+      "sources": [
+        "vercel-gateway"
+      ]
+    },
+    {
+      "id": "anthropic/claude-fable-5.2-batch",
       "sources": [
         "vercel-gateway"
       ]
@@ -480,12 +486,6 @@
       "id": "scaledown/scaledown-summarize-1",
       "sources": [
         "vercel-gateway"
-      ]
-    },
-    {
-      "id": "stealth/crouton-alpha",
-      "sources": [
-        "openrouter"
       ]
     },
     {

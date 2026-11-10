@@ -469,6 +469,28 @@
         "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
       }
     },
+    "anthropic/claude-fable-5-2": {
+      "frontier_code": {
+        "attributionType": "vendor-self-reported",
+        "key": "frontier_code",
+        "league": "frontier_code",
+        "metric": "score",
+        "rawName": "FrontierCode",
+        "score": 49.1,
+        "sourceHost": "anthropic.com",
+        "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      },
+      "frontier_swe": {
+        "attributionType": "vendor-self-reported",
+        "key": "frontier_swe",
+        "league": "frontier_swe",
+        "metric": "score",
+        "rawName": "FrontierSWE",
+        "score": 69.9,
+        "sourceHost": "anthropic.com",
+        "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    },
     "anthropic/claude-haiku-4-5": {
       "swe_bench_pro": {
         "attributionType": "third-party",
@@ -1753,6 +1775,28 @@
         "score": 5.24,
         "sourceHost": "labs.scale.com",
         "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public"
+      }
+    },
+    "meta/muse-ember-1.0": {
+      "frontier_code": {
+        "attributionType": "vendor-self-reported",
+        "key": "frontier_code",
+        "league": "frontier_code",
+        "metric": "score",
+        "rawName": "FrontierCode",
+        "score": 27.2,
+        "sourceHost": "research.meta.ai",
+        "sourceUrl": "https://research.meta.ai/blog/muse-ember"
+      },
+      "terminal_bench": {
+        "attributionType": "vendor-self-reported",
+        "key": "terminal_bench",
+        "league": "terminal_bench",
+        "metric": "accuracy",
+        "rawName": "Terminal-Bench",
+        "score": 40.9,
+        "sourceHost": "research.meta.ai",
+        "sourceUrl": "https://research.meta.ai/blog/muse-ember"
       }
     },
     "meta/muse-glimmer-30b": {
@@ -3734,5 +3778,5 @@
       }
     }
   },
-  "generatedAt": "2026-11-09T13:41:36.354Z"
+  "generatedAt": "2026-11-10T01:42:49.090Z"
 }
