@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-11T01:42:15.959Z",
+  "generatedAt": "2026-11-11T13:41:34.991Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -326,20 +326,12 @@
       "basis": "price",
       "tier": 2
     },
-    "baidu/ernie-5.5-flash-preview": {
-      "basis": "price+naming",
-      "tier": 2
-    },
     "baidu/ernie-light-dt-1.0-intl": {
       "basis": "price",
       "tier": 2
     },
-    "bytedance-seed/seed-1-6": {
-      "basis": "price",
-      "tier": 2
-    },
     "bytedance-seed/seed-1-6-flash": {
-      "basis": "price+naming",
+      "basis": "naming",
       "tier": 1
     },
     "bytedance-seed/seed-1-8": {
