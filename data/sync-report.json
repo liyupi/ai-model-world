@@ -115,7 +115,7 @@
     "epochParamStrippedMatches": 4,
     "fromModelsDev": 613,
     "models": 745,
-    "pendingDiscoveries": 91,
+    "pendingDiscoveries": 92,
     "promotedDiscoveries": 95,
     "quickPromotedDiscoveries": 21,
     "releaseDateOutliersDropped": 21,
@@ -136,8 +136,8 @@
       "total": 745
     },
     "benchmarks.eci": {
-      "filled": 216,
-      "pct": 29,
+      "filled": 217,
+      "pct": 29.1,
       "total": 745
     },
     "benchmarks.fiction_live": {
@@ -335,7 +335,7 @@
     "_note": "有分数的 CSV 行数，仅用于确认解析器读到了东西。**不是模型数，不要当覆盖率分母用**，见 epochMatch。",
     "aime": 308,
     "arc_agi_2": 293,
-    "eci": 230,
+    "eci": 231,
     "fiction_live": 40,
     "gpqa_diamond": 326,
     "swe_bench_verified": 35,
@@ -760,12 +760,12 @@
         "curated": true,
         "file": "epoch_capabilities_index/eci_scores.csv",
         "inEci": false,
-        "landed": 216,
+        "landed": 217,
         "multiplier": 1,
         "outOfRange": 0,
-        "rows": 255,
+        "rows": 256,
         "scoreColumn": "eci",
-        "scored": 230,
+        "scored": 231,
         "selfRun": true,
         "supersededBy": null,
         "unit": "index",
@@ -970,12 +970,12 @@
         "curated": false,
         "file": "geobench_external.csv",
         "inEci": true,
-        "landed": 31,
+        "landed": 49,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 32,
+        "rows": 51,
         "scoreColumn": "ACW Country %",
-        "scored": 32,
+        "scored": 51,
         "selfRun": false,
         "supersededBy": null,
         "unit": "pct",
@@ -1240,12 +1240,12 @@
         "curated": false,
         "file": "posttrainbench_external.csv",
         "inEci": true,
-        "landed": 11,
+        "landed": 20,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 12,
+        "rows": 20,
         "scoreColumn": "Average (%)",
-        "scored": 12,
+        "scored": 20,
         "selfRun": false,
         "supersededBy": null,
         "unit": "pct",
@@ -1300,12 +1300,12 @@
         "curated": false,
         "file": "simplebench_external.csv",
         "inEci": true,
-        "landed": 105,
+        "landed": 125,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 104,
+        "rows": 126,
         "scoreColumn": "Score (AVG@5)",
-        "scored": 102,
+        "scored": 124,
         "selfRun": false,
         "supersededBy": null,
         "unit": "pct",
@@ -1628,10 +1628,10 @@
         "upstreamRows": 293
       },
       "eci": {
-        "landedModels": 216,
-        "matchedModels": 148,
-        "upstreamModels": 212,
-        "upstreamRows": 230
+        "landedModels": 217,
+        "matchedModels": 149,
+        "upstreamModels": 213,
+        "upstreamRows": 231
       },
       "fiction_live": {
         "landedModels": 46,
@@ -1954,7 +1954,7 @@
     },
     "liveModels": 708
   },
-  "generatedAt": "2026-11-11T13:41:34.991Z",
+  "generatedAt": "2026-11-12T01:42:43.147Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2038,13 +2038,7 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2025-09-01",
-      "id": "bytedance-seed/seed-1-6",
-      "to": "2025-10-15"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2059,7 +2053,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "5873 条（对话类 3901 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "5918 条（对话类 3903 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2067,15 +2061,15 @@
       "ok": true
     },
     "lmarena": {
-      "note": "7/7 个分榜，共 346 条 Arena 分",
+      "note": "7/7 个分榜，共 347 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 613 条；api.json 235 provider / 8991 条；benchmarks[] 1195 条，已拦截 AA 血缘 187 条，非编程口径跳过 623 条",
+      "note": "models.json 613 条；api.json 235 provider / 8993 条；benchmarks[] 1195 条，已拦截 AA 血缘 187 条，非编程口径跳过 623 条",
       "ok": true
     },
     "openrouter": {
-      "note": "466 条；已剔除 artificial_analysis 207 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "467 条；已剔除 artificial_analysis 207 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2083,14 +2077,14 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "506 条（language 324 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "507 条（language 324 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
   "trainingCompute": {
     "_note": "ModelRecord.trainingComputeFlop 的落地情况，来源 Epoch model_metadata.csv。闭源模型从不公布参数量，训练算力是唯一有第三方估算的「体型」代理，closedFlagships 数的是 openai / anthropic / google / xai 里有 ECI 的模型。without 如实列出没拿到的闭源旗舰——多数是 Epoch 也没估算，不是匹配问题。",
     "closedFlagships": {
-      "total": 104,
+      "total": 105,
       "withFlop": 10,
       "without": [
         "anthropic/claude-3-5-haiku-20241022",
@@ -2136,6 +2130,7 @@
         "google/gemini-3.7-flash",
         "google/gemini-3.8-flash",
         "google/gemini-4-argon",
+        "google/gemini-4-carbon",
         "google/gemma-4-26b-a4b-it",
         "google/gemma-4-31b-it",
         "openai/gpt-3.5-turbo",
@@ -2194,7 +2189,5 @@
     "withFlop": 92
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "1 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }
