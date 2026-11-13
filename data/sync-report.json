@@ -79,7 +79,7 @@
         "zhipuai/glm-5.3-prime"
       ]
     },
-    "liveModels": 709,
+    "liveModels": 708,
     "modelsOnlyElo": 34,
     "modelsWithAny": 268
   },
@@ -115,12 +115,12 @@
     "fromModelsDev": 614,
     "models": 746,
     "pendingDiscoveries": 93,
-    "promotedDiscoveries": 95,
-    "quickPromotedDiscoveries": 21,
+    "promotedDiscoveries": 94,
+    "quickPromotedDiscoveries": 20,
     "releaseDateOutliersDropped": 21,
     "resurrected": 0,
-    "retiredThisRun": 37,
-    "retiredTotal": 37,
+    "retiredThisRun": 38,
+    "retiredTotal": 38,
     "vendors": 81
   },
   "coverage": {
@@ -336,7 +336,7 @@
     "arc_agi_2": 293,
     "eci": 231,
     "fiction_live": 40,
-    "gpqa_diamond": 326,
+    "gpqa_diamond": 329,
     "swe_bench_verified": 35,
     "webdev_arena_elo": 128
   },
@@ -987,9 +987,9 @@
         "landed": 218,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 336,
+        "rows": 339,
         "scoreColumn": "mean_score",
-        "scored": 326,
+        "scored": 329,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1641,8 +1641,8 @@
       "gpqa_diamond": {
         "landedModels": 218,
         "matchedModels": 167,
-        "upstreamModels": 227,
-        "upstreamRows": 326
+        "upstreamModels": 230,
+        "upstreamRows": 329
       },
       "swe_bench_verified": {
         "landedModels": 48,
@@ -1901,17 +1901,17 @@
         "organization": "DeepSeek"
       }
     ],
-    "upstreamEntities": 421
+    "upstreamEntities": 424
   },
   "failures": [],
   "fallbackCoverage": {
     "_note": "models.dev 缺项时的兜底源贡献（存活模型口径）。before 是只认 models.dev 时的覆盖数，after 是兜底之后。仲裁顺序：定价 models.dev → LiteLLM → OpenRouter → Vercel；上下文 / 最大输出 / 模态 models.dev → OpenRouter → Vercel → LiteLLM。LiteLLM 只在第一方 provider 有条目、或所有托管商条目一致时才采信；图像/语音按张按分钟的价一律不折算。OpenRouter 的 benchmarks.* 已整段剔除，兜底只读 pricing / context_length / architecture。",
     "after": {
-      "contextWindow": 697,
-      "maxOutput": 673,
-      "modalities": 709,
-      "pricing.inputPerMTok": 603,
-      "pricing.outputPerMTok": 593
+      "contextWindow": 696,
+      "maxOutput": 672,
+      "modalities": 708,
+      "pricing.inputPerMTok": 602,
+      "pricing.outputPerMTok": 592
     },
     "before": {
       "contextWindow": 600,
@@ -1923,37 +1923,37 @@
     "bySource": {
       "contextWindow": {
         "litellm": 2,
-        "openrouter": 56,
+        "openrouter": 55,
         "vercel-gateway": 39
       },
       "maxOutput": {
         "litellm": 3,
-        "openrouter": 56,
+        "openrouter": 55,
         "vercel-gateway": 39
       },
       "modalities": {
-        "openrouter": 56,
+        "openrouter": 55,
         "vercel-gateway": 39
       },
       "pricing.cachedInputPerMTok": {
         "litellm": 53,
-        "openrouter": 33,
+        "openrouter": 32,
         "vercel-gateway": 11
       },
       "pricing.inputPerMTok": {
         "litellm": 66,
-        "openrouter": 38,
+        "openrouter": 37,
         "vercel-gateway": 12
       },
       "pricing.outputPerMTok": {
         "litellm": 64,
-        "openrouter": 38,
+        "openrouter": 37,
         "vercel-gateway": 12
       }
     },
-    "liveModels": 709
+    "liveModels": 708
   },
-  "generatedAt": "2026-11-13T01:42:22.888Z",
+  "generatedAt": "2026-11-13T13:41:56.575Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2020,7 +2020,6 @@
       "deepseek/deepseek-v4.1-flash-1017-ultrafast",
       "inclusionai/ling-3.0-tiny",
       "inclusionai/ling-3.1-flash-1019",
-      "liquid/lfm-2.5-2.6b",
       "liquid/lfm-3-1.7b",
       "nvidia/switchyard",
       "openai/gpt-6-astra-pro",
@@ -2037,20 +2036,14 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2026-07-20",
-      "id": "poolside/laguna-s-2.1",
-      "to": "2026-07-21"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 421 个模型实体；合规拦截 1 个文件",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 424 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
@@ -2058,7 +2051,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "5972 条（对话类 3919 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "5979 条（对话类 3922 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2066,15 +2059,15 @@
       "ok": true
     },
     "lmarena": {
-      "note": "7/7 个分榜，共 347 条 Arena 分",
+      "note": "7/7 个分榜，共 349 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 614 条；api.json 236 provider / 9128 条；benchmarks[] 1205 条，已拦截 AA 血缘 188 条，非编程口径跳过 631 条",
+      "note": "models.json 614 条；api.json 236 provider / 9139 条；benchmarks[] 1205 条，已拦截 AA 血缘 188 条，非编程口径跳过 631 条",
       "ok": true
     },
     "openrouter": {
-      "note": "475 条；已剔除 artificial_analysis 210 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "470 条；已剔除 artificial_analysis 207 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2189,12 +2182,10 @@
         "xai/grok-4.7"
       ]
     },
-    "liveModels": 709,
+    "liveModels": 708,
     "upstreamRows": 343,
     "withFlop": 92
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "1 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }
