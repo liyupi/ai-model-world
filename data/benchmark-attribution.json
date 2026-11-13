@@ -1723,6 +1723,18 @@
         "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
       }
     },
+    "google/gemini-4-hydrogen": {
+      "terminal_bench": {
+        "attributionType": "vendor-self-reported",
+        "key": "terminal_bench",
+        "league": "terminal_bench",
+        "metric": "cheating-adjusted",
+        "rawName": "Terminal-Bench",
+        "score": 57,
+        "sourceHost": "blog.google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      }
+    },
     "meituan/longcat-2.0": {
       "swe_bench_multilingual": {
         "attributionType": "vendor-self-reported",
@@ -3778,5 +3790,5 @@
       }
     }
   },
-  "generatedAt": "2026-11-12T13:41:48.733Z"
+  "generatedAt": "2026-11-13T01:42:22.888Z"
 }
