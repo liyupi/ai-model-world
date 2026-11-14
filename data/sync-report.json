@@ -349,7 +349,7 @@
     "deepswe": 69,
     "frontier_code": 42,
     "gso": 36,
-    "mirrorcode": 45,
+    "mirrorcode": 46,
     "terminal_bench_2_0": 198
   },
   "epochFilesSkipped": {
@@ -1137,9 +1137,9 @@
         "landed": 46,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 45,
+        "rows": 46,
         "scoreColumn": "mean_score",
-        "scored": 45,
+        "scored": 46,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1953,7 +1953,7 @@
     },
     "liveModels": 708
   },
-  "generatedAt": "2026-11-13T13:41:56.575Z",
+  "generatedAt": "2026-11-14T01:41:52.470Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2051,7 +2051,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "5979 条（对话类 3922 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "5987 条（对话类 3928 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2063,11 +2063,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 614 条；api.json 236 provider / 9139 条；benchmarks[] 1205 条，已拦截 AA 血缘 188 条，非编程口径跳过 631 条",
+      "note": "models.json 614 条；api.json 236 provider / 9135 条；benchmarks[] 1205 条，已拦截 AA 血缘 188 条，非编程口径跳过 631 条",
       "ok": true
     },
     "openrouter": {
-      "note": "470 条；已剔除 artificial_analysis 207 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "471 条；已剔除 artificial_analysis 207 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
