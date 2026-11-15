@@ -1735,6 +1735,50 @@
         "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
       }
     },
+    "huawei/openpangu-2.0-flash": {
+      "livecodebench_v6": {
+        "attributionType": "vendor-self-reported",
+        "key": "livecodebench_v6",
+        "league": "livecodebench_v6",
+        "metric": "Avg@3",
+        "rawName": "LiveCodeBench V6",
+        "score": 85.1,
+        "sourceHost": "huggingface.co",
+        "sourceUrl": "https://huggingface.co/openpangu/openPangu-2.0-Flash"
+      },
+      "swe_bench_verified": {
+        "attributionType": "vendor-self-reported",
+        "key": "swe_bench_verified",
+        "league": "swe_bench_vendor",
+        "metric": "Avg@3",
+        "rawName": "SWE-bench Verified",
+        "score": 63.1,
+        "sourceHost": "huggingface.co",
+        "sourceUrl": "https://huggingface.co/openpangu/openPangu-2.0-Flash"
+      }
+    },
+    "huawei/openpangu-2.0-pro": {
+      "livecodebench_v6": {
+        "attributionType": "vendor-self-reported",
+        "key": "livecodebench_v6",
+        "league": "livecodebench_v6",
+        "metric": "Avg@3",
+        "rawName": "LiveCodeBench V6",
+        "score": 85.7,
+        "sourceHost": "huggingface.co",
+        "sourceUrl": "https://huggingface.co/openpangu/openPangu-2.0-Pro"
+      },
+      "swe_bench_verified": {
+        "attributionType": "vendor-self-reported",
+        "key": "swe_bench_verified",
+        "league": "swe_bench_vendor",
+        "metric": "Avg@3",
+        "rawName": "SWE-bench Verified",
+        "score": 68.5,
+        "sourceHost": "huggingface.co",
+        "sourceUrl": "https://huggingface.co/openpangu/openPangu-2.0-Pro"
+      }
+    },
     "meituan/longcat-2.0": {
       "swe_bench_multilingual": {
         "attributionType": "vendor-self-reported",
@@ -3790,5 +3834,5 @@
       }
     }
   },
-  "generatedAt": "2026-11-14T13:41:17.051Z"
+  "generatedAt": "2026-11-15T01:42:09.583Z"
 }

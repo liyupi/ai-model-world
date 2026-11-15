@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-14T13:41:17.051Z",
+  "generatedAt": "2026-11-15T01:42:09.583Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -354,6 +354,10 @@
       "basis": "price+naming",
       "tier": 4
     },
+    "bytedance-seed/seed-2.1-lite": {
+      "basis": "naming",
+      "tier": 1
+    },
     "bytedance-seed/seed-2.1-pro": {
       "basis": "naming",
       "tier": 5
@@ -572,7 +576,7 @@
     },
     "google/gemini-omni-flash-preview": {
       "basis": "price+naming",
-      "tier": 2
+      "tier": 3
     },
     "google/gemini-robotics-er-1.6-preview": {
       "basis": "price",
@@ -614,12 +618,12 @@
       "basis": "price+naming",
       "tier": 1
     },
-    "inclusionai/ling-3.0-tiny": {
+    "inclusionai/ling-3.1-flash-1019": {
       "basis": "price+naming",
       "tier": 1
     },
-    "inclusionai/ling-3.1-flash-1019": {
-      "basis": "price+naming",
+    "inclusionai/ling-3.2-flash": {
+      "basis": "naming",
       "tier": 1
     },
     "inference-net/schematron-v2-small": {
@@ -641,6 +645,10 @@
     "meituan/longcat-2.5-preview": {
       "basis": "price",
       "tier": 2
+    },
+    "meragpt/restyler-1": {
+      "basis": "price",
+      "tier": 1
     },
     "meta/llama-4-maverick": {
       "basis": "price",
@@ -1010,6 +1018,10 @@
       "basis": "price+naming",
       "tier": 5
     },
+    "openai/gpt-6-cyber": {
+      "basis": "price",
+      "tier": 5
+    },
     "openai/gpt-6-luna": {
       "basis": "price",
       "tier": 1
@@ -1198,13 +1210,13 @@
       "basis": "price",
       "tier": 2
     },
-    "thinkingmachines/inkling-2-small": {
-      "basis": "price+naming",
-      "tier": 1
-    },
     "unbiased/pareto": {
       "basis": "price",
-      "tier": 3
+      "tier": 2
+    },
+    "unbiased/pareto-26.10": {
+      "basis": "price",
+      "tier": 2
     },
     "upstage/solar-mini4": {
       "basis": "price",
