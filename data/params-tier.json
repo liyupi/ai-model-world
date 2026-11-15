@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-15T01:42:09.583Z",
+  "generatedAt": "2026-11-15T13:42:01.672Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -606,10 +606,6 @@
       "basis": "price",
       "tier": 1
     },
-    "inception/mercury-coder-small": {
-      "basis": "price+naming",
-      "tier": 1
-    },
     "inception/mercury-edit-2": {
       "basis": "price",
       "tier": 1
@@ -1189,10 +1185,6 @@
     "sakana/sakana-namazu": {
       "basis": "price",
       "tier": 2
-    },
-    "tencent/hunyuan-a13b-instruct": {
-      "basis": "price",
-      "tier": 1
     },
     "tencent/hy-mt2-lite": {
       "basis": "price+naming",

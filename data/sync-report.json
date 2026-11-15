@@ -81,7 +81,7 @@
         "zhipuai/glm-5.3-prime"
       ]
     },
-    "liveModels": 721,
+    "liveModels": 718,
     "modelsOnlyElo": 34,
     "modelsWithAny": 270
   },
@@ -117,12 +117,12 @@
     "fromModelsDev": 628,
     "models": 759,
     "pendingDiscoveries": 92,
-    "promotedDiscoveries": 93,
-    "quickPromotedDiscoveries": 19,
+    "promotedDiscoveries": 90,
+    "quickPromotedDiscoveries": 18,
     "releaseDateOutliersDropped": 21,
     "resurrected": 0,
-    "retiredThisRun": 38,
-    "retiredTotal": 38,
+    "retiredThisRun": 41,
+    "retiredTotal": 41,
     "vendors": 85
   },
   "coverage": {
@@ -1909,11 +1909,11 @@
   "fallbackCoverage": {
     "_note": "models.dev 缺项时的兜底源贡献（存活模型口径）。before 是只认 models.dev 时的覆盖数，after 是兜底之后。仲裁顺序：定价 models.dev → LiteLLM → OpenRouter → Vercel；上下文 / 最大输出 / 模态 models.dev → OpenRouter → Vercel → LiteLLM。LiteLLM 只在第一方 provider 有条目、或所有托管商条目一致时才采信；图像/语音按张按分钟的价一律不折算。OpenRouter 的 benchmarks.* 已整段剔除，兜底只读 pricing / context_length / architecture。",
     "after": {
-      "contextWindow": 709,
-      "maxOutput": 681,
-      "modalities": 721,
-      "pricing.inputPerMTok": 613,
-      "pricing.outputPerMTok": 603
+      "contextWindow": 706,
+      "maxOutput": 678,
+      "modalities": 718,
+      "pricing.inputPerMTok": 610,
+      "pricing.outputPerMTok": 600
     },
     "before": {
       "contextWindow": 614,
@@ -1925,17 +1925,17 @@
     "bySource": {
       "contextWindow": {
         "litellm": 2,
-        "openrouter": 54,
-        "vercel-gateway": 39
+        "openrouter": 52,
+        "vercel-gateway": 38
       },
       "maxOutput": {
         "litellm": 3,
-        "openrouter": 54,
-        "vercel-gateway": 39
+        "openrouter": 52,
+        "vercel-gateway": 38
       },
       "modalities": {
-        "openrouter": 54,
-        "vercel-gateway": 39
+        "openrouter": 52,
+        "vercel-gateway": 38
       },
       "pricing.cachedInputPerMTok": {
         "litellm": 54,
@@ -1943,19 +1943,19 @@
         "vercel-gateway": 11
       },
       "pricing.inputPerMTok": {
-        "litellm": 67,
-        "openrouter": 36,
+        "litellm": 66,
+        "openrouter": 34,
         "vercel-gateway": 12
       },
       "pricing.outputPerMTok": {
-        "litellm": 65,
-        "openrouter": 36,
+        "litellm": 64,
+        "openrouter": 34,
         "vercel-gateway": 12
       }
     },
-    "liveModels": 721
+    "liveModels": 718
   },
-  "generatedAt": "2026-11-15T01:42:09.583Z",
+  "generatedAt": "2026-11-15T13:42:01.672Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2030,7 +2030,6 @@
       "openai/gpt-6.1-terra-pro",
       "perplexity/sonar-pro-search",
       "sakana/namazu",
-      "tencent/hunyuan-a13b-instruct",
       "tencent/hy-mt2-lite",
       "tencent/hy-mt2-plus",
       "tencent/hy-mt2-pro",
@@ -2064,11 +2063,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 628 条；api.json 328 provider / 10028 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "note": "models.json 628 条；api.json 324 provider / 9878 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "note": "471 条；已剔除 artificial_analysis 210 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "467 条；已剔除 artificial_analysis 209 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2076,7 +2075,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "510 条（language 325 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "507 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
@@ -2183,7 +2182,7 @@
         "xai/grok-4.7"
       ]
     },
-    "liveModels": 721,
+    "liveModels": 718,
     "upstreamRows": 343,
     "withFlop": 92
   },
