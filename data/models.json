@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-16T01:45:45.845Z",
+  "generatedAt": "2026-11-16T13:56:50.490Z",
   "models": [
     {
       "benchmarks": {
@@ -9074,7 +9074,7 @@
         "totalB": 403.4
       },
       "pricing": {
-        "cachedInputPerMTok": 0.12,
+        "cachedInputPerMTok": 0.22,
         "inputPerMTok": 0.6,
         "outputPerMTok": 3.6
       },
@@ -14077,6 +14077,81 @@
       "retiredAt": null,
       "scores": [],
       "slug": "alibaba-qwen3-8-omni-flash",
+      "trainingComputeFlop": null,
+      "vendorId": "alibaba"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1000000,
+      "firstSeenAt": "2026-11-16T13:56:50.490Z",
+      "id": "alibaba/qwen4-max",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen4 Max",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.075,
+        "inputPerMTok": 1.5,
+        "outputPerMTok": 4.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "vercel-gateway",
+        "releaseDatePrecision": "vercel-gateway",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-15",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "alibaba-qwen4-max",
       "trainingComputeFlop": null,
       "vendorId": "alibaba"
     },
@@ -38866,8 +38941,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.223,
-        "outputPerMTok": 1.1
+        "inputPerMTok": 0.22,
+        "outputPerMTok": 1.08
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -50700,9 +50775,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0375,
-        "inputPerMTok": 0.0675,
-        "outputPerMTok": 0.225
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 0.09,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -52154,7 +52229,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.015,
         "inputPerMTok": 0.06,
-        "outputPerMTok": 0.25
+        "outputPerMTok": 0.15
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -91741,7 +91816,7 @@
         "totalB": 114.66
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0714,
+        "cachedInputPerMTok": 0.066,
         "inputPerMTok": 0.15,
         "outputPerMTok": 0.6
       },
@@ -91991,7 +92066,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.02,
         "inputPerMTok": 0.05,
-        "outputPerMTok": 0.19
+        "outputPerMTok": 0.194
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -99063,6 +99138,79 @@
         }
       ],
       "slug": "tencent-hy4",
+      "trainingComputeFlop": null,
+      "vendorId": "tencent"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-11-16T13:56:50.490Z",
+      "id": "tencent/hy4-flash",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4 flash",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.0015,
+        "inputPerMTok": 0.035,
+        "outputPerMTok": 0.1405
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-16",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "tencent-hy4-flash",
       "trainingComputeFlop": null,
       "vendorId": "tencent"
     },
@@ -110743,43 +110891,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 424 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
-      "note": "5993 条（对话类 3928 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
+      "note": "6021 条（对话类 3930 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
       "note": "7/7 个分榜，共 349 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
-      "note": "models.json 628 条；api.json 324 provider / 9877 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
+      "note": "models.json 630 条；api.json 324 provider / 9895 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
-      "note": "467 条；已剔除 artificial_analysis 209 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
+      "note": "468 条；已剔除 artificial_analysis 209 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -110788,8 +110936,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-16T01:45:45.845Z",
-      "note": "507 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-16T13:56:50.490Z",
+      "note": "509 条（language 324 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },

@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-16T01:45:45.845Z",
+  "generatedAt": "2026-11-16T13:56:50.490Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -149,6 +149,10 @@
     "alibaba/qwen3.8-omni-flash": {
       "basis": "price+naming",
       "tier": 1
+    },
+    "alibaba/qwen4-max": {
+      "basis": "price+naming",
+      "tier": 4
     },
     "alibaba/qwq-plus": {
       "basis": "price+naming",
@@ -1197,6 +1201,10 @@
     "tencent/hy4": {
       "basis": "price",
       "tier": 2
+    },
+    "tencent/hy4-flash": {
+      "basis": "price+naming",
+      "tier": 1
     },
     "unbiased/pareto": {
       "basis": "price",
