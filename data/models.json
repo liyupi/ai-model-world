@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-15T13:42:01.672Z",
+  "generatedAt": "2026-11-16T01:45:45.845Z",
   "models": [
     {
       "benchmarks": {
@@ -9344,9 +9344,9 @@
         "totalB": 9.65
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0375,
+        "cachedInputPerMTok": 0.06,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.18
+        "outputPerMTok": 0.2
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -40855,14 +40855,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 3,
+        "sizeTier": 2,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.075,
         "inputPerMTok": 0.3,
-        "outputPerMTok": 30
+        "outputPerMTok": 2.5
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -44075,14 +44075,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 5,
+        "sizeTier": 4,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.2,
         "inputPerMTok": 2,
-        "outputPerMTok": 120
+        "outputPerMTok": 12
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -44687,14 +44687,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 3,
+        "sizeTier": 2,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.5,
-        "outputPerMTok": 60
+        "outputPerMTok": 3
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -45086,14 +45086,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 3,
+        "sizeTier": 2,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 0.03,
         "inputPerMTok": 0.25,
-        "outputPerMTok": 30
+        "outputPerMTok": 1.5
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -91225,7 +91225,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": null,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": false
@@ -91250,27 +91250,20 @@
       "openWeights": false,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 4,
-        "sizeTierBasis": "price",
+        "confidence": "unknown",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 1.25,
-        "inputPerMTok": 5,
-        "outputPerMTok": 40
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
@@ -91430,14 +91423,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 3,
         "sizeTierBasis": "price",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 1.25,
         "inputPerMTok": 5,
-        "outputPerMTok": 30
+        "outputPerMTok": 10
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -91519,14 +91512,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 3,
         "sizeTierBasis": "price",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 1.25,
         "inputPerMTok": 5,
-        "outputPerMTok": 30
+        "outputPerMTok": 10
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -91608,14 +91601,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 3,
         "sizeTierBasis": "price",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": 1.25,
         "inputPerMTok": 5,
-        "outputPerMTok": 30
+        "outputPerMTok": 10
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -110750,42 +110743,42 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 424 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "5993 条（对话类 3928 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "7/7 个分榜，共 349 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
-      "note": "models.json 628 条；api.json 324 provider / 9878 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
+      "note": "models.json 628 条；api.json 324 provider / 9877 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "467 条；已剔除 artificial_analysis 209 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
@@ -110795,7 +110788,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-15T13:42:01.672Z",
+      "fetchedAt": "2026-11-16T01:45:45.845Z",
       "note": "507 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }

@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-15T13:42:01.672Z",
+  "generatedAt": "2026-11-16T01:45:45.845Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -428,7 +428,7 @@
     },
     "google/gemini-2.5-flash-image": {
       "basis": "price+naming",
-      "tier": 3
+      "tier": 2
     },
     "google/gemini-2.5-flash-lite": {
       "basis": "price+naming",
@@ -472,7 +472,7 @@
     },
     "google/gemini-3-pro-image": {
       "basis": "price+naming",
-      "tier": 5
+      "tier": 4
     },
     "google/gemini-3-pro-image-preview": {
       "basis": "price+naming",
@@ -484,7 +484,7 @@
     },
     "google/gemini-3.1-flash-image": {
       "basis": "price+naming",
-      "tier": 3
+      "tier": 2
     },
     "google/gemini-3.1-flash-image-preview": {
       "basis": "price+naming",
@@ -496,7 +496,7 @@
     },
     "google/gemini-3.1-flash-lite-image": {
       "basis": "price+naming",
-      "tier": 3
+      "tier": 2
     },
     "google/gemini-3.1-flash-lite-preview": {
       "basis": "price+naming",
@@ -1062,25 +1062,21 @@
       "basis": "price",
       "tier": 4
     },
-    "openai/gpt-image-1": {
-      "basis": "price",
-      "tier": 4
-    },
     "openai/gpt-image-1.5": {
       "basis": "price",
       "tier": 3
     },
     "openai/gpt-image-2": {
       "basis": "price",
-      "tier": 4
+      "tier": 3
     },
     "openai/gpt-image-2.5-flare": {
       "basis": "price",
-      "tier": 4
+      "tier": 3
     },
     "openai/gpt-image-2.5-sunburst": {
       "basis": "price",
-      "tier": 4
+      "tier": 3
     },
     "openai/gpt-realtime-2.1": {
       "basis": "price",

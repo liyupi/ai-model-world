@@ -182,8 +182,8 @@
       "total": 759
     },
     "capabilities.promptCaching": {
-      "filled": 644,
-      "pct": 84.8,
+      "filled": 643,
+      "pct": 84.7,
       "total": 759
     },
     "capabilities.reasoning": {
@@ -272,13 +272,13 @@
       "total": 759
     },
     "params.confidence!=unknown": {
-      "filled": 685,
-      "pct": 90.3,
+      "filled": 684,
+      "pct": 90.1,
       "total": 759
     },
     "params.sizeTier": {
-      "filled": 368,
-      "pct": 48.5,
+      "filled": 367,
+      "pct": 48.4,
       "total": 759
     },
     "params.totalB": {
@@ -287,18 +287,18 @@
       "total": 759
     },
     "pricing.cachedInputPerMTok": {
-      "filled": 454,
-      "pct": 59.8,
+      "filled": 453,
+      "pct": 59.7,
       "total": 759
     },
     "pricing.inputPerMTok": {
-      "filled": 644,
-      "pct": 84.8,
+      "filled": 643,
+      "pct": 84.7,
       "total": 759
     },
     "pricing.outputPerMTok": {
-      "filled": 633,
-      "pct": 83.4,
+      "filled": 632,
+      "pct": 83.3,
       "total": 759
     },
     "releaseDate": {
@@ -1912,15 +1912,15 @@
       "contextWindow": 706,
       "maxOutput": 678,
       "modalities": 718,
-      "pricing.inputPerMTok": 610,
-      "pricing.outputPerMTok": 600
+      "pricing.inputPerMTok": 609,
+      "pricing.outputPerMTok": 599
     },
     "before": {
       "contextWindow": 614,
       "maxOutput": 585,
       "modalities": 628,
-      "pricing.inputPerMTok": 498,
-      "pricing.outputPerMTok": 490
+      "pricing.inputPerMTok": 497,
+      "pricing.outputPerMTok": 489
     },
     "bySource": {
       "contextWindow": {
@@ -1955,7 +1955,7 @@
     },
     "liveModels": 718
   },
-  "generatedAt": "2026-11-15T13:42:01.672Z",
+  "generatedAt": "2026-11-16T01:45:45.845Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2063,7 +2063,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 628 条；api.json 324 provider / 9878 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "note": "models.json 628 条；api.json 324 provider / 9877 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
