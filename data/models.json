@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-17T01:43:05.164Z",
+  "generatedAt": "2026-11-17T13:41:33.942Z",
   "models": [
     {
       "benchmarks": {
@@ -50775,9 +50775,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0425,
-        "inputPerMTok": 0.0765,
-        "outputPerMTok": 0.255
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 0.09,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -63420,8 +63420,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.33156,
-        "outputPerMTok": 0.44208
+        "inputPerMTok": 0.33042,
+        "outputPerMTok": 0.44056
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -110964,42 +110964,42 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 424 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
-      "note": "6035 条（对话类 3941 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "note": "6075 条（对话类 3981 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "7/7 个分榜，共 349 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
-      "note": "models.json 631 条；api.json 324 provider / 9922 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "note": "models.json 631 条；api.json 324 provider / 9936 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "470 条；已剔除 artificial_analysis 210 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
@@ -111009,7 +111009,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-17T01:43:05.164Z",
+      "fetchedAt": "2026-11-17T13:41:33.942Z",
       "note": "513 条（language 325 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
