@@ -27,7 +27,7 @@
     {
       "id": "aime",
       "inEci": true,
-      "models": 215,
+      "models": 216,
       "randomBaseline": 0.1,
       "releaseDate": "2024-12-19",
       "scoreCeiling": 100,
@@ -39,7 +39,7 @@
     {
       "id": "ale_bench",
       "inEci": false,
-      "models": 164,
+      "models": 166,
       "randomBaseline": null,
       "releaseDate": "2025-06-10",
       "scoreCeiling": null,
@@ -63,7 +63,7 @@
     {
       "id": "apex_agents",
       "inEci": true,
-      "models": 74,
+      "models": 75,
       "randomBaseline": 0,
       "releaseDate": "2026-01-21",
       "scoreCeiling": 100,
@@ -219,7 +219,7 @@
     {
       "id": "blueprint_bench_2",
       "inEci": false,
-      "models": 43,
+      "models": 44,
       "randomBaseline": 0,
       "releaseDate": "2026-05-04",
       "scoreCeiling": 100,
@@ -255,7 +255,7 @@
     {
       "id": "chess_puzzles",
       "inEci": true,
-      "models": 110,
+      "models": 111,
       "randomBaseline": 4.96,
       "releaseDate": "2025-12-10",
       "scoreCeiling": 100,
@@ -327,7 +327,7 @@
     {
       "id": "cursorbench",
       "inEci": false,
-      "models": 21,
+      "models": 22,
       "randomBaseline": 0,
       "releaseDate": "2026-03-11",
       "scoreCeiling": 100,
@@ -387,7 +387,7 @@
     {
       "id": "ebr_bench",
       "inEci": true,
-      "models": 36,
+      "models": 37,
       "randomBaseline": 0,
       "releaseDate": "2026-07-01",
       "scoreCeiling": 100,
@@ -399,7 +399,7 @@
     {
       "id": "eci",
       "inEci": false,
-      "models": 217,
+      "models": 218,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -459,7 +459,7 @@
     {
       "id": "frontier_swe",
       "inEci": true,
-      "models": 25,
+      "models": 27,
       "randomBaseline": 0,
       "releaseDate": "2026-09-02",
       "scoreCeiling": 100,
@@ -483,7 +483,7 @@
     {
       "id": "frontiermath_erdos",
       "inEci": false,
-      "models": 15,
+      "models": 16,
       "randomBaseline": 0,
       "releaseDate": "2026-09-03",
       "scoreCeiling": 100,
@@ -507,7 +507,7 @@
     {
       "id": "frontiermath_tier_4_v2",
       "inEci": true,
-      "models": 87,
+      "models": 88,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 100,
@@ -519,7 +519,7 @@
     {
       "id": "frontiermath_tiers_1_3_v2",
       "inEci": true,
-      "models": 115,
+      "models": 116,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 95,
@@ -531,7 +531,7 @@
     {
       "id": "furniture_assembly",
       "inEci": true,
-      "models": 43,
+      "models": 44,
       "randomBaseline": 30,
       "releaseDate": "2026-09-23",
       "scoreCeiling": 100,
@@ -543,7 +543,7 @@
     {
       "id": "gbaeval",
       "inEci": false,
-      "models": 23,
+      "models": 28,
       "randomBaseline": 0,
       "releaseDate": "2026-05-02",
       "scoreCeiling": 100,
@@ -579,7 +579,7 @@
     {
       "id": "gpqa_diamond",
       "inEci": true,
-      "models": 218,
+      "models": 219,
       "randomBaseline": 25,
       "releaseDate": "2023-11-20",
       "scoreCeiling": 97,
@@ -759,7 +759,7 @@
     {
       "id": "mirrorcode",
       "inEci": true,
-      "models": 46,
+      "models": 47,
       "randomBaseline": 0,
       "releaseDate": "2026-06-26",
       "scoreCeiling": 100,
@@ -795,7 +795,7 @@
     {
       "id": "mystery_game_puzzles",
       "inEci": true,
-      "models": 107,
+      "models": 108,
       "randomBaseline": 9.22,
       "releaseDate": "2026-07-30",
       "scoreCeiling": 100,
@@ -867,7 +867,7 @@
     {
       "id": "posttrainbench",
       "inEci": true,
-      "models": 20,
+      "models": 22,
       "randomBaseline": 0,
       "releaseDate": "2026-03-11",
       "scoreCeiling": 100,
@@ -903,7 +903,7 @@
     {
       "id": "rli",
       "inEci": true,
-      "models": 24,
+      "models": 26,
       "randomBaseline": 0,
       "releaseDate": "2025-10-29",
       "scoreCeiling": 100,
@@ -927,7 +927,7 @@
     {
       "id": "simplebench",
       "inEci": true,
-      "models": 125,
+      "models": 126,
       "randomBaseline": 16.67,
       "releaseDate": "2024-10-31",
       "scoreCeiling": 100,
@@ -939,7 +939,7 @@
     {
       "id": "simpleqa_verified",
       "inEci": true,
-      "models": 112,
+      "models": 113,
       "randomBaseline": 0,
       "releaseDate": "2025-09-09",
       "scoreCeiling": 100,
@@ -963,7 +963,7 @@
     {
       "id": "spireclimb",
       "inEci": true,
-      "models": 9,
+      "models": 10,
       "randomBaseline": 0,
       "releaseDate": "2026-10-14",
       "scoreCeiling": 100,
@@ -975,7 +975,7 @@
     {
       "id": "spireclimb_sts1_a20_heart",
       "inEci": false,
-      "models": 9,
+      "models": 10,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -987,7 +987,7 @@
     {
       "id": "spireclimb_sts2_a10",
       "inEci": false,
-      "models": 9,
+      "models": 10,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -1179,7 +1179,7 @@
     {
       "id": "vending_bench_2",
       "inEci": false,
-      "models": 103,
+      "models": 105,
       "randomBaseline": null,
       "releaseDate": "2025-11-18",
       "scoreCeiling": null,
@@ -1239,7 +1239,7 @@
     {
       "id": "weirdml_v3",
       "inEci": true,
-      "models": 31,
+      "models": 32,
       "randomBaseline": 0,
       "releaseDate": "2026-09-18",
       "scoreCeiling": 90,
@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-17T13:41:33.942Z",
+  "generatedAt": "2026-11-18T01:42:22.612Z",
   "models": [
     {
       "benchmarks": {
@@ -1905,7 +1905,7 @@
       "benchmarks": {
         "aime": 8.06,
         "arc_agi_2": null,
-        "eci": 127.18,
+        "eci": 127.21,
         "fiction_live": null,
         "gpqa_diamond": 49.15,
         "swe_bench_pro": null,
@@ -2011,7 +2011,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 127.18,
+          "score": 127.21,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -2294,11 +2294,12 @@
         "pricing.outputPerMTok": "litellm",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2025-04-28",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-18",
       "scores": [],
       "slug": "alibaba-qwen-3-235b",
       "trainingComputeFlop": null,
@@ -3595,7 +3596,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 118.94,
+        "eci": 118.74,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -3690,7 +3691,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 118.94,
+          "score": 118.74,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -3736,7 +3737,7 @@
       "benchmarks": {
         "aime": 66.39,
         "arc_agi_2": null,
-        "eci": 136.14,
+        "eci": 136.08,
         "fiction_live": null,
         "gpqa_diamond": 63.76,
         "swe_bench_pro": null,
@@ -3836,7 +3837,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 136.14,
+          "score": 136.08,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -3874,7 +3875,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": 1.25,
-        "eci": 138.42,
+        "eci": 138.43,
         "fiction_live": 68.8,
         "gpqa_diamond": 70.71,
         "swe_bench_pro": 21.41,
@@ -4031,7 +4032,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 138.42,
+          "score": 138.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -4157,7 +4158,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": 1.25,
-        "eci": 138.42,
+        "eci": 138.43,
         "fiction_live": 68.8,
         "gpqa_diamond": 70.71,
         "swe_bench_pro": null,
@@ -4285,7 +4286,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 138.42,
+          "score": 138.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -4387,7 +4388,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": 1.25,
-        "eci": 138.42,
+        "eci": 138.43,
         "fiction_live": 68.8,
         "gpqa_diamond": 70.71,
         "swe_bench_pro": null,
@@ -4535,7 +4536,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 138.42,
+          "score": 138.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -4901,7 +4902,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": 1.25,
-        "eci": 138.42,
+        "eci": 138.43,
         "fiction_live": 68.8,
         "gpqa_diamond": 80.05,
         "swe_bench_pro": null,
@@ -5049,7 +5050,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 138.42,
+          "score": 138.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -5167,7 +5168,7 @@
       "benchmarks": {
         "aime": 62.78,
         "arc_agi_2": null,
-        "eci": 134.14,
+        "eci": 134.18,
         "fiction_live": null,
         "gpqa_diamond": 61.68,
         "swe_bench_pro": null,
@@ -5281,7 +5282,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 134.14,
+          "score": 134.18,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -5335,7 +5336,7 @@
       "benchmarks": {
         "aime": 62.22,
         "arc_agi_2": null,
-        "eci": 134.14,
+        "eci": 134.18,
         "fiction_live": null,
         "gpqa_diamond": 55.62,
         "swe_bench_pro": null,
@@ -5431,7 +5432,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 134.14,
+          "score": 134.18,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -5615,7 +5616,7 @@
       "benchmarks": {
         "aime": 66.94,
         "arc_agi_2": null,
-        "eci": 136.89,
+        "eci": 136.84,
         "fiction_live": null,
         "gpqa_diamond": 65.72,
         "swe_bench_pro": null,
@@ -5744,7 +5745,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 136.89,
+          "score": 136.84,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -5790,7 +5791,7 @@
       "benchmarks": {
         "aime": 56.11,
         "arc_agi_2": null,
-        "eci": 132.09,
+        "eci": 132.08,
         "fiction_live": null,
         "gpqa_diamond": 56.76,
         "swe_bench_pro": null,
@@ -5884,7 +5885,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 132.09,
+          "score": 132.08,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -5985,12 +5986,12 @@
         "pricing.cachedInputPerMTok": "litellm",
         "pricing.inputPerMTok": "openrouter",
         "pricing.outputPerMTok": "openrouter",
-        "releaseDate": "vercel-gateway",
-        "releaseDatePrecision": "vercel-gateway",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2025-07-22",
+      "releaseDate": "2025-07-23",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -6659,7 +6660,7 @@
       "benchmarks": {
         "aime": 73.33,
         "arc_agi_2": null,
-        "eci": 142.57,
+        "eci": 142.44,
         "fiction_live": null,
         "gpqa_diamond": 72.6,
         "swe_bench_pro": null,
@@ -6790,7 +6791,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.57,
+          "score": 142.44,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -6876,7 +6877,7 @@
       "benchmarks": {
         "aime": 73.33,
         "arc_agi_2": null,
-        "eci": 142.57,
+        "eci": 142.44,
         "fiction_live": null,
         "gpqa_diamond": 72.6,
         "swe_bench_pro": null,
@@ -6990,7 +6991,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.57,
+          "score": 142.44,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -7060,7 +7061,7 @@
       "benchmarks": {
         "aime": 73.33,
         "arc_agi_2": null,
-        "eci": 142.57,
+        "eci": 142.44,
         "fiction_live": null,
         "gpqa_diamond": 72.6,
         "swe_bench_pro": null,
@@ -7171,7 +7172,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.57,
+          "score": 142.44,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -7250,7 +7251,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -7295,7 +7296,7 @@
         "totalB": 81.32
       },
       "pricing": {
-        "cachedInputPerMTok": null,
+        "cachedInputPerMTok": 0.07,
         "inputPerMTok": 0.5,
         "outputPerMTok": 2
       },
@@ -7313,6 +7314,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "openrouter",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -8225,7 +8227,8 @@
       "modalities": {
         "input": [
           "image",
-          "text"
+          "text",
+          "video"
         ],
         "output": [
           "text"
@@ -8791,7 +8794,7 @@
       "benchmarks": {
         "aime": 70,
         "arc_agi_2": null,
-        "eci": 143.98,
+        "eci": 144.08,
         "fiction_live": null,
         "gpqa_diamond": 83.46,
         "swe_bench_pro": null,
@@ -8906,7 +8909,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 143.98,
+          "score": 144.08,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -9018,7 +9021,7 @@
       "benchmarks": {
         "aime": 88.89,
         "arc_agi_2": null,
-        "eci": 147.9,
+        "eci": 147.95,
         "fiction_live": null,
         "gpqa_diamond": 86.36,
         "swe_bench_pro": null,
@@ -9150,7 +9153,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.9,
+          "score": 147.95,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -9296,7 +9299,7 @@
       "benchmarks": {
         "aime": 61.67,
         "arc_agi_2": null,
-        "eci": 139.32,
+        "eci": 139.48,
         "fiction_live": null,
         "gpqa_diamond": 78.98,
         "swe_bench_pro": null,
@@ -9344,9 +9347,9 @@
         "totalB": 9.65
       },
       "pricing": {
-        "cachedInputPerMTok": 0.06,
+        "cachedInputPerMTok": 0.0375,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.2
+        "outputPerMTok": 0.167
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -9402,7 +9405,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 139.32,
+          "score": 139.48,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -9513,7 +9516,7 @@
       "benchmarks": {
         "aime": 84.44,
         "arc_agi_2": null,
-        "eci": 143.81,
+        "eci": 143.87,
         "fiction_live": null,
         "gpqa_diamond": 82.32,
         "swe_bench_pro": null,
@@ -9637,7 +9640,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 143.81,
+          "score": 143.87,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -9723,7 +9726,7 @@
       "benchmarks": {
         "aime": 84.44,
         "arc_agi_2": null,
-        "eci": 143.81,
+        "eci": 143.87,
         "fiction_live": null,
         "gpqa_diamond": 82.32,
         "swe_bench_pro": null,
@@ -9843,7 +9846,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 143.81,
+          "score": 143.87,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -9929,7 +9932,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": null,
-        "eci": 147.29,
+        "eci": 147.3,
         "fiction_live": null,
         "gpqa_diamond": 84.85,
         "swe_bench_pro": null,
@@ -10070,7 +10073,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.29,
+          "score": 147.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -10148,7 +10151,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": null,
-        "eci": 147.29,
+        "eci": 147.3,
         "fiction_live": null,
         "gpqa_diamond": 84.85,
         "swe_bench_pro": null,
@@ -10284,7 +10287,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.29,
+          "score": 147.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -10362,7 +10365,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": null,
-        "eci": 147.29,
+        "eci": 147.3,
         "fiction_live": null,
         "gpqa_diamond": 84.85,
         "swe_bench_pro": null,
@@ -10498,7 +10501,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.29,
+          "score": 147.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -10576,7 +10579,7 @@
       "benchmarks": {
         "aime": 91.11,
         "arc_agi_2": null,
-        "eci": 146.73,
+        "eci": 146.78,
         "fiction_live": null,
         "gpqa_diamond": 85.86,
         "swe_bench_pro": null,
@@ -10698,7 +10701,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.73,
+          "score": 146.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -10768,7 +10771,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": null,
-        "eci": 144.02,
+        "eci": 144.11,
         "fiction_live": null,
         "gpqa_diamond": 84.85,
         "swe_bench_pro": null,
@@ -10893,7 +10896,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.02,
+          "score": 144.11,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -10979,7 +10982,7 @@
       "benchmarks": {
         "aime": 84.44,
         "arc_agi_2": null,
-        "eci": 143.65,
+        "eci": 143.76,
         "fiction_live": null,
         "gpqa_diamond": 83.33,
         "swe_bench_pro": null,
@@ -11110,7 +11113,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 143.65,
+          "score": 143.76,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -11204,7 +11207,7 @@
       "benchmarks": {
         "aime": 91.11,
         "arc_agi_2": null,
-        "eci": 149.83,
+        "eci": 149.88,
         "fiction_live": null,
         "gpqa_diamond": 87.37,
         "swe_bench_pro": null,
@@ -11312,7 +11315,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 149.83,
+          "score": 149.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -11406,7 +11409,7 @@
       "benchmarks": {
         "aime": 93.33,
         "arc_agi_2": null,
-        "eci": 148.88,
+        "eci": 148.91,
         "fiction_live": null,
         "gpqa_diamond": 88.38,
         "swe_bench_pro": null,
@@ -11572,7 +11575,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 148.88,
+          "score": 148.91,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -11792,7 +11795,7 @@
       "benchmarks": {
         "aime": 95.56,
         "arc_agi_2": null,
-        "eci": 154.54,
+        "eci": 154.58,
         "fiction_live": null,
         "gpqa_diamond": 90.91,
         "swe_bench_pro": 60.6,
@@ -11997,7 +12000,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.54,
+          "score": 154.58,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -12155,7 +12158,7 @@
       "benchmarks": {
         "aime": 93.33,
         "arc_agi_2": null,
-        "eci": 147.87,
+        "eci": 147.95,
         "fiction_live": null,
         "gpqa_diamond": 87.88,
         "swe_bench_pro": null,
@@ -12271,7 +12274,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.87,
+          "score": 147.95,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -12404,7 +12407,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 42.36,
-        "eci": 152.64,
+        "eci": 152.65,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": 61.7,
@@ -12591,7 +12594,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.64,
+          "score": 152.65,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -13329,7 +13332,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": null,
-        "eci": 155.97,
+        "eci": 155.98,
         "fiction_live": null,
         "gpqa_diamond": 92.3,
         "swe_bench_pro": null,
@@ -13502,7 +13505,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.97,
+          "score": 155.98,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -15358,7 +15361,7 @@
       "benchmarks": {
         "aime": 4.31,
         "arc_agi_2": null,
-        "eci": 124.93,
+        "eci": 124.75,
         "fiction_live": null,
         "gpqa_diamond": 38.13,
         "swe_bench_pro": null,
@@ -15497,7 +15500,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 124.93,
+          "score": 124.75,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -15858,7 +15861,7 @@
       "benchmarks": {
         "aime": 57.78,
         "arc_agi_2": 0.9,
-        "eci": 141,
+        "eci": 141.05,
         "fiction_live": 53.1,
         "gpqa_diamond": 78.5,
         "swe_bench_pro": null,
@@ -16034,7 +16037,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141,
+          "score": 141.05,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -16348,7 +16351,7 @@
       "benchmarks": {
         "aime": 1.81,
         "arc_agi_2": null,
-        "eci": 117.7,
+        "eci": 117.79,
         "fiction_live": null,
         "gpqa_diamond": 36.3,
         "swe_bench_pro": null,
@@ -16446,7 +16449,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 117.7,
+          "score": 117.79,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -16516,7 +16519,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 89.17,
-        "eci": 164.13,
+        "eci": 164.21,
         "fiction_live": null,
         "gpqa_diamond": 85.86,
         "swe_bench_pro": 80.3,
@@ -16788,7 +16791,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 164.13,
+          "score": 164.21,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -17034,7 +17037,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 90,
-        "eci": 166.99,
+        "eci": 167.09,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -17287,7 +17290,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 166.99,
+          "score": 167.09,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -17517,7 +17520,7 @@
       "benchmarks": {
         "aime": 99.72,
         "arc_agi_2": 93.75,
-        "eci": 173.44,
+        "eci": 173.5,
         "fiction_live": null,
         "gpqa_diamond": 93.88,
         "swe_bench_pro": null,
@@ -17665,6 +17668,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "blueprint_bench_2",
+          "score": 56.62,
+          "source": "epoch.ai",
+          "sourceUrl": "https://andonlabs.com/evals/blueprint-bench-2",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "chess_puzzles",
           "score": 79,
           "source": "epoch.ai",
@@ -17706,7 +17717,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 173.44,
+          "score": 173.5,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -17753,6 +17764,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "gbaeval",
+          "score": 84.8,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gbaeval.com/model/claude-fable-5-2",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "gpqa_diamond",
           "score": 93.88,
           "source": "epoch.ai",
@@ -17777,6 +17796,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "posttrainbench",
+          "score": 44.64,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "proofbench",
           "score": 100,
           "source": "epoch.ai",
@@ -17786,7 +17813,7 @@
         {
           "attribution": "third-party",
           "league": "rli",
-          "score": 41.3,
+          "score": 41.25,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -17829,6 +17856,22 @@
           "score": 17.33,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "vending_bench_2",
+          "score": 9628.48,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "usd"
+        },
+        {
+          "attribution": "third-party",
+          "league": "weirdml_v3",
+          "score": 65.28,
+          "source": "epoch.ai",
+          "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
         }
       ],
@@ -17911,7 +17954,7 @@
       "benchmarks": {
         "aime": 66.67,
         "arc_agi_2": 1.25,
-        "eci": 142.83,
+        "eci": 142.76,
         "fiction_live": null,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": 39.45,
@@ -18110,7 +18153,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.83,
+          "score": 142.76,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -18220,7 +18263,7 @@
       "benchmarks": {
         "aime": 66.67,
         "arc_agi_2": 4.03,
-        "eci": 142.83,
+        "eci": 142.76,
         "fiction_live": null,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -18426,7 +18469,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.83,
+          "score": 142.76,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -18544,7 +18587,7 @@
       "benchmarks": {
         "aime": 98.89,
         "arc_agi_2": 61.25,
-        "eci": 160.43,
+        "eci": 160.29,
         "fiction_live": null,
         "gpqa_diamond": 89.65,
         "swe_bench_pro": null,
@@ -18765,7 +18808,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 160.43,
+          "score": 160.29,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -18872,6 +18915,14 @@
           "score": 89,
           "source": "epoch.ai",
           "sourceUrl": "https://www.vals.ai/benchmarks/proof_bench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "simplebench",
+          "score": 59.2,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -19486,7 +19537,7 @@
       "benchmarks": {
         "aime": 68.89,
         "arc_agi_2": null,
-        "eci": 144.84,
+        "eci": 144.77,
         "fiction_live": null,
         "gpqa_diamond": 77.27,
         "swe_bench_pro": null,
@@ -19668,7 +19719,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.84,
+          "score": 144.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -19818,7 +19869,7 @@
       "benchmarks": {
         "aime": 68.89,
         "arc_agi_2": null,
-        "eci": 144.84,
+        "eci": 144.77,
         "fiction_live": null,
         "gpqa_diamond": 77.27,
         "swe_bench_pro": null,
@@ -20000,7 +20051,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.84,
+          "score": 144.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -20150,7 +20201,7 @@
       "benchmarks": {
         "aime": 64.44,
         "arc_agi_2": 8.61,
-        "eci": 142.9,
+        "eci": 142.88,
         "fiction_live": 37.5,
         "gpqa_diamond": 76.26,
         "swe_bench_pro": null,
@@ -20341,7 +20392,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 142.9,
+          "score": 142.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -20475,7 +20526,7 @@
       "benchmarks": {
         "aime": 86.11,
         "arc_agi_2": 37.64,
-        "eci": 151.92,
+        "eci": 151.88,
         "fiction_live": null,
         "gpqa_diamond": 86.05,
         "swe_bench_pro": null,
@@ -20714,7 +20765,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 151.92,
+          "score": 151.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -20936,7 +20987,7 @@
       "benchmarks": {
         "aime": 86.11,
         "arc_agi_2": 37.64,
-        "eci": 151.92,
+        "eci": 151.88,
         "fiction_live": null,
         "gpqa_diamond": 86.05,
         "swe_bench_pro": 45.89,
@@ -21200,7 +21251,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 151.92,
+          "score": 151.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -21446,7 +21497,7 @@
       "benchmarks": {
         "aime": 94.44,
         "arc_agi_2": 69.17,
-        "eci": 156.34,
+        "eci": 156.35,
         "fiction_live": null,
         "gpqa_diamond": 90.53,
         "swe_bench_pro": 51.9,
@@ -21758,7 +21809,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.34,
+          "score": 156.35,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -22012,7 +22063,7 @@
       "benchmarks": {
         "aime": 97.8,
         "arc_agi_2": 75.83,
-        "eci": 157.44,
+        "eci": 157.5,
         "fiction_live": null,
         "gpqa_diamond": 90.15,
         "swe_bench_pro": 64.3,
@@ -22284,7 +22335,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 157.44,
+          "score": 157.5,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -22530,7 +22581,7 @@
       "benchmarks": {
         "aime": 98.33,
         "arc_agi_2": 72.08,
-        "eci": 159.94,
+        "eci": 159.91,
         "fiction_live": null,
         "gpqa_diamond": 91.04,
         "swe_bench_pro": 69.2,
@@ -22810,7 +22861,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 159.94,
+          "score": 159.91,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -23127,7 +23178,7 @@
       "benchmarks": {
         "aime": 98.89,
         "arc_agi_2": 90.42,
-        "eci": 164.68,
+        "eci": 164.74,
         "fiction_live": null,
         "gpqa_diamond": 93.88,
         "swe_bench_pro": 79.2,
@@ -23423,7 +23474,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 164.68,
+          "score": 164.74,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -23645,7 +23696,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 93.33,
-        "eci": 168.54,
+        "eci": 168.7,
         "fiction_live": null,
         "gpqa_diamond": 90.59,
         "swe_bench_pro": null,
@@ -23883,7 +23934,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 168.54,
+          "score": 168.7,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -23934,6 +23985,14 @@
           "score": 83.33,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gbaeval",
+          "score": 90.56,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gbaeval.com/model/claude-opus-5-5",
           "unit": "pct"
         },
         {
@@ -24594,7 +24653,7 @@
       "benchmarks": {
         "aime": 71.11,
         "arc_agi_2": 5.93,
-        "eci": 141.86,
+        "eci": 141.88,
         "fiction_live": 36.4,
         "gpqa_diamond": 78.28,
         "swe_bench_pro": null,
@@ -24768,7 +24827,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.86,
+          "score": 141.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -24918,7 +24977,7 @@
       "benchmarks": {
         "aime": 77.78,
         "arc_agi_2": 3.75,
-        "eci": 147.63,
+        "eci": 147.59,
         "fiction_live": null,
         "gpqa_diamond": 82.32,
         "swe_bench_pro": 43.6,
@@ -25158,7 +25217,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.63,
+          "score": 147.59,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -25380,7 +25439,7 @@
       "benchmarks": {
         "aime": 77.78,
         "arc_agi_2": 13.61,
-        "eci": 147.63,
+        "eci": 147.59,
         "fiction_live": null,
         "gpqa_diamond": 82.32,
         "swe_bench_pro": null,
@@ -25627,7 +25686,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.63,
+          "score": 147.59,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -26342,7 +26401,7 @@
       "benchmarks": {
         "aime": 94.72,
         "arc_agi_2": null,
-        "eci": 156.94,
+        "eci": 156.9,
         "fiction_live": null,
         "gpqa_diamond": 90.53,
         "swe_bench_pro": 63.2,
@@ -26613,7 +26672,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.94,
+          "score": 156.9,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -26797,7 +26856,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml",
-          "score": 68.78,
+          "score": 68.98,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -26811,7 +26870,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 83.89,
-        "eci": 166.56,
+        "eci": 166.59,
         "fiction_live": null,
         "gpqa_diamond": 95.58,
         "swe_bench_pro": null,
@@ -27033,7 +27092,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 166.56,
+          "score": 166.59,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -32320,7 +32379,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 146.25,
+        "eci": 146.26,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -32509,7 +32568,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.25,
+          "score": 146.26,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -32659,7 +32718,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 135.18,
+        "eci": 135.28,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -32846,7 +32905,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 135.18,
+          "score": 135.28,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -32996,7 +33055,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 140.85,
+        "eci": 140.8,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -33183,7 +33242,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 140.85,
+          "score": 140.8,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -33403,7 +33462,7 @@
       "benchmarks": {
         "aime": 53.33,
         "arc_agi_2": 1.3,
-        "eci": 138.59,
+        "eci": 138.63,
         "fiction_live": 33.3,
         "gpqa_diamond": 69.22,
         "swe_bench_pro": null,
@@ -33583,7 +33642,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 138.59,
+          "score": 138.63,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -33653,7 +33712,7 @@
       "benchmarks": {
         "aime": 66.39,
         "arc_agi_2": 1.12,
-        "eci": 140.73,
+        "eci": 140.75,
         "fiction_live": 33.3,
         "gpqa_diamond": 76.33,
         "swe_bench_pro": null,
@@ -33840,7 +33899,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 140.73,
+          "score": 140.75,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -34328,7 +34387,7 @@
       "benchmarks": {
         "aime": 15.83,
         "arc_agi_2": 4.03,
-        "eci": 131.7,
+        "eci": 131.71,
         "fiction_live": 53.1,
         "gpqa_diamond": 56.53,
         "swe_bench_pro": null,
@@ -34524,7 +34583,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 131.7,
+          "score": 131.71,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -34682,7 +34741,7 @@
       "benchmarks": {
         "aime": 37.78,
         "arc_agi_2": 4.03,
-        "eci": 135.18,
+        "eci": 135.28,
         "fiction_live": 53.1,
         "gpqa_diamond": 67.61,
         "swe_bench_pro": null,
@@ -34870,7 +34929,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 135.18,
+          "score": 135.28,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -35020,7 +35079,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 140.85,
+        "eci": 140.8,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -35208,7 +35267,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 140.85,
+          "score": 140.8,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -35503,7 +35562,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 146.25,
+        "eci": 146.26,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -35708,7 +35767,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.25,
+          "score": 146.26,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -35874,7 +35933,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 144.38,
+        "eci": 144.39,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -36075,7 +36134,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.38,
+          "score": 144.39,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -36241,7 +36300,7 @@
       "benchmarks": {
         "aime": 48.89,
         "arc_agi_2": 4.03,
-        "eci": 146.25,
+        "eci": 146.26,
         "fiction_live": 53.1,
         "gpqa_diamond": 71.21,
         "swe_bench_pro": null,
@@ -36427,7 +36486,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.25,
+          "score": 146.26,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -36577,7 +36636,7 @@
       "benchmarks": {
         "aime": 94.44,
         "arc_agi_2": 61.39,
-        "eci": 146.85,
+        "eci": 146.84,
         "fiction_live": null,
         "gpqa_diamond": 91.04,
         "swe_bench_pro": 52.6,
@@ -36791,7 +36850,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.85,
+          "score": 146.84,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -36949,7 +37008,7 @@
       "benchmarks": {
         "aime": 94.44,
         "arc_agi_2": 61.39,
-        "eci": 146.85,
+        "eci": 146.84,
         "fiction_live": null,
         "gpqa_diamond": 91.04,
         "swe_bench_pro": null,
@@ -37105,7 +37164,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.85,
+          "score": 146.84,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -37207,7 +37266,7 @@
       "benchmarks": {
         "aime": 94.44,
         "arc_agi_2": 61.39,
-        "eci": 154.41,
+        "eci": 154.43,
         "fiction_live": null,
         "gpqa_diamond": 91.04,
         "swe_bench_pro": null,
@@ -37411,7 +37470,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.41,
+          "score": 154.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -37701,7 +37760,7 @@
       "benchmarks": {
         "aime": 96.67,
         "arc_agi_2": 61.25,
-        "eci": 150.17,
+        "eci": 150.21,
         "fiction_live": null,
         "gpqa_diamond": 90.91,
         "swe_bench_pro": 55.4,
@@ -37948,7 +38007,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.17,
+          "score": 150.21,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -38116,7 +38175,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml",
-          "score": 48.9,
+          "score": 48.61,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -38130,7 +38189,7 @@
       "benchmarks": {
         "aime": 96.67,
         "arc_agi_2": 61.25,
-        "eci": 150.17,
+        "eci": 150.21,
         "fiction_live": null,
         "gpqa_diamond": 90.91,
         "swe_bench_pro": null,
@@ -38317,7 +38376,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.17,
+          "score": 150.21,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -38429,7 +38488,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml",
-          "score": 48.9,
+          "score": 48.61,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -38443,7 +38502,7 @@
       "benchmarks": {
         "aime": 98.61,
         "arc_agi_2": 61.25,
-        "eci": 155.94,
+        "eci": 155.96,
         "fiction_live": null,
         "gpqa_diamond": 91.67,
         "swe_bench_pro": null,
@@ -38655,7 +38714,7 @@
         {
           "attribution": "third-party",
           "league": "critpt",
-          "score": 18,
+          "score": 18.57,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -38679,7 +38738,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.94,
+          "score": 155.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -38837,7 +38896,7 @@
       "benchmarks": {
         "aime": 98.33,
         "arc_agi_2": 72.92,
-        "eci": 156.7,
+        "eci": 157,
         "fiction_live": null,
         "gpqa_diamond": 89.84,
         "swe_bench_pro": null,
@@ -39058,7 +39117,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.7,
+          "score": 157,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -39145,6 +39204,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "rli",
+          "score": 9.58,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 66.7,
           "source": "epoch.ai",
@@ -39200,7 +39267,7 @@
       "benchmarks": {
         "aime": 99.44,
         "arc_agi_2": 78.06,
-        "eci": 159.41,
+        "eci": 159.4,
         "fiction_live": null,
         "gpqa_diamond": 93.18,
         "swe_bench_pro": null,
@@ -39421,7 +39488,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 159.41,
+          "score": 159.4,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -39508,6 +39575,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "rli",
+          "score": 9.58,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 66.7,
           "source": "epoch.ai",
@@ -39549,7 +39624,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 19.92,
+          "score": 19.67,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -40213,7 +40288,7 @@
       "benchmarks": {
         "aime": 57.78,
         "arc_agi_2": 1.3,
-        "eci": 133.94,
+        "eci": 134.02,
         "fiction_live": 37.5,
         "gpqa_diamond": 57.07,
         "swe_bench_pro": null,
@@ -40340,7 +40415,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 133.94,
+          "score": 134.02,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -40577,7 +40652,7 @@
       "benchmarks": {
         "aime": 73.06,
         "arc_agi_2": 2.54,
-        "eci": 141.93,
+        "eci": 141.94,
         "fiction_live": 68.8,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -40760,7 +40835,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.93,
+          "score": 141.94,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -41416,7 +41491,7 @@
       "benchmarks": {
         "aime": 70.83,
         "arc_agi_2": 2.54,
-        "eci": 141.93,
+        "eci": 141.94,
         "fiction_live": 68.8,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -41599,7 +41674,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.93,
+          "score": 141.94,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -41805,7 +41880,7 @@
       "benchmarks": {
         "aime": 84.17,
         "arc_agi_2": 4.86,
-        "eci": 144.87,
+        "eci": 144.91,
         "fiction_live": 90.6,
         "gpqa_diamond": 85.29,
         "swe_bench_pro": null,
@@ -42063,7 +42138,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.87,
+          "score": 144.91,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -42285,7 +42360,7 @@
       "benchmarks": {
         "aime": 84.17,
         "arc_agi_2": 0,
-        "eci": 144.87,
+        "eci": 144.91,
         "fiction_live": 87.5,
         "gpqa_diamond": 84.85,
         "swe_bench_pro": null,
@@ -42392,9 +42467,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0625,
-        "inputPerMTok": 0.625,
-        "outputPerMTok": 5
+        "cachedInputPerMTok": 0.125,
+        "inputPerMTok": 1.25,
+        "outputPerMTok": 7.5
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -42534,7 +42609,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.87,
+          "score": 144.91,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -43289,7 +43364,7 @@
       "benchmarks": {
         "aime": 95.56,
         "arc_agi_2": 33.61,
-        "eci": 152.32,
+        "eci": 152.34,
         "fiction_live": null,
         "gpqa_diamond": 89.39,
         "swe_bench_pro": null,
@@ -43492,7 +43567,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.32,
+          "score": 152.34,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -43650,7 +43725,7 @@
       "benchmarks": {
         "aime": 95.56,
         "arc_agi_2": 33.61,
-        "eci": 152.32,
+        "eci": 152.34,
         "fiction_live": null,
         "gpqa_diamond": 89.39,
         "swe_bench_pro": 34.63,
@@ -43908,7 +43983,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.32,
+          "score": 152.34,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -44300,7 +44375,7 @@
       "benchmarks": {
         "aime": 91.39,
         "arc_agi_2": 31.11,
-        "eci": 152.98,
+        "eci": 153.04,
         "fiction_live": null,
         "gpqa_diamond": 92.61,
         "swe_bench_pro": 43.3,
@@ -44542,7 +44617,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.98,
+          "score": 153.04,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -44912,7 +44987,7 @@
       "benchmarks": {
         "aime": 80,
         "arc_agi_2": null,
-        "eci": 145.01,
+        "eci": 145.03,
         "fiction_live": null,
         "gpqa_diamond": 81.82,
         "swe_bench_pro": null,
@@ -45047,7 +45122,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.01,
+          "score": 145.03,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -45218,7 +45293,7 @@
       "benchmarks": {
         "aime": 80,
         "arc_agi_2": null,
-        "eci": 145.01,
+        "eci": 145.03,
         "fiction_live": null,
         "gpqa_diamond": 81.82,
         "swe_bench_pro": null,
@@ -45369,7 +45444,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.01,
+          "score": 145.03,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -45611,7 +45686,7 @@
       "benchmarks": {
         "aime": 95.6,
         "arc_agi_2": 77.1,
-        "eci": 156.18,
+        "eci": 156.25,
         "fiction_live": null,
         "gpqa_diamond": 94.44,
         "swe_bench_pro": 46.1,
@@ -45948,7 +46023,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.18,
+          "score": 156.25,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -46316,7 +46391,7 @@
       "benchmarks": {
         "aime": 95.56,
         "arc_agi_2": 72.08,
-        "eci": 155.28,
+        "eci": 155.35,
         "fiction_live": null,
         "gpqa_diamond": 92.8,
         "swe_bench_pro": 55.1,
@@ -46558,7 +46633,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.28,
+          "score": 155.35,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -46748,7 +46823,7 @@
       "benchmarks": {
         "aime": 71.11,
         "arc_agi_2": 10.28,
-        "eci": 145.63,
+        "eci": 145.65,
         "fiction_live": null,
         "gpqa_diamond": 83.33,
         "swe_bench_pro": 54.2,
@@ -46949,7 +47024,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.63,
+          "score": 145.65,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -47203,7 +47278,7 @@
       "benchmarks": {
         "aime": 94.17,
         "arc_agi_2": 60.42,
-        "eci": 155.21,
+        "eci": 155.24,
         "fiction_live": null,
         "gpqa_diamond": 94.13,
         "swe_bench_pro": 58.7,
@@ -47452,7 +47527,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.21,
+          "score": 155.24,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -47602,7 +47677,7 @@
       "benchmarks": {
         "aime": 97.22,
         "arc_agi_2": 84.58,
-        "eci": 158.36,
+        "eci": 158.38,
         "fiction_live": null,
         "gpqa_diamond": 94.82,
         "swe_bench_pro": null,
@@ -47826,7 +47901,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 158.36,
+          "score": 158.38,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -47968,7 +48043,7 @@
       "benchmarks": {
         "aime": 98.89,
         "arc_agi_2": 89.17,
-        "eci": 158.79,
+        "eci": 158.83,
         "fiction_live": null,
         "gpqa_diamond": 95.39,
         "swe_bench_pro": null,
@@ -48215,7 +48290,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 158.79,
+          "score": 158.83,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -48421,7 +48496,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 91.25,
-        "eci": 166.48,
+        "eci": 166.57,
         "fiction_live": null,
         "gpqa_diamond": 96.4,
         "swe_bench_pro": null,
@@ -48529,12 +48604,12 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "epoch.ai",
-        "releaseDatePrecision": "epoch.ai",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2026-09-30",
+      "releaseDate": "2026-10-13",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -48629,7 +48704,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 166.48,
+          "score": 166.57,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -48680,6 +48755,14 @@
           "score": 72.5,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gbaeval",
+          "score": 78.68,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gbaeval.com/model/gemini-4-argon",
           "unit": "pct"
         },
         {
@@ -48787,7 +48870,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 94.17,
-        "eci": 169.76,
+        "eci": 169.78,
         "fiction_live": null,
         "gpqa_diamond": 96.53,
         "swe_bench_pro": null,
@@ -48809,6 +48892,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://cursor.com/cursorbench",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 2374.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
         }
       ],
       "contextWindow": 1048576,
@@ -48862,12 +48953,12 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "epoch.ai",
-        "releaseDatePrecision": "epoch.ai",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2026-10-28",
+      "releaseDate": "2026-11-10",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -48878,6 +48969,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 2374.7,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
         },
         {
           "attribution": "third-party",
@@ -48946,7 +49045,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 169.76,
+          "score": 169.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -49009,6 +49108,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "posttrainbench",
+          "score": 40.98,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 92.6,
           "source": "epoch.ai",
@@ -49062,6 +49169,22 @@
           "source": "models.dev",
           "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 57.8,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1825.67,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
         }
       ],
       "contextWindow": 1048576,
@@ -49121,12 +49244,52 @@
       "retiredAt": null,
       "scores": [
         {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 1825.67,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "apex_agents",
+          "score": 78,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "cursorbench",
+          "score": 57.8,
+          "source": "epoch.ai",
+          "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontier_swe",
+          "score": 53.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.frontierswe.com/",
+          "unit": "pct"
+        },
+        {
           "attribution": "vendor-self-reported",
           "league": "terminal_bench",
           "score": 57,
           "source": "models.dev",
           "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "vending_bench_2",
+          "score": 14549.49,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "usd"
         }
       ],
       "slug": "google-gemini-4-hydrogen",
@@ -49896,7 +50059,7 @@
       "benchmarks": {
         "aime": 1.39,
         "arc_agi_2": null,
-        "eci": 118.59,
+        "eci": 118.61,
         "fiction_live": null,
         "gpqa_diamond": 36.49,
         "swe_bench_pro": null,
@@ -49982,7 +50145,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 118.59,
+          "score": 118.61,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -50221,7 +50384,7 @@
       "benchmarks": {
         "aime": 22.5,
         "arc_agi_2": null,
-        "eci": 127.51,
+        "eci": 127.5,
         "fiction_live": null,
         "gpqa_diamond": 47.73,
         "swe_bench_pro": null,
@@ -50344,7 +50507,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 127.51,
+          "score": 127.5,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -50720,7 +50883,7 @@
       "benchmarks": {
         "aime": 82.22,
         "arc_agi_2": null,
-        "eci": 141.64,
+        "eci": 141.58,
         "fiction_live": null,
         "gpqa_diamond": 73.23,
         "swe_bench_pro": null,
@@ -50775,9 +50938,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.09,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.0425,
+        "inputPerMTok": 0.0765,
+        "outputPerMTok": 0.255
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -50843,7 +51006,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.64,
+          "score": 141.58,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -50889,7 +51052,7 @@
       "benchmarks": {
         "aime": 73.33,
         "arc_agi_2": null,
-        "eci": 144.27,
+        "eci": 144.12,
         "fiction_live": null,
         "gpqa_diamond": 75.76,
         "swe_bench_pro": null,
@@ -51035,7 +51198,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.27,
+          "score": 144.12,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -54704,7 +54867,7 @@
       "benchmarks": {
         "aime": 3.61,
         "arc_agi_2": null,
-        "eci": 124.7,
+        "eci": 124.72,
         "fiction_live": null,
         "gpqa_diamond": 44.19,
         "swe_bench_pro": null,
@@ -54794,7 +54957,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 124.7,
+          "score": 124.72,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -54856,7 +55019,7 @@
       "benchmarks": {
         "aime": 3.61,
         "arc_agi_2": null,
-        "eci": 124.7,
+        "eci": 124.72,
         "fiction_live": null,
         "gpqa_diamond": 44.19,
         "swe_bench_pro": null,
@@ -54950,7 +55113,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 124.7,
+          "score": 124.72,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -55012,7 +55175,7 @@
       "benchmarks": {
         "aime": 1.67,
         "arc_agi_2": null,
-        "eci": 111.14,
+        "eci": 110.78,
         "fiction_live": null,
         "gpqa_diamond": 26.96,
         "swe_bench_pro": null,
@@ -55118,7 +55281,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 111.14,
+          "score": 110.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -55188,7 +55351,7 @@
       "benchmarks": {
         "aime": 1.67,
         "arc_agi_2": null,
-        "eci": 111.14,
+        "eci": 110.78,
         "fiction_live": null,
         "gpqa_diamond": 26.96,
         "swe_bench_pro": null,
@@ -55299,7 +55462,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 111.14,
+          "score": 110.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -55965,7 +56128,7 @@
       "benchmarks": {
         "aime": 5.14,
         "arc_agi_2": null,
-        "eci": 126.13,
+        "eci": 126.16,
         "fiction_live": null,
         "gpqa_diamond": 47.44,
         "swe_bench_pro": null,
@@ -56063,7 +56226,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 126.13,
+          "score": 126.16,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -56125,7 +56288,7 @@
       "benchmarks": {
         "aime": 5.14,
         "arc_agi_2": null,
-        "eci": 126.13,
+        "eci": 126.16,
         "fiction_live": null,
         "gpqa_diamond": 47.44,
         "swe_bench_pro": null,
@@ -56228,7 +56391,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 126.13,
+          "score": 126.16,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -56290,7 +56453,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 0,
-        "eci": 132.08,
+        "eci": 132.24,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -56409,7 +56572,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 132.08,
+          "score": 132.24,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -56447,7 +56610,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 132.08,
+        "eci": 132.24,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": 5.24,
@@ -56543,7 +56706,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 132.08,
+          "score": 132.24,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -56565,7 +56728,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 0,
-        "eci": 127.68,
+        "eci": 127.77,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -56664,7 +56827,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 127.68,
+          "score": 127.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -56686,7 +56849,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 127.68,
+        "eci": 127.77,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -56754,7 +56917,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 127.68,
+          "score": 127.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -57397,7 +57560,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 154.87,
+        "eci": 154.92,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": 61.5,
@@ -57569,7 +57732,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.87,
+          "score": 154.92,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -57671,7 +57834,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 155.04,
+        "eci": 155.06,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -57835,7 +57998,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.04,
+          "score": 155.06,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -57923,7 +58086,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml",
-          "score": 60.3,
+          "score": 60.38,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -58009,7 +58172,7 @@
       "benchmarks": {
         "aime": 99.17,
         "arc_agi_2": null,
-        "eci": 158.24,
+        "eci": 158.25,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -58230,7 +58393,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 158.24,
+          "score": 158.25,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -58436,7 +58599,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 57.5,
-        "eci": 155.42,
+        "eci": 155.45,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -58574,7 +58737,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 155.42,
+          "score": 155.45,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -58604,7 +58767,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 161.68,
+        "eci": 161.74,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -58698,7 +58861,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 161.68,
+          "score": 161.74,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -58738,7 +58901,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 24.93,
+          "score": 24.9,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -58752,7 +58915,7 @@
       "benchmarks": {
         "aime": 99.44,
         "arc_agi_2": null,
-        "eci": 161.68,
+        "eci": 161.74,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -58932,7 +59095,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 161.68,
+          "score": 161.74,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -59028,7 +59191,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 24.93,
+          "score": 24.9,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -59357,7 +59520,7 @@
       "benchmarks": {
         "aime": 13.75,
         "arc_agi_2": null,
-        "eci": 129.04,
+        "eci": 129.24,
         "fiction_live": null,
         "gpqa_diamond": 56.06,
         "swe_bench_pro": null,
@@ -59449,7 +59612,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 129.04,
+          "score": 129.24,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -60711,11 +60874,12 @@
         "pricing.outputPerMTok": "litellm",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2025-12-23",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-18",
       "scores": [],
       "slug": "minimax-minimax-m2-1-lightning",
       "trainingComputeFlop": null,
@@ -61048,11 +61212,11 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "vercel-gateway",
-        "releaseDatePrecision": "vercel-gateway",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
       },
-      "releaseDate": "2026-02-12",
+      "releaseDate": "2026-02-13",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [],
@@ -61399,7 +61563,7 @@
       "benchmarks": {
         "aime": 71.11,
         "arc_agi_2": null,
-        "eci": 147.74,
+        "eci": 147.9,
         "fiction_live": null,
         "gpqa_diamond": 90.91,
         "swe_bench_pro": 59,
@@ -61595,7 +61759,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 147.74,
+          "score": 147.9,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -64096,7 +64260,7 @@
       "benchmarks": {
         "aime": 0.28,
         "arc_agi_2": null,
-        "eci": 102.84,
+        "eci": 102.56,
         "fiction_live": null,
         "gpqa_diamond": 15.18,
         "swe_bench_pro": null,
@@ -64202,7 +64366,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 102.84,
+          "score": 102.56,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -64355,7 +64519,7 @@
       "benchmarks": {
         "aime": 8.47,
         "arc_agi_2": null,
-        "eci": 119.81,
+        "eci": 119.96,
         "fiction_live": null,
         "gpqa_diamond": 51.33,
         "swe_bench_pro": null,
@@ -64479,7 +64643,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 119.81,
+          "score": 119.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -64549,7 +64713,7 @@
       "benchmarks": {
         "aime": 8.47,
         "arc_agi_2": null,
-        "eci": 119.81,
+        "eci": 119.96,
         "fiction_live": null,
         "gpqa_diamond": 49.02,
         "swe_bench_pro": null,
@@ -64671,7 +64835,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 119.81,
+          "score": 119.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -64741,7 +64905,7 @@
       "benchmarks": {
         "aime": 7.78,
         "arc_agi_2": null,
-        "eci": 119.81,
+        "eci": 119.96,
         "fiction_live": null,
         "gpqa_diamond": 51.33,
         "swe_bench_pro": null,
@@ -64869,7 +65033,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 119.81,
+          "score": 119.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -64947,7 +65111,7 @@
       "benchmarks": {
         "aime": 8.47,
         "arc_agi_2": null,
-        "eci": 119.81,
+        "eci": 119.96,
         "fiction_live": null,
         "gpqa_diamond": 51.33,
         "swe_bench_pro": null,
@@ -65069,7 +65233,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 119.81,
+          "score": 119.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -65253,7 +65417,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 154.62,
+        "eci": 154.56,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -65390,7 +65554,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.62,
+          "score": 154.56,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -65438,7 +65602,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 12.21,
+          "score": 11.78,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -65683,7 +65847,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml_v3",
-          "score": 12.21,
+          "score": 11.78,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -65697,7 +65861,7 @@
       "benchmarks": {
         "aime": 8.47,
         "arc_agi_2": null,
-        "eci": 119.81,
+        "eci": 119.96,
         "fiction_live": null,
         "gpqa_diamond": 51.33,
         "swe_bench_pro": null,
@@ -65819,7 +65983,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 119.81,
+          "score": 119.96,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -66368,7 +66532,7 @@
       "benchmarks": {
         "aime": 32.22,
         "arc_agi_2": null,
-        "eci": 141.59,
+        "eci": 141.57,
         "fiction_live": null,
         "gpqa_diamond": 59.53,
         "swe_bench_pro": null,
@@ -66506,7 +66670,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.59,
+          "score": 141.57,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -66649,9 +66813,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.04,
-        "inputPerMTok": 0.4,
-        "outputPerMTok": 2
+        "cachedInputPerMTok": 0.044,
+        "inputPerMTok": 0.4232,
+        "outputPerMTok": 2.116
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -66710,7 +66874,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 141.59,
+        "eci": 141.57,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -66815,7 +66979,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.59,
+          "score": 141.57,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -66903,9 +67067,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.04,
-        "inputPerMTok": 0.4,
-        "outputPerMTok": 2
+        "cachedInputPerMTok": 0.044,
+        "inputPerMTok": 0.44,
+        "outputPerMTok": 2.2
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -67203,7 +67367,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 113.88,
+        "eci": 113.81,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -67288,7 +67452,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 113.88,
+          "score": 113.81,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -68144,9 +68308,9 @@
         "totalB": 24
       },
       "pricing": {
-        "cachedInputPerMTok": 0.01,
-        "inputPerMTok": 0.1,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.075,
+        "inputPerMTok": 0.075,
+        "outputPerMTok": 0.2
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -68358,7 +68522,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 118.69,
+        "eci": 118.66,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -68443,7 +68607,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 118.69,
+          "score": 118.66,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -68473,7 +68637,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 113.22,
+        "eci": 113.1,
         "fiction_live": null,
         "gpqa_diamond": 30.59,
         "swe_bench_pro": null,
@@ -68558,7 +68722,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 113.22,
+          "score": 113.1,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -69171,7 +69335,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 145.43,
+        "eci": 145.48,
         "fiction_live": 40.6,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -69313,7 +69477,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.43,
+          "score": 145.48,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -69407,7 +69571,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 145.43,
+        "eci": 145.48,
         "fiction_live": 40.6,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -69535,7 +69699,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.43,
+          "score": 145.48,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -69613,7 +69777,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 145.43,
+        "eci": 145.48,
         "fiction_live": 40.6,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -69757,7 +69921,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.43,
+          "score": 145.48,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -69851,7 +70015,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 145.43,
+        "eci": 145.48,
         "fiction_live": 40.6,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -69988,7 +70152,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.43,
+          "score": 145.48,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -70181,7 +70345,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 11.81,
-        "eci": 148.76,
+        "eci": 148.8,
         "fiction_live": 78.1,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -70395,7 +70559,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 148.76,
+          "score": 148.8,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -70545,7 +70709,7 @@
       "benchmarks": {
         "aime": 96.11,
         "arc_agi_2": null,
-        "eci": 151.56,
+        "eci": 151.62,
         "fiction_live": null,
         "gpqa_diamond": 90.78,
         "swe_bench_pro": null,
@@ -70734,7 +70898,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 151.56,
+          "score": 151.62,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -71360,7 +71524,7 @@
       "benchmarks": {
         "aime": 97.22,
         "arc_agi_2": 60.42,
-        "eci": 158.58,
+        "eci": 158.6,
         "fiction_live": null,
         "gpqa_diamond": 93.12,
         "swe_bench_pro": null,
@@ -71603,7 +71767,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 158.58,
+          "score": 158.6,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -71888,7 +72052,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 161.37,
+        "eci": 161.36,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -72000,7 +72164,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 161.37,
+          "score": 161.36,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -73671,7 +73835,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": null,
-        "eci": 146.95,
+        "eci": 147,
         "fiction_live": null,
         "gpqa_diamond": 85.35,
         "swe_bench_pro": null,
@@ -73834,7 +73998,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.95,
+          "score": 147,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -74823,7 +74987,7 @@
       "benchmarks": {
         "aime": 2.22,
         "arc_agi_2": null,
-        "eci": 113.06,
+        "eci": 112.77,
         "fiction_live": null,
         "gpqa_diamond": 28.03,
         "swe_bench_pro": null,
@@ -74950,7 +75114,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 113.06,
+          "score": 112.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -75060,7 +75224,7 @@
       "benchmarks": {
         "aime": 2.22,
         "arc_agi_2": null,
-        "eci": 105.99,
+        "eci": 105.84,
         "fiction_live": null,
         "gpqa_diamond": 28.03,
         "swe_bench_pro": null,
@@ -75183,7 +75347,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 105.99,
+          "score": 105.84,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -75595,7 +75759,7 @@
       "benchmarks": {
         "aime": 1.11,
         "arc_agi_2": null,
-        "eci": 121.77,
+        "eci": 121.58,
         "fiction_live": null,
         "gpqa_diamond": 42.36,
         "swe_bench_pro": null,
@@ -75691,7 +75855,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 121.77,
+          "score": 121.58,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -76129,7 +76293,7 @@
       "benchmarks": {
         "aime": 38.33,
         "arc_agi_2": 0.42,
-        "eci": 136.15,
+        "eci": 136.18,
         "fiction_live": 62.5,
         "gpqa_diamond": 66.92,
         "swe_bench_pro": null,
@@ -76304,7 +76468,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 136.15,
+          "score": 136.18,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -76438,7 +76602,7 @@
       "benchmarks": {
         "aime": 44.72,
         "arc_agi_2": 0,
-        "eci": 134.2,
+        "eci": 134.27,
         "fiction_live": 46.9,
         "gpqa_diamond": 65.85,
         "swe_bench_pro": null,
@@ -76596,7 +76760,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 134.2,
+          "score": 134.27,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -76690,7 +76854,7 @@
       "benchmarks": {
         "aime": 28.89,
         "arc_agi_2": 0,
-        "eci": 126.77,
+        "eci": 126.81,
         "fiction_live": 18.8,
         "gpqa_diamond": 48.93,
         "swe_bench_pro": null,
@@ -76839,7 +77003,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 126.77,
+          "score": 126.81,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -76917,7 +77081,7 @@
       "benchmarks": {
         "aime": 6.39,
         "arc_agi_2": 0,
-        "eci": 128.84,
+        "eci": 128.78,
         "fiction_live": null,
         "gpqa_diamond": 49.21,
         "swe_bench_pro": null,
@@ -77107,7 +77271,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 128.84,
+          "score": 128.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -77281,7 +77445,7 @@
       "benchmarks": {
         "aime": 6.25,
         "arc_agi_2": 0,
-        "eci": 128.84,
+        "eci": 128.78,
         "fiction_live": null,
         "gpqa_diamond": 48.9,
         "swe_bench_pro": null,
@@ -77469,7 +77633,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 128.84,
+          "score": 128.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -77643,7 +77807,7 @@
       "benchmarks": {
         "aime": 6.39,
         "arc_agi_2": 0,
-        "eci": 128.84,
+        "eci": 128.78,
         "fiction_live": null,
         "gpqa_diamond": 49.21,
         "swe_bench_pro": null,
@@ -77832,7 +77996,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 128.84,
+          "score": 128.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -78006,7 +78170,7 @@
       "benchmarks": {
         "aime": 6.25,
         "arc_agi_2": 0,
-        "eci": 128.84,
+        "eci": 128.78,
         "fiction_live": null,
         "gpqa_diamond": 47.89,
         "swe_bench_pro": null,
@@ -78203,7 +78367,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 128.84,
+          "score": 128.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -78385,7 +78549,7 @@
       "benchmarks": {
         "aime": 6.94,
         "arc_agi_2": 0,
-        "eci": 123.86,
+        "eci": 123.75,
         "fiction_live": null,
         "gpqa_diamond": 37.72,
         "swe_bench_pro": null,
@@ -78526,7 +78690,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 123.86,
+          "score": 123.75,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -78652,7 +78816,7 @@
       "benchmarks": {
         "aime": 6.94,
         "arc_agi_2": 0,
-        "eci": 123.86,
+        "eci": 123.75,
         "fiction_live": null,
         "gpqa_diamond": 37.72,
         "swe_bench_pro": null,
@@ -78797,7 +78961,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 123.86,
+          "score": 123.75,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -80221,7 +80385,7 @@
       "benchmarks": {
         "aime": 86.67,
         "arc_agi_2": 4.44,
-        "eci": 146.09,
+        "eci": 146.01,
         "fiction_live": 62.5,
         "gpqa_diamond": 75,
         "swe_bench_pro": null,
@@ -80411,7 +80575,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.09,
+          "score": 146.01,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -80585,7 +80749,7 @@
       "benchmarks": {
         "aime": 81.11,
         "arc_agi_2": 2.61,
-        "eci": 139.1,
+        "eci": 139.09,
         "fiction_live": 21.9,
         "gpqa_diamond": 69.44,
         "swe_bench_pro": null,
@@ -80742,7 +80906,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 139.1,
+          "score": 139.09,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -80884,7 +81048,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 18.33,
-        "eci": 151.23,
+        "eci": 151.27,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -81013,7 +81177,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 151.23,
+          "score": 151.27,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -81099,7 +81263,7 @@
       "benchmarks": {
         "aime": 88.61,
         "arc_agi_2": 17.64,
-        "eci": 150.94,
+        "eci": 150.97,
         "fiction_live": null,
         "gpqa_diamond": 87.63,
         "swe_bench_pro": null,
@@ -81329,7 +81493,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.94,
+          "score": 150.97,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -81487,7 +81651,7 @@
       "benchmarks": {
         "aime": 88.61,
         "arc_agi_2": 17.64,
-        "eci": 150.94,
+        "eci": 150.97,
         "fiction_live": null,
         "gpqa_diamond": 87.63,
         "swe_bench_pro": null,
@@ -81701,7 +81865,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.94,
+          "score": 150.97,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -82303,7 +82467,7 @@
       "benchmarks": {
         "aime": 88.61,
         "arc_agi_2": 17.64,
-        "eci": 150.94,
+        "eci": 150.97,
         "fiction_live": null,
         "gpqa_diamond": 87.63,
         "swe_bench_pro": null,
@@ -82514,7 +82678,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.94,
+          "score": 150.97,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -82656,7 +82820,7 @@
       "benchmarks": {
         "aime": 96.11,
         "arc_agi_2": 0.83,
-        "eci": 154.46,
+        "eci": 154.52,
         "fiction_live": null,
         "gpqa_diamond": 91.4,
         "swe_bench_pro": 29.94,
@@ -82911,7 +83075,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.46,
+          "score": 154.52,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -83149,7 +83313,7 @@
       "benchmarks": {
         "aime": 96.11,
         "arc_agi_2": 0.83,
-        "eci": 154.46,
+        "eci": 154.52,
         "fiction_live": null,
         "gpqa_diamond": 91.4,
         "swe_bench_pro": null,
@@ -83376,7 +83540,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.46,
+          "score": 154.52,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -83590,7 +83754,7 @@
       "benchmarks": {
         "aime": 96.11,
         "arc_agi_2": 0.83,
-        "eci": 154.46,
+        "eci": 154.52,
         "fiction_live": null,
         "gpqa_diamond": 91.4,
         "swe_bench_pro": null,
@@ -83820,7 +83984,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.46,
+          "score": 154.52,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -84211,7 +84375,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 54.16,
-        "eci": 157.27,
+        "eci": 157.31,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -84306,7 +84470,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 157.27,
+          "score": 157.31,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -84750,7 +84914,7 @@
       "benchmarks": {
         "aime": 97.78,
         "arc_agi_2": 73.95,
-        "eci": 157.85,
+        "eci": 157.87,
         "fiction_live": null,
         "gpqa_diamond": 93.3,
         "swe_bench_pro": 59.1,
@@ -85086,7 +85250,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 157.85,
+          "score": 157.87,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -85407,7 +85571,7 @@
       "benchmarks": {
         "aime": 88.89,
         "arc_agi_2": 18.9,
-        "eci": 149.34,
+        "eci": 149.35,
         "fiction_live": null,
         "gpqa_diamond": 86.87,
         "swe_bench_pro": 54.4,
@@ -85605,7 +85769,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 149.34,
+          "score": 149.35,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -85747,7 +85911,7 @@
       "benchmarks": {
         "aime": 87.78,
         "arc_agi_2": 5.69,
-        "eci": 146.4,
+        "eci": 146.33,
         "fiction_live": null,
         "gpqa_diamond": 78.47,
         "swe_bench_pro": 52.4,
@@ -85920,7 +86084,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.4,
+          "score": 146.33,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -86046,7 +86210,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 83.33,
-        "eci": 160.24,
+        "eci": 160.32,
         "fiction_live": null,
         "gpqa_diamond": 94.6,
         "swe_bench_pro": null,
@@ -86151,7 +86315,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 160.24,
+          "score": 160.32,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -86237,7 +86401,7 @@
       "benchmarks": {
         "aime": 84.44,
         "arc_agi_2": 85,
-        "eci": 160.1,
+        "eci": 160.19,
         "fiction_live": null,
         "gpqa_diamond": 90.66,
         "swe_bench_pro": 58.6,
@@ -86557,7 +86721,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 160.1,
+          "score": 160.19,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -86958,7 +87122,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 84.58,
-        "eci": 162.7,
+        "eci": 162.77,
         "fiction_live": null,
         "gpqa_diamond": 93.92,
         "swe_bench_pro": null,
@@ -87081,7 +87245,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 162.7,
+          "score": 162.77,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -87225,7 +87389,7 @@
       "benchmarks": {
         "aime": 98.33,
         "arc_agi_2": 59.54,
-        "eci": 156.67,
+        "eci": 156.7,
         "fiction_live": null,
         "gpqa_diamond": 91.6,
         "swe_bench_pro": 62.7,
@@ -87472,7 +87636,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.67,
+          "score": 156.7,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -87701,7 +87865,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 92.5,
-        "eci": 162.99,
+        "eci": 163.05,
         "fiction_live": null,
         "gpqa_diamond": 93.5,
         "swe_bench_pro": 64.6,
@@ -87972,7 +88136,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 162.99,
+          "score": 163.05,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -88283,7 +88447,7 @@
       "benchmarks": {
         "aime": 99.72,
         "arc_agi_2": 83.9,
-        "eci": 160.73,
+        "eci": 160.78,
         "fiction_live": null,
         "gpqa_diamond": 93.31,
         "swe_bench_pro": 63.4,
@@ -88530,7 +88694,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 160.73,
+          "score": 160.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -88751,7 +88915,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 95,
-        "eci": 169,
+        "eci": 169.2,
         "fiction_live": null,
         "gpqa_diamond": 95.77,
         "swe_bench_pro": null,
@@ -88998,7 +89162,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 169,
+          "score": 169.2,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -89049,6 +89213,14 @@
           "score": 80,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gbaeval",
+          "score": 87.05,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gbaeval.com/model/codex-gpt-6-astra",
           "unit": "pct"
         },
         {
@@ -89253,9 +89425,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 2,
-        "inputPerMTok": 20,
-        "outputPerMTok": 100
+        "cachedInputPerMTok": 1,
+        "inputPerMTok": 10,
+        "outputPerMTok": 50
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -89430,7 +89602,7 @@
       "benchmarks": {
         "aime": 98.89,
         "arc_agi_2": 59.31,
-        "eci": 156.41,
+        "eci": 156.39,
         "fiction_live": null,
         "gpqa_diamond": 90.47,
         "swe_bench_pro": null,
@@ -89636,7 +89808,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.41,
+          "score": 156.39,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -89841,7 +90013,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 89.58,
-        "eci": 163.75,
+        "eci": 163.82,
         "fiction_live": null,
         "gpqa_diamond": 94.32,
         "swe_bench_pro": null,
@@ -90055,7 +90227,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 163.75,
+          "score": 163.82,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -90284,7 +90456,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": 94.17,
-        "eci": 168.48,
+        "eci": 168.63,
         "fiction_live": null,
         "gpqa_diamond": 95.39,
         "swe_bench_pro": null,
@@ -90498,7 +90670,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 168.48,
+          "score": 168.63,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -90541,6 +90713,14 @@
           "score": 80,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gbaeval",
+          "score": 81.91,
+          "source": "epoch.ai",
+          "sourceUrl": "https://gbaeval.com/model/codex-gpt-6-1-sol",
           "unit": "pct"
         },
         {
@@ -90751,7 +90931,7 @@
       "benchmarks": {
         "aime": 100,
         "arc_agi_2": null,
-        "eci": 167.67,
+        "eci": 167.72,
         "fiction_live": null,
         "gpqa_diamond": 94.32,
         "swe_bench_pro": null,
@@ -90891,7 +91071,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 167.67,
+          "score": 167.72,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -91073,6 +91253,433 @@
       "retiredAt": null,
       "scores": [],
       "slug": "openai-gpt-6-1-terra-pro",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": 100,
+        "arc_agi_2": null,
+        "eci": 174.17,
+        "fiction_live": null,
+        "gpqa_diamond": 96.84,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 67.78,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        }
+      ],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-18T01:42:22.612Z",
+      "id": "openai/gpt-6.2-astra",
+      "knowledgeCutoff": "2026-05-18",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.2 Astra",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.4,
+        "inputPerMTok": 8,
+        "outputPerMTok": 40
+      },
+      "provenance": {
+        "benchmarks.aime": "epoch.ai",
+        "benchmarks.eci": "epoch.ai",
+        "benchmarks.gpqa_diamond": "epoch.ai",
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "coding": "derived",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "scores": "derived",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "aime",
+          "score": 100,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "chess_puzzles",
+          "score": 78,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ebr_bench",
+          "score": 92.38,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "eci",
+          "score": 174.17,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_erdos",
+          "score": 10.29,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_tier_4_v2",
+          "score": 100,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_tiers_1_3_v2",
+          "score": 92.63,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "furniture_assembly",
+          "score": 89.17,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gpqa_diamond",
+          "score": 96.84,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 67.78,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mystery_game_puzzles",
+          "score": 95,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "simpleqa_verified",
+          "score": 78.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb",
+          "score": 41.33,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts1_a20_heart",
+          "score": 33.33,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts2_a10",
+          "score": 49.33,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        }
+      ],
+      "slug": "openai-gpt-6-2-astra",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-18T01:42:22.612Z",
+      "id": "openai/gpt-6.2-astra-pro",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.2 Astra PRO",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 5,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.4,
+        "inputPerMTok": 8,
+        "outputPerMTok": 40
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-2-astra-pro",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-18T01:42:22.612Z",
+      "id": "openai/gpt-6.2-sol",
+      "knowledgeCutoff": "2026-06-01",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.2 Sol",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-2-sol",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-18T01:42:22.612Z",
+      "id": "openai/gpt-6.2-sol-pro",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.2 SOL PRO",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-2-sol-pro",
       "trainingComputeFlop": null,
       "vendorId": "openai"
     },
@@ -91730,7 +92337,7 @@
       "benchmarks": {
         "aime": 88.89,
         "arc_agi_2": null,
-        "eci": 140.16,
+        "eci": 140.23,
         "fiction_live": null,
         "gpqa_diamond": 75.76,
         "swe_bench_pro": null,
@@ -91908,7 +92515,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 140.16,
+          "score": 140.23,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -92010,7 +92617,7 @@
       "benchmarks": {
         "aime": 65.28,
         "arc_agi_2": null,
-        "eci": 134.97,
+        "eci": 134.88,
         "fiction_live": null,
         "gpqa_diamond": 60.8,
         "swe_bench_pro": null,
@@ -92132,7 +92739,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 134.97,
+          "score": 134.88,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -92460,7 +93067,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": null,
-        "eci": 141.16,
+        "eci": 141.18,
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -92566,7 +93173,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 141.16,
+          "score": 141.18,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -92954,7 +93561,7 @@
       "benchmarks": {
         "aime": 76.94,
         "arc_agi_2": 2.99,
-        "eci": 140.61,
+        "eci": 140.65,
         "fiction_live": 43.8,
         "gpqa_diamond": 77.02,
         "swe_bench_pro": null,
@@ -93118,7 +93725,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 140.61,
+          "score": 140.65,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -93222,7 +93829,7 @@
         {
           "attribution": "third-party",
           "league": "weirdml",
-          "score": 43.7,
+          "score": 43.75,
           "source": "epoch.ai",
           "sourceUrl": "https://htihle.github.io/weirdml.html",
           "unit": "pct"
@@ -93388,7 +93995,7 @@
       "benchmarks": {
         "aime": 81.67,
         "arc_agi_2": 6.11,
-        "eci": 145.25,
+        "eci": 145.22,
         "fiction_live": 62.5,
         "gpqa_diamond": 79.61,
         "swe_bench_pro": null,
@@ -93585,7 +94192,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 145.25,
+          "score": 145.22,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -99582,7 +100189,7 @@
       "benchmarks": {
         "aime": 88.89,
         "arc_agi_2": 36.53,
-        "eci": 148.39,
+        "eci": 148.43,
         "fiction_live": null,
         "gpqa_diamond": 88.26,
         "swe_bench_pro": null,
@@ -99763,7 +100370,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 148.39,
+          "score": 148.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -99949,6 +100556,7 @@
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
+        "trainingComputeFlop": "epoch.ai",
         "vendorId": "derived"
       },
       "releaseDate": "2026-11-05",
@@ -99978,17 +100586,25 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontier_swe",
+          "score": 25.07,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.frontierswe.com/",
+          "unit": "pct"
         }
       ],
       "slug": "thinkingmachines-inkling-2-small",
-      "trainingComputeFlop": null,
+      "trainingComputeFlop": 2.13418e+23,
       "vendorId": "thinkingmachines"
     },
     {
       "benchmarks": {
         "aime": 90,
         "arc_agi_2": 40.14,
-        "eci": 150.75,
+        "eci": 150.78,
         "fiction_live": null,
         "gpqa_diamond": 88.51,
         "swe_bench_pro": null,
@@ -100104,7 +100720,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 150.75,
+          "score": 150.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -101446,7 +102062,7 @@
       "benchmarks": {
         "aime": null,
         "arc_agi_2": 5.28,
-        "eci": 144.31,
+        "eci": 144.35,
         "fiction_live": 75,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
@@ -101587,7 +102203,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 144.31,
+          "score": 144.35,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -102055,7 +102671,7 @@
       "benchmarks": {
         "aime": 92.22,
         "arc_agi_2": 65.14,
-        "eci": 152.28,
+        "eci": 152.3,
         "fiction_live": null,
         "gpqa_diamond": 89.33,
         "swe_bench_pro": null,
@@ -102249,7 +102865,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.28,
+          "score": 152.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -102433,7 +103049,7 @@
       "benchmarks": {
         "aime": 92.22,
         "arc_agi_2": 65.14,
-        "eci": 152.28,
+        "eci": 152.3,
         "fiction_live": null,
         "gpqa_diamond": 89.33,
         "swe_bench_pro": null,
@@ -102614,7 +103230,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.28,
+          "score": 152.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -103012,7 +103628,7 @@
       "benchmarks": {
         "aime": 92.22,
         "arc_agi_2": 65.14,
-        "eci": 152.28,
+        "eci": 152.3,
         "fiction_live": null,
         "gpqa_diamond": 89.33,
         "swe_bench_pro": null,
@@ -103190,7 +103806,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.28,
+          "score": 152.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -103284,7 +103900,7 @@
       "benchmarks": {
         "aime": 92.22,
         "arc_agi_2": 65.14,
-        "eci": 152.28,
+        "eci": 152.3,
         "fiction_live": null,
         "gpqa_diamond": 89.33,
         "swe_bench_pro": null,
@@ -103462,7 +104078,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 152.28,
+          "score": 152.3,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -103556,7 +104172,7 @@
       "benchmarks": {
         "aime": 93.33,
         "arc_agi_2": null,
-        "eci": 149.89,
+        "eci": 149.91,
         "fiction_live": null,
         "gpqa_diamond": 88.83,
         "swe_bench_pro": null,
@@ -103720,7 +104336,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 149.89,
+          "score": 149.91,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -103830,7 +104446,7 @@
       "benchmarks": {
         "aime": 97.78,
         "arc_agi_2": 52.64,
-        "eci": 154.98,
+        "eci": 154.97,
         "fiction_live": null,
         "gpqa_diamond": 93.43,
         "swe_bench_pro": 64.7,
@@ -104091,7 +104707,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 154.98,
+          "score": 154.97,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -104281,7 +104897,7 @@
       "benchmarks": {
         "aime": 99.17,
         "arc_agi_2": 67.08,
-        "eci": 157.79,
+        "eci": 157.82,
         "fiction_live": null,
         "gpqa_diamond": 94,
         "swe_bench_pro": null,
@@ -104534,7 +105150,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 157.79,
+          "score": 157.82,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -104692,7 +105308,7 @@
       "benchmarks": {
         "aime": 98.06,
         "arc_agi_2": 61.39,
-        "eci": 156.18,
+        "eci": 156.43,
         "fiction_live": null,
         "gpqa_diamond": 92.74,
         "swe_bench_pro": null,
@@ -104858,7 +105474,7 @@
         {
           "attribution": "third-party",
           "league": "apex_agents",
-          "score": 54.6,
+          "score": 70,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -104930,7 +105546,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 156.18,
+          "score": 156.43,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -108027,7 +108643,7 @@
       "benchmarks": {
         "aime": 83.33,
         "arc_agi_2": null,
-        "eci": 143.28,
+        "eci": 143.36,
         "fiction_live": null,
         "gpqa_diamond": 83.33,
         "swe_bench_pro": null,
@@ -108199,7 +108815,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 143.28,
+          "score": 143.36,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -108473,7 +109089,7 @@
       "benchmarks": {
         "aime": 80,
         "arc_agi_2": 4.86,
-        "eci": 146.48,
+        "eci": 146.54,
         "fiction_live": null,
         "gpqa_diamond": 87.82,
         "swe_bench_pro": null,
@@ -108670,7 +109286,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 146.48,
+          "score": 146.54,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -109164,7 +109780,7 @@
       "benchmarks": {
         "aime": 86.39,
         "arc_agi_2": 22.78,
-        "eci": 153.03,
+        "eci": 153.04,
         "fiction_live": null,
         "gpqa_diamond": 91.86,
         "swe_bench_pro": 62.1,
@@ -109432,7 +110048,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 153.03,
+          "score": 153.04,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -110174,7 +110790,7 @@
       "benchmarks": {
         "aime": 93.89,
         "arc_agi_2": 65.83,
-        "eci": 153.82,
+        "eci": 153.78,
         "fiction_live": null,
         "gpqa_diamond": 90.15,
         "swe_bench_pro": null,
@@ -110388,7 +111004,7 @@
         {
           "attribution": "third-party",
           "league": "eci",
-          "score": 153.82,
+          "score": 153.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
@@ -110964,43 +111580,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 343 行；去重后 424 个模型实体；合规拦截 1 个文件",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 425 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
-      "note": "6075 条（对话类 3981 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "note": "6136 条（对话类 4021 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
       "note": "7/7 个分榜，共 349 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
-      "note": "models.json 631 条；api.json 324 provider / 9936 条；benchmarks[] 1213 条，已拦截 AA 血缘 188 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "note": "models.json 633 条；api.json 324 provider / 9978 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
-      "note": "470 条；已剔除 artificial_analysis 210 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "note": "478 条；已剔除 artificial_analysis 267 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -111009,8 +111625,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-17T13:41:33.942Z",
-      "note": "513 条（language 325 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "note": "516 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
