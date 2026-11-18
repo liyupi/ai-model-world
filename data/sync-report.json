@@ -1954,7 +1954,7 @@
     },
     "liveModels": 723
   },
-  "generatedAt": "2026-11-18T01:42:22.612Z",
+  "generatedAt": "2026-11-18T13:41:57.140Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2037,28 +2037,7 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2025-07-22",
-      "id": "alibaba/qwen3-coder",
-      "to": "2025-07-23"
-    },
-    {
-      "from": "2026-09-30",
-      "id": "google/gemini-4-argon",
-      "to": "2026-10-13"
-    },
-    {
-      "from": "2026-10-28",
-      "id": "google/gemini-4-carbon",
-      "to": "2026-11-10"
-    },
-    {
-      "from": "2026-02-12",
-      "id": "minimax/minimax-m2.5-highspeed",
-      "to": "2026-02-13"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2073,7 +2052,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "6136 条（对话类 4021 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "6228 条（对话类 4107 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2081,11 +2060,11 @@
       "ok": true
     },
     "lmarena": {
-      "note": "7/7 个分榜，共 349 条 Arena 分",
+      "note": "7/7 个分榜，共 350 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 633 条；api.json 324 provider / 9978 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "note": "models.json 633 条；api.json 324 provider / 9981 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
@@ -2210,7 +2189,5 @@
     "withFlop": 93
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "4 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }

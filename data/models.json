@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-18T01:42:22.612Z",
+  "generatedAt": "2026-11-18T13:41:57.140Z",
   "models": [
     {
       "benchmarks": {
@@ -2511,7 +2511,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1363.4,
+          "score": 1363.2,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -2519,7 +2519,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1226.9,
+          "score": 1227.3,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -9347,9 +9347,9 @@
         "totalB": 9.65
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0375,
+        "cachedInputPerMTok": 0.06,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.167
+        "outputPerMTok": 0.2
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -33791,8 +33791,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.35,
-        "inputPerMTok": 0.523667,
-        "outputPerMTok": 2.205333
+        "inputPerMTok": 0.571,
+        "outputPerMTok": 2.286
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -39000,8 +39000,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.22,
-        "outputPerMTok": 1
+        "inputPerMTok": 0.223,
+        "outputPerMTok": 1.08
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -41040,7 +41040,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1291.5,
+          "score": 1291.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44260,7 +44260,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1390.7,
+          "score": 1390.8,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44268,7 +44268,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1245.6,
+          "score": 1245.7,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44353,7 +44353,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1390.7,
+          "score": 1390.8,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44361,7 +44361,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1245.6,
+          "score": 1245.7,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44880,7 +44880,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1256.4,
+          "score": 1256.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44973,7 +44973,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1256.4,
+          "score": 1256.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -45271,7 +45271,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1312.8,
+          "score": 1312.7,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -45279,7 +45279,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1249,
+          "score": 1249.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -49665,7 +49665,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1427.3,
+          "score": 1427.2,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -49673,7 +49673,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1327.5,
+          "score": 1327.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -50938,9 +50938,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0425,
-        "inputPerMTok": 0.0765,
-        "outputPerMTok": 0.255
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 0.09,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -63584,8 +63584,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.33042,
-        "outputPerMTok": 0.44056
+        "inputPerMTok": 0.32967,
+        "outputPerMTok": 0.43956
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -66814,8 +66814,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.044,
-        "inputPerMTok": 0.4232,
-        "outputPerMTok": 2.116
+        "inputPerMTok": 0.44,
+        "outputPerMTok": 2.2
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -92048,7 +92048,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1367.2,
+          "score": 1367.3,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92056,7 +92056,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1236,
+          "score": 1236.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92137,7 +92137,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1461.6,
+          "score": 1461.5,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92145,7 +92145,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1381.7,
+          "score": 1382,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92226,7 +92226,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1484,
+          "score": 1483.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92234,7 +92234,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1398.2,
+          "score": 1399.5,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92323,7 +92323,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1428.7,
+          "score": 1428.5,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106007,7 +106007,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1328.4,
+          "score": 1328.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106015,7 +106015,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1168.8,
+          "score": 1168.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106090,7 +106090,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1417.9,
+          "score": 1418.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106098,7 +106098,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1287.3,
+          "score": 1287,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106173,7 +106173,7 @@
         {
           "attribution": "third-party",
           "league": "arena_image_edit",
-          "score": 1328.4,
+          "score": 1328.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -106181,7 +106181,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1168.8,
+          "score": 1168.1,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -111580,42 +111580,42 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 425 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
-      "note": "6136 条（对话类 4021 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "note": "6228 条（对话类 4107 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
-      "note": "7/7 个分榜，共 349 条 Arena 分",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "note": "7/7 个分榜，共 350 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
-      "note": "models.json 633 条；api.json 324 provider / 9978 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "note": "models.json 633 条；api.json 324 provider / 9981 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "478 条；已剔除 artificial_analysis 267 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
@@ -111625,7 +111625,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-18T01:42:22.612Z",
+      "fetchedAt": "2026-11-18T13:41:57.140Z",
       "note": "516 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
