@@ -27,7 +27,7 @@
     {
       "id": "aime",
       "inEci": true,
-      "models": 216,
+      "models": 217,
       "randomBaseline": 0.1,
       "releaseDate": "2024-12-19",
       "scoreCeiling": 100,
@@ -255,7 +255,7 @@
     {
       "id": "chess_puzzles",
       "inEci": true,
-      "models": 111,
+      "models": 112,
       "randomBaseline": 4.96,
       "releaseDate": "2025-12-10",
       "scoreCeiling": 100,
@@ -387,7 +387,7 @@
     {
       "id": "ebr_bench",
       "inEci": true,
-      "models": 37,
+      "models": 38,
       "randomBaseline": 0,
       "releaseDate": "2026-07-01",
       "scoreCeiling": 100,
@@ -507,7 +507,7 @@
     {
       "id": "frontiermath_tier_4_v2",
       "inEci": true,
-      "models": 88,
+      "models": 89,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 100,
@@ -519,7 +519,7 @@
     {
       "id": "frontiermath_tiers_1_3_v2",
       "inEci": true,
-      "models": 116,
+      "models": 117,
       "randomBaseline": 0,
       "releaseDate": "2026-06-12",
       "scoreCeiling": 95,
@@ -531,7 +531,7 @@
     {
       "id": "furniture_assembly",
       "inEci": true,
-      "models": 44,
+      "models": 45,
       "randomBaseline": 30,
       "releaseDate": "2026-09-23",
       "scoreCeiling": 100,
@@ -579,7 +579,7 @@
     {
       "id": "gpqa_diamond",
       "inEci": true,
-      "models": 219,
+      "models": 220,
       "randomBaseline": 25,
       "releaseDate": "2023-11-20",
       "scoreCeiling": 97,
@@ -795,7 +795,7 @@
     {
       "id": "mystery_game_puzzles",
       "inEci": true,
-      "models": 108,
+      "models": 109,
       "randomBaseline": 9.22,
       "releaseDate": "2026-07-30",
       "scoreCeiling": 100,
@@ -939,7 +939,7 @@
     {
       "id": "simpleqa_verified",
       "inEci": true,
-      "models": 113,
+      "models": 114,
       "randomBaseline": 0,
       "releaseDate": "2025-09-09",
       "scoreCeiling": 100,
@@ -963,7 +963,7 @@
     {
       "id": "spireclimb",
       "inEci": true,
-      "models": 10,
+      "models": 11,
       "randomBaseline": 0,
       "releaseDate": "2026-10-14",
       "scoreCeiling": 100,
@@ -975,7 +975,7 @@
     {
       "id": "spireclimb_sts1_a20_heart",
       "inEci": false,
-      "models": 10,
+      "models": 11,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -987,7 +987,7 @@
     {
       "id": "spireclimb_sts2_a10",
       "inEci": false,
-      "models": 10,
+      "models": 11,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-18T13:41:57.140Z",
+  "generatedAt": "2026-11-19T01:42:47.196Z",
   "models": [
     {
       "benchmarks": {
@@ -7678,7 +7678,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.0574,
-        "inputPerMTok": 0.5,
+        "inputPerMTok": 0.4,
         "outputPerMTok": 3.95
       },
       "provenance": {
@@ -37369,8 +37369,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.028,
-        "inputPerMTok": 0.17,
-        "outputPerMTok": 0.4
+        "inputPerMTok": 0.1596,
+        "outputPerMTok": 0.399
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -38620,7 +38620,7 @@
         "totalB": 1623.5
       },
       "pricing": {
-        "cachedInputPerMTok": 0.044,
+        "cachedInputPerMTok": 0.0442,
         "inputPerMTok": 1.32,
         "outputPerMTok": 3.96
       },
@@ -42467,9 +42467,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.125,
-        "inputPerMTok": 1.25,
-        "outputPerMTok": 7.5
+        "cachedInputPerMTok": 0.0625,
+        "inputPerMTok": 0.625,
+        "outputPerMTok": 5
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -49145,11 +49145,11 @@
     },
     {
       "benchmarks": {
-        "aime": null,
+        "aime": 100,
         "arc_agi_2": null,
         "eci": null,
         "fiction_live": null,
-        "gpqa_diamond": null,
+        "gpqa_diamond": 96.78,
         "swe_bench_pro": null,
         "swe_bench_vendor": null,
         "swe_bench_verified": null,
@@ -49220,6 +49220,8 @@
         "outputPerMTok": 7.5
       },
       "provenance": {
+        "benchmarks.aime": "epoch.ai",
+        "benchmarks.gpqa_diamond": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
@@ -49245,6 +49247,14 @@
       "scores": [
         {
           "attribution": "third-party",
+          "league": "aime",
+          "score": 100,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "ale_bench",
           "score": 1825.67,
           "source": "epoch.ai",
@@ -49261,6 +49271,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "chess_puzzles",
+          "score": 60,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "cursorbench",
           "score": 57.8,
           "source": "epoch.ai",
@@ -49269,10 +49287,90 @@
         },
         {
           "attribution": "third-party",
+          "league": "ebr_bench",
+          "score": 70.48,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "frontier_swe",
           "score": 53.11,
           "source": "epoch.ai",
           "sourceUrl": "https://www.frontierswe.com/",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_tier_4_v2",
+          "score": 87.8,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontiermath_tiers_1_3_v2",
+          "score": 88.07,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "furniture_assembly",
+          "score": 57.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "gpqa_diamond",
+          "score": 96.78,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mystery_game_puzzles",
+          "score": 65,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "simpleqa_verified",
+          "score": 70.9,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb",
+          "score": 7.67,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts1_a20_heart",
+          "score": 10,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts2_a10",
+          "score": 5.33,
+          "source": "epoch.ai",
+          "sourceUrl": null,
           "unit": "pct"
         },
         {
@@ -49293,6 +49391,83 @@
         }
       ],
       "slug": "google-gemini-4-hydrogen",
+      "trainingComputeFlop": null,
+      "vendorId": "google"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-11-19T01:42:47.196Z",
+      "id": "google/gemini-4-neon",
+      "knowledgeCutoff": "2026-03",
+      "license": null,
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "audio",
+          "image",
+          "pdf",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 4 Neon",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.15,
+        "inputPerMTok": 3,
+        "outputPerMTok": 15
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-18",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "google-gemini-4-neon",
       "trainingComputeFlop": null,
       "vendorId": "google"
     },
@@ -50439,9 +50614,9 @@
         "totalB": 27.43
       },
       "pricing": {
-        "cachedInputPerMTok": 0.07935,
+        "cachedInputPerMTok": 0.1,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.3
+        "outputPerMTok": 0.2992
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -50938,9 +51113,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.09,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.0425,
+        "inputPerMTok": 0.0765,
+        "outputPerMTok": 0.255
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -59513,6 +59688,152 @@
       "retiredAt": null,
       "scores": [],
       "slug": "microsoft-mai-code-1-1-flash",
+      "trainingComputeFlop": null,
+      "vendorId": "microsoft"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-19T01:42:47.196Z",
+      "id": "microsoft/mai-code-2",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI Code 2",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.025,
+        "inputPerMTok": 0.5,
+        "outputPerMTok": 2.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "microsoft-mai-code-2",
+      "trainingComputeFlop": null,
+      "vendorId": "microsoft"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-19T01:42:47.196Z",
+      "id": "microsoft/mai-code-2-flash",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI Code 2 Flash",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.005,
+        "inputPerMTok": 0.05,
+        "outputPerMTok": 0.25
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-17",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "microsoft-mai-code-2-flash",
       "trainingComputeFlop": null,
       "vendorId": "microsoft"
     },
@@ -73116,7 +73437,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -73144,9 +73465,9 @@
         "totalB": 49
       },
       "pricing": {
-        "cachedInputPerMTok": 0.075,
-        "inputPerMTok": 0.15,
-        "outputPerMTok": 0.15
+        "cachedInputPerMTok": null,
+        "inputPerMTok": 0.1,
+        "outputPerMTok": 0.4
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -73158,9 +73479,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -89425,9 +89745,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 1,
-        "inputPerMTok": 10,
-        "outputPerMTok": 50
+        "cachedInputPerMTok": 2,
+        "inputPerMTok": 20,
+        "outputPerMTok": 100
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -96369,7 +96689,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.04,
-        "inputPerMTok": 0.3,
+        "inputPerMTok": 0.25,
         "outputPerMTok": 1
       },
       "provenance": {
@@ -111580,43 +111900,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 425 个模型实体；合规拦截 1 个文件",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 426 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
       "note": "请求 251 个开源模型，成功 247，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
-      "note": "6228 条（对话类 4107 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
+      "note": "7029 条（对话类 4847 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
       "note": "7/7 个分榜，共 350 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
-      "note": "models.json 633 条；api.json 324 provider / 9981 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
+      "note": "models.json 636 条；api.json 324 provider / 9996 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
-      "note": "478 条；已剔除 artificial_analysis 267 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
+      "note": "480 条；已剔除 artificial_analysis 223 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -111625,8 +111945,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-18T13:41:57.140Z",
-      "note": "516 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-19T01:42:47.196Z",
+      "note": "518 条（language 323 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
