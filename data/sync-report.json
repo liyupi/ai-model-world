@@ -119,7 +119,7 @@
     "pendingDiscoveries": 94,
     "promotedDiscoveries": 90,
     "quickPromotedDiscoveries": 20,
-    "releaseDateOutliersDropped": 21,
+    "releaseDateOutliersDropped": 22,
     "resurrected": 0,
     "retiredThisRun": 43,
     "retiredTotal": 43,
@@ -351,7 +351,7 @@
     "deepswe": 69,
     "frontier_code": 42,
     "gso": 36,
-    "mirrorcode": 47,
+    "mirrorcode": 48,
     "terminal_bench_2_0": 198
   },
   "epochFilesSkipped": {
@@ -749,9 +749,9 @@
         "landed": 38,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 33,
+        "rows": 34,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 33,
+        "scored": 34,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1139,9 +1139,9 @@
         "landed": 47,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 47,
+        "rows": 48,
         "scoreColumn": "mean_score",
-        "scored": 47,
+        "scored": 48,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1349,9 +1349,9 @@
         "landed": 11,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 11,
+        "rows": 12,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 11,
+        "scored": 12,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1364,9 +1364,9 @@
         "landed": 11,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 11,
+        "rows": 12,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 11,
+        "scored": 12,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1379,9 +1379,9 @@
         "landed": 11,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 11,
+        "rows": 12,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 11,
+        "scored": 12,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1955,7 +1955,7 @@
     },
     "liveModels": 726
   },
-  "generatedAt": "2026-11-19T13:41:42.081Z",
+  "generatedAt": "2026-11-20T01:43:00.376Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2053,7 +2053,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "7029 条（对话类 4847 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "7037 条（对话类 4852 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2065,11 +2065,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 636 条；api.json 324 provider / 10010 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "note": "models.json 636 条；api.json 324 provider / 10027 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "note": "479 条；已剔除 artificial_analysis 222 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "477 条；已剔除 artificial_analysis 221 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2077,7 +2077,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "518 条（language 323 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "518 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
