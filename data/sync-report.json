@@ -236,8 +236,8 @@
       "total": 770
     },
     "license": {
-      "filled": 205,
-      "pct": 26.6,
+      "filled": 248,
+      "pct": 32.2,
       "total": 770
     },
     "maxOutput": {
@@ -271,8 +271,8 @@
       "total": 770
     },
     "params.confidence!=unknown": {
-      "filled": 695,
-      "pct": 90.3,
+      "filled": 721,
+      "pct": 93.6,
       "total": 770
     },
     "params.sizeTier": {
@@ -281,8 +281,8 @@
       "total": 770
     },
     "params.totalB": {
-      "filled": 317,
-      "pct": 41.2,
+      "filled": 343,
+      "pct": 44.5,
       "total": 770
     },
     "pricing.cachedInputPerMTok": {
@@ -745,12 +745,12 @@
         "curated": false,
         "file": "ebr_bench.csv",
         "inEci": true,
-        "landed": 38,
+        "landed": 39,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 34,
+        "rows": 35,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 34,
+        "scored": 35,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1954,7 +1954,7 @@
     },
     "liveModels": 727
   },
-  "generatedAt": "2026-11-22T01:42:28.090Z",
+  "generatedAt": "2026-11-22T13:41:58.876Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2049,7 +2049,7 @@
       "ok": true
     },
     "huggingface": {
-      "note": "请求 251 个开源模型，成功 247，失败 4",
+      "note": "请求 322 个开源模型，成功 318，失败 4",
       "ok": true
     },
     "litellm": {
@@ -2061,7 +2061,7 @@
       "ok": true
     },
     "lmarena": {
-      "note": "7/7 个分榜，共 353 条 Arena 分",
+      "note": "7/7 个分榜，共 354 条 Arena 分",
       "ok": true
     },
     "models.dev": {
