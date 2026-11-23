@@ -27,7 +27,7 @@
     {
       "id": "aime",
       "inEci": true,
-      "models": 218,
+      "models": 219,
       "randomBaseline": 0.1,
       "releaseDate": "2024-12-19",
       "scoreCeiling": 100,
@@ -147,7 +147,7 @@
     {
       "id": "arena_search",
       "inEci": false,
-      "models": 57,
+      "models": 58,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -255,7 +255,7 @@
     {
       "id": "chess_puzzles",
       "inEci": true,
-      "models": 113,
+      "models": 114,
       "randomBaseline": 4.96,
       "releaseDate": "2025-12-10",
       "scoreCeiling": 100,
@@ -387,7 +387,7 @@
     {
       "id": "ebr_bench",
       "inEci": true,
-      "models": 39,
+      "models": 40,
       "randomBaseline": 0,
       "releaseDate": "2026-07-01",
       "scoreCeiling": 100,
@@ -483,7 +483,7 @@
     {
       "id": "frontiermath_erdos",
       "inEci": false,
-      "models": 16,
+      "models": 17,
       "randomBaseline": 0,
       "releaseDate": "2026-09-03",
       "scoreCeiling": 100,
@@ -531,7 +531,7 @@
     {
       "id": "furniture_assembly",
       "inEci": true,
-      "models": 46,
+      "models": 47,
       "randomBaseline": 30,
       "releaseDate": "2026-09-23",
       "scoreCeiling": 100,
@@ -795,7 +795,7 @@
     {
       "id": "mystery_game_puzzles",
       "inEci": true,
-      "models": 110,
+      "models": 111,
       "randomBaseline": 9.22,
       "releaseDate": "2026-07-30",
       "scoreCeiling": 100,
@@ -963,7 +963,7 @@
     {
       "id": "spireclimb",
       "inEci": true,
-      "models": 11,
+      "models": 12,
       "randomBaseline": 0,
       "releaseDate": "2026-10-14",
       "scoreCeiling": 100,
@@ -975,7 +975,7 @@
     {
       "id": "spireclimb_sts1_a20_heart",
       "inEci": false,
-      "models": 11,
+      "models": 12,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -987,7 +987,7 @@
     {
       "id": "spireclimb_sts2_a10",
       "inEci": false,
-      "models": 11,
+      "models": 12,
       "randomBaseline": null,
       "releaseDate": null,
       "scoreCeiling": null,
@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-23T01:42:47.223Z",
+  "generatedAt": "2026-11-23T13:41:39.652Z",
   "models": [
     {
       "benchmarks": {
@@ -49249,6 +49249,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "frontiermath_erdos",
+          "score": 2.94,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "frontiermath_tier_4_v2",
           "score": 87.8,
           "source": "epoch.ai",
@@ -51186,9 +51194,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0375,
-        "inputPerMTok": 0.0675,
-        "outputPerMTok": 0.225
+        "cachedInputPerMTok": 0.05,
+        "inputPerMTok": 0.09,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -57548,7 +57556,7 @@
     },
     {
       "benchmarks": {
-        "aime": null,
+        "aime": 98.89,
         "arc_agi_2": null,
         "eci": null,
         "fiction_live": null,
@@ -57615,6 +57623,7 @@
         "outputPerMTok": 0.5
       },
       "provenance": {
+        "benchmarks.aime": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
@@ -57639,8 +57648,32 @@
       "scores": [
         {
           "attribution": "third-party",
+          "league": "aime",
+          "score": 98.89,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "apex_agents",
           "score": 64.3,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "chess_puzzles",
+          "score": 43,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "ebr_bench",
+          "score": 17.14,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -57655,8 +57688,48 @@
         },
         {
           "attribution": "third-party",
+          "league": "furniture_assembly",
+          "score": 48.33,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mystery_game_puzzles",
+          "score": 28,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 72.7,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts1_a20_heart",
+          "score": 0,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "spireclimb_sts2_a10",
+          "score": 0,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -95481,6 +95554,79 @@
       },
       "coding": [],
       "contextWindow": 1048576,
+      "firstSeenAt": "2026-11-23T13:41:39.652Z",
+      "id": "paperinstruments/ultramarine-1-flash",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ultramarine 1 Flash",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.03,
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-12",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "paperinstruments-ultramarine-1-flash",
+      "trainingComputeFlop": null,
+      "vendorId": "paperinstruments"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1048576,
       "firstSeenAt": "2026-11-17T01:43:05.164Z",
       "id": "particle-ai/particle-1",
       "knowledgeCutoff": null,
@@ -98215,9 +98361,9 @@
         "totalB": 106.03
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05263423,
-        "inputPerMTok": 0.15790269,
-        "outputPerMTok": 0.63161075
+        "cachedInputPerMTok": 0.00265957,
+        "inputPerMTok": 0.10638298,
+        "outputPerMTok": 0.26595745
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -104031,6 +104177,90 @@
         }
       ],
       "slug": "xai-grok-4-20-multi-agent",
+      "trainingComputeFlop": null,
+      "vendorId": "xai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": false
+      },
+      "coding": [],
+      "contextWindow": 1000000,
+      "firstSeenAt": "2026-11-23T13:41:39.652Z",
+      "id": "xai/grok-4.20-multi-agent-0309",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 30000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok 4.20 Multi-Agent",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.2,
+        "inputPerMTok": 1.25,
+        "outputPerMTok": 2.5
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "scores": "derived",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-03-09",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [
+        {
+          "attribution": "third-party",
+          "league": "arena_search",
+          "score": 1205.2,
+          "source": "lmarena",
+          "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
+          "unit": "elo"
+        }
+      ],
+      "slug": "xai-grok-4-20-multi-agent-0309",
       "trainingComputeFlop": null,
       "vendorId": "xai"
     },
@@ -112013,6 +112243,74 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
+        "promptCaching": null,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1000000,
+      "firstSeenAt": "2026-11-23T13:41:39.652Z",
+      "id": "zhipuai/glm-5.4",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.4",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "unknown",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
+      },
+      "provenance": {
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-23",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "zhipuai-glm-5-4",
+      "trainingComputeFlop": null,
+      "vendorId": "zhipuai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
         "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
@@ -112181,43 +112479,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
-      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 428 个模型实体；合规拦截 1 个文件",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
+      "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 429 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
       "note": "请求 322 个开源模型，成功 318，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
-      "note": "7099 条（对话类 4877 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
+      "note": "7148 条（对话类 4924 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
       "note": "7/7 个分榜，共 354 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
-      "note": "models.json 637 条；api.json 326 provider / 10195 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
+      "note": "models.json 640 条；api.json 326 provider / 10207 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
-      "note": "476 条；已剔除 artificial_analysis 220 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
+      "note": "477 条；已剔除 artificial_analysis 220 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -112226,7 +112524,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-23T01:42:47.223Z",
+      "fetchedAt": "2026-11-23T13:41:39.652Z",
       "note": "517 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
@@ -112771,6 +113069,16 @@
       "motif": "wanderer",
       "name": "Paddlepaddle",
       "nameZh": "Paddlepaddle"
+    },
+    {
+      "accentColor": "#7c8da6",
+      "continent": "west",
+      "country": "ZZ",
+      "homepage": null,
+      "id": "paperinstruments",
+      "motif": "wanderer",
+      "name": "Paperinstruments",
+      "nameZh": "Paperinstruments"
     },
     {
       "accentColor": "#7c8da6",
