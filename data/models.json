@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-24T13:41:31.247Z",
+  "generatedAt": "2026-11-25T01:43:08.939Z",
   "models": [
     {
       "benchmarks": {
@@ -1801,8 +1801,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.12,
-        "inputPerMTok": 0.351,
-        "outputPerMTok": 0.555
+        "inputPerMTok": 0.24,
+        "outputPerMTok": 0.48
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -2542,7 +2542,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -2581,7 +2581,7 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
+        "cachedInputPerMTok": 0.32,
         "inputPerMTok": 1.6,
         "outputPerMTok": 6.4
       },
@@ -2599,6 +2599,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -2739,7 +2740,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": null,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -2769,16 +2770,15 @@
         "activeB": null,
         "confidence": "estimated",
         "sizeTier": 1,
-        "sizeTierBasis": "price+naming",
+        "sizeTierBasis": "naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.07,
-        "outputPerMTok": 0.27
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -2788,8 +2788,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -3062,7 +3060,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -3092,9 +3090,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.05,
-        "outputPerMTok": 0.2
+        "cachedInputPerMTok": 0.0086,
+        "inputPerMTok": 0.04347826,
+        "outputPerMTok": 0.09
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -3109,6 +3107,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -3162,7 +3161,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -3188,14 +3187,14 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 4,
+        "sizeTier": 3,
         "sizeTierBasis": "price+naming",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.8,
-        "outputPerMTok": 3.2
+        "cachedInputPerMTok": 0.023,
+        "inputPerMTok": 0.23,
+        "outputPerMTok": 0.58
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -3208,6 +3207,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -3235,7 +3235,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": null,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -3261,17 +3261,16 @@
       "params": {
         "activeB": null,
         "confidence": "estimated",
-        "sizeTier": 3,
-        "sizeTierBasis": "price+naming",
+        "sizeTier": 5,
+        "sizeTierBasis": "naming",
         "totalB": null
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.21,
-        "outputPerMTok": 0.63
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -3281,8 +3280,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -3643,8 +3640,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.1003,
-        "inputPerMTok": 0.2006,
-        "outputPerMTok": 0.2006
+        "inputPerMTok": 0.66,
+        "outputPerMTok": 1
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -3884,7 +3881,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -3945,9 +3942,9 @@
         "totalB": 235.09
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.7,
-        "outputPerMTok": 2.8
+        "cachedInputPerMTok": 0.0574,
+        "inputPerMTok": 0.28985507,
+        "outputPerMTok": 1.15942029
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -3969,6 +3966,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -4451,7 +4449,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.11,
-        "inputPerMTok": 0.2,
+        "inputPerMTok": 0.199,
         "outputPerMTok": 0.6
       },
       "provenance": {
@@ -5625,7 +5623,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -5678,9 +5676,9 @@
         "totalB": 32.76
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.7,
-        "outputPerMTok": 2.8
+        "cachedInputPerMTok": 0.08,
+        "inputPerMTok": 0.14,
+        "outputPerMTok": 0.57
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -5698,6 +5696,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -5800,7 +5799,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -5828,9 +5827,9 @@
         "totalB": 8.19
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.18,
-        "outputPerMTok": 0.7
+        "cachedInputPerMTok": 0.039,
+        "inputPerMTok": 0.07,
+        "outputPerMTok": 0.18
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -5846,6 +5845,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "epoch.ai",
@@ -6096,7 +6096,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -6124,9 +6124,9 @@
         "totalB": 30.53
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 0.45,
-        "outputPerMTok": 2.25
+        "cachedInputPerMTok": 0.014,
+        "inputPerMTok": 0.1,
+        "outputPerMTok": 0.4
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -6141,6 +6141,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -6168,7 +6169,7 @@
         "webdev_arena_elo": 1273.75
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -6261,9 +6262,9 @@
         "totalB": 480.15
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": 1.5,
-        "outputPerMTok": 7.5
+        "cachedInputPerMTok": 1.058,
+        "inputPerMTok": 0.38,
+        "outputPerMTok": 1.6
       },
       "provenance": {
         "benchmarks.swe_bench_pro": "models.dev",
@@ -6281,6 +6282,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -6485,8 +6487,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.07,
-        "inputPerMTok": 0.2,
-        "outputPerMTok": 1.2
+        "inputPerMTok": 0.167,
+        "outputPerMTok": 0.891
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -6528,7 +6530,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": true,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -6558,7 +6560,7 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
+        "cachedInputPerMTok": 0.1148,
         "inputPerMTok": 1,
         "outputPerMTok": 5
       },
@@ -6573,6 +6575,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -6724,9 +6727,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.24,
-        "inputPerMTok": 1.2,
-        "outputPerMTok": 6
+        "cachedInputPerMTok": 0.072,
+        "inputPerMTok": 0.86956522,
+        "outputPerMTok": 3.47826087
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -6743,7 +6746,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -7298,8 +7301,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.07,
-        "inputPerMTok": 0.5,
-        "outputPerMTok": 2
+        "inputPerMTok": 0.1,
+        "outputPerMTok": 1.1
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -7315,7 +7318,7 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -7390,8 +7393,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.5,
-        "outputPerMTok": 6
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 1.44927536
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -9350,7 +9353,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.2
+        "outputPerMTok": 0.18
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -10836,7 +10839,7 @@
         "totalB": 35.95
       },
       "pricing": {
-        "cachedInputPerMTok": 0.025,
+        "cachedInputPerMTok": 0.035,
         "inputPerMTok": 0.375,
         "outputPerMTok": 2.25
       },
@@ -11264,9 +11267,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 1.3,
-        "outputPerMTok": 7.8
+        "cachedInputPerMTok": 0.2,
+        "inputPerMTok": 1.31,
+        "outputPerMTok": 7.88
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -14453,8 +14456,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
@@ -26103,7 +26106,7 @@
       "id": "anthropic/claude-sonnet-4-6",
       "knowledgeCutoff": "2025-08-31",
       "license": null,
-      "maxOutput": 64000,
+      "maxOutput": 128000,
       "modalities": {
         "input": [
           "image",
@@ -29069,6 +29072,7 @@
       "maxOutput": 32000,
       "modalities": {
         "input": [
+          "audio",
           "image",
           "text",
           "video"
@@ -29143,6 +29147,7 @@
       "maxOutput": 32000,
       "modalities": {
         "input": [
+          "audio",
           "image",
           "text",
           "video"
@@ -29498,12 +29503,12 @@
         "toolCall": true
       },
       "coding": [],
-      "contextWindow": 256000,
+      "contextWindow": 128000,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "bytedance-seed/seed-character",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 256000,
+      "maxOutput": 32000,
       "modalities": {
         "input": [
           "image",
@@ -30700,8 +30705,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "scores": "derived",
@@ -31742,7 +31747,7 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "deepreinforce/ornith-1.0-31b",
       "knowledgeCutoff": null,
-      "license": "MIT",
+      "license": null,
       "maxOutput": null,
       "modalities": {
         "input": [
@@ -31754,7 +31759,7 @@
         ]
       },
       "name": "Ornith 1.0 31B",
-      "openWeights": true,
+      "openWeights": false,
       "params": {
         "activeB": null,
         "confidence": "estimated",
@@ -31769,7 +31774,6 @@
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
-        "license": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
@@ -34527,7 +34531,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.0298895,
         "inputPerMTok": 0.29889496,
-        "outputPerMTok": 1.147
+        "outputPerMTok": 1.1
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -35210,8 +35214,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 0.27,
-        "outputPerMTok": 1
+        "inputPerMTok": 0.25,
+        "outputPerMTok": 0.95
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -35709,7 +35713,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 0.28,
+        "inputPerMTok": 0.273,
         "outputPerMTok": 0.42
       },
       "provenance": {
@@ -37437,8 +37441,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.028,
-        "inputPerMTok": 0.153146,
-        "outputPerMTok": 0.382865
+        "inputPerMTok": 0.1596,
+        "outputPerMTok": 0.399
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -38690,7 +38694,7 @@
         "totalB": 1623.5
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
+        "cachedInputPerMTok": 0.047907,
         "inputPerMTok": 1.32,
         "outputPerMTok": 3.96
       },
@@ -39062,8 +39066,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.22,
-        "outputPerMTok": 1
+        "inputPerMTok": 0.21120372,
+        "outputPerMTok": 0.7485
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -39417,8 +39421,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.3,
-        "outputPerMTok": 1.2
+        "inputPerMTok": 0.28,
+        "outputPerMTok": 1.1
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -39896,6 +39900,80 @@
       },
       "capabilities": {
         "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 262144,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "elorian-labs/glimpse-1.0",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 256000,
+      "modalities": {
+        "input": [
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Glimpse 1.0",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.06,
+        "inputPerMTok": 0.6,
+        "outputPerMTok": 3
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-16",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "elorian-labs-glimpse-1-0",
+      "trainingComputeFlop": null,
+      "vendorId": "elorian-labs"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
         "reasoning": null,
         "structuredOutput": null,
         "toolCall": null
@@ -40009,8 +40087,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -41022,7 +41100,7 @@
         "toolCall": false
       },
       "coding": [],
-      "contextWindow": 32768,
+      "contextWindow": 65536,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "google/gemini-2.5-flash-image",
       "knowledgeCutoff": "2024-06",
@@ -45262,7 +45340,9 @@
       "modalities": {
         "input": [
           "image",
-          "text"
+          "pdf",
+          "text",
+          "video"
         ],
         "output": [
           "image",
@@ -51014,8 +51094,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.02,
-        "inputPerMTok": 0.05,
-        "outputPerMTok": 0.1
+        "inputPerMTok": 0.04,
+        "outputPerMTok": 0.08
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -51352,9 +51432,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.09,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.0425,
+        "inputPerMTok": 0.0765,
+        "outputPerMTok": 0.255
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -51813,8 +51893,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -54811,7 +54891,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": false,
+        "promptCaching": null,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -54840,11 +54920,10 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.03,
-        "outputPerMTok": 0.12
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -54854,8 +54933,6 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -55182,9 +55259,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.3,
-        "outputPerMTok": 1.2
+        "cachedInputPerMTok": 0.01575,
+        "inputPerMTok": 0.7875,
+        "outputPerMTok": 3.0975
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -55808,7 +55885,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.02448,
-        "inputPerMTok": 0.025,
+        "inputPerMTok": 0.02,
         "outputPerMTok": 0.05
       },
       "provenance": {
@@ -57973,8 +58050,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.04,
-        "inputPerMTok": 0.35,
-        "outputPerMTok": 1.5
+        "inputPerMTok": 0.3,
+        "outputPerMTok": 1.2
       },
       "provenance": {
         "benchmarks.swe_bench_pro": "models.dev",
@@ -64200,8 +64277,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.32817,
-        "outputPerMTok": 0.43756
+        "inputPerMTok": 0.32889,
+        "outputPerMTok": 0.43852
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -66088,7 +66165,7 @@
       "firstSeenAt": "2026-10-07T02:03:24.986Z",
       "id": "mistral/mistral-large-4",
       "knowledgeCutoff": null,
-      "license": null,
+      "license": "LicenseRef-Mistral",
       "maxOutput": 262144,
       "modalities": {
         "input": [
@@ -66100,12 +66177,10 @@
         ]
       },
       "name": "Mistral Large 4",
-      "openWeights": false,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 4,
-        "sizeTierBasis": "price+naming",
+        "confidence": "unknown",
         "totalB": null
       },
       "pricing": {
@@ -66120,11 +66195,11 @@
         "capabilities.toolCall": "models.dev",
         "coding": "derived",
         "contextWindow": "models.dev",
+        "license": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
@@ -66134,7 +66209,7 @@
         "trainingComputeFlop": "epoch.ai",
         "vendorId": "derived"
       },
-      "releaseDate": "2026-10-06",
+      "releaseDate": "2026-10-05",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -67204,7 +67279,7 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "mistral/mistral-medium-2604",
       "knowledgeCutoff": null,
-      "license": null,
+      "license": "LicenseRef-Modified-MIT",
       "maxOutput": 262144,
       "modalities": {
         "input": [
@@ -67238,6 +67313,7 @@
         "capabilities.toolCall": "models.dev",
         "coding": "derived",
         "contextWindow": "models.dev",
+        "license": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
@@ -67246,8 +67322,8 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "epoch.ai",
-        "releaseDatePrecision": "epoch.ai",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "scores": "derived",
         "vendorId": "derived"
       },
@@ -67434,8 +67510,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.044,
-        "inputPerMTok": 0.44,
-        "outputPerMTok": 2.2
+        "inputPerMTok": 0.4232,
+        "outputPerMTok": 2.116
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -67522,8 +67598,8 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "mistral/mistral-medium-3-5",
       "knowledgeCutoff": null,
-      "license": null,
-      "maxOutput": 209715,
+      "license": "LicenseRef-Modified-MIT",
+      "maxOutput": 262144,
       "modalities": {
         "input": [
           "image",
@@ -67535,13 +67611,11 @@
         ]
       },
       "name": "Mistral Medium 3.5",
-      "openWeights": false,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 3,
-        "sizeTierBasis": "price",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 121.8
       },
       "pricing": {
         "cachedInputPerMTok": 0.15,
@@ -67555,16 +67629,17 @@
         "capabilities.toolCall": "models.dev",
         "coding": "derived",
         "contextWindow": "models.dev",
+        "license": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
+        "params.totalB": "huggingface",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "epoch.ai",
-        "releaseDatePrecision": "epoch.ai",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "scores": "derived",
         "vendorId": "derived"
       },
@@ -67646,7 +67721,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -67687,9 +67762,9 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.044,
-        "inputPerMTok": 0.4232,
-        "outputPerMTok": 2.116
+        "cachedInputPerMTok": null,
+        "inputPerMTok": 0.4,
+        "outputPerMTok": 2
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -67703,7 +67778,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -67808,11 +67882,12 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "mistral/mistral-medium-latest",
       "knowledgeCutoff": null,
-      "license": null,
+      "license": "LicenseRef-Modified-MIT",
       "maxOutput": 262144,
       "modalities": {
         "input": [
           "image",
+          "pdf",
           "text"
         ],
         "output": [
@@ -67841,6 +67916,7 @@
         "capabilities.toolCall": "models.dev",
         "coding": "derived",
         "contextWindow": "models.dev",
+        "license": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
@@ -67854,7 +67930,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2026-04-29",
+      "releaseDate": "2026-04-28",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -70414,7 +70490,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -70491,7 +70567,7 @@
         "totalB": 1023.89
       },
       "pricing": {
-        "cachedInputPerMTok": 0.2,
+        "cachedInputPerMTok": null,
         "inputPerMTok": 0.57,
         "outputPerMTok": 2.3
       },
@@ -70509,7 +70585,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -73846,7 +73921,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.4,
+        "inputPerMTok": 0.1,
         "outputPerMTok": 0.4
       },
       "provenance": {
@@ -73859,8 +73934,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -74975,8 +75050,8 @@
       "openWeights": true,
       "params": {
         "activeB": 12,
-        "confidence": "estimated",
-        "totalB": 120
+        "confidence": "exact",
+        "totalB": 124.45
       },
       "pricing": {
         "cachedInputPerMTok": 0.04,
@@ -74993,7 +75068,7 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.activeB": "derived",
-        "params.totalB": "derived",
+        "params.totalB": "huggingface",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
@@ -93377,7 +93452,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.015,
         "inputPerMTok": 0.05,
-        "outputPerMTok": 0.194
+        "outputPerMTok": 0.19
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -96788,6 +96863,74 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
+        "promptCaching": null,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 262144,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "prism-ml/ternary-bonsai-27b",
+      "knowledgeCutoff": null,
+      "license": "Apache-2.0",
+      "maxOutput": 65536,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ternary Bonsai 27B",
+      "openWeights": true,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "totalB": 27
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
+      },
+      "provenance": {
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "license": "huggingface",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "derived",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-07-04",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "prism-ml-ternary-bonsai-27b",
+      "trainingComputeFlop": null,
+      "vendorId": "prism-ml"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
         "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
@@ -97629,16 +97772,16 @@
       },
       "capabilities": {
         "promptCaching": true,
-        "reasoning": null,
+        "reasoning": true,
         "structuredOutput": null,
-        "toolCall": null
+        "toolCall": true
       },
       "coding": [],
       "contextWindow": 1048576,
       "firstSeenAt": "2026-11-05T13:41:50.393Z",
       "id": "ricursiveai/ripple-65b-preview",
       "knowledgeCutoff": null,
-      "license": null,
+      "license": "Apache-2.0",
       "maxOutput": 131072,
       "modalities": {
         "input": [
@@ -97649,29 +97792,33 @@
         ]
       },
       "name": "Ripple 65B Preview",
-      "openWeights": null,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "totalB": 65
+        "confidence": "exact",
+        "totalB": 64.78
       },
       "pricing": {
         "cachedInputPerMTok": 0.025,
-        "inputPerMTok": 0.2,
-        "outputPerMTok": 0.6
+        "inputPerMTok": 0.1,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
-        "contextWindow": "openrouter",
-        "maxOutput": "openrouter",
-        "modalities": "openrouter",
-        "name": "derived",
-        "params.totalB": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
-        "releaseDate": "openrouter",
-        "releaseDatePrecision": "openrouter",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "license": "huggingface",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
       },
       "releaseDate": "2026-11-04",
@@ -99060,6 +99207,80 @@
         "fiction_live": null,
         "gpqa_diamond": null,
         "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": false,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 32768,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "stepfun/step-1o-turbo-vision",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Step-1o Turbo Vision",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.074858,
+        "inputPerMTok": 0.37429,
+        "outputPerMTok": 1.1977
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2025-01-21",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "stepfun-step-1o-turbo-vision",
+      "trainingComputeFlop": null,
+      "vendorId": "stepfun"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
         "swe_bench_vendor": 74.4,
         "swe_bench_verified": null,
         "webdev_arena_elo": null
@@ -99418,7 +99639,7 @@
       "id": "stepfun/step-5-preview",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 1000000,
+      "maxOutput": 65536,
       "modalities": {
         "input": [
           "image",
@@ -99491,6 +99712,79 @@
         }
       ],
       "slug": "stepfun-step-5-preview",
+      "trainingComputeFlop": null,
+      "vendorId": "stepfun"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": false,
+        "structuredOutput": null,
+        "toolCall": false
+      },
+      "coding": [],
+      "contextWindow": 262144,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "stepfun/stepaudio-2.5-chat",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "audio",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "StepAudio 2.5 Chat",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.44915,
+        "inputPerMTok": 1.9463,
+        "outputPerMTok": 4.7909
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "litellm",
+        "maxOutput": "litellm",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-05-09",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "stepfun-stepaudio-2-5-chat",
       "trainingComputeFlop": null,
       "vendorId": "stepfun"
     },
@@ -100576,13 +100870,11 @@
         ]
       },
       "name": "Hy4",
-      "openWeights": false,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 2,
-        "sizeTierBasis": "price",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 774.4
       },
       "pricing": {
         "cachedInputPerMTok": 0.042,
@@ -100598,7 +100890,7 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
+        "params.totalB": "huggingface",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
@@ -100659,13 +100951,11 @@
         ]
       },
       "name": "Hy4 flash",
-      "openWeights": false,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 1,
-        "sizeTierBasis": "price+naming",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 220.24
       },
       "pricing": {
         "cachedInputPerMTok": 0.003,
@@ -100681,7 +100971,7 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
+        "params.totalB": "huggingface",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
@@ -100716,12 +101006,12 @@
         "toolCall": true
       },
       "coding": [],
-      "contextWindow": 1024000,
+      "contextWindow": 1048576,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "tencent/hy4-preview",
       "knowledgeCutoff": null,
       "license": "Apache-2.0",
-      "maxOutput": 64000,
+      "maxOutput": 65536,
       "modalities": {
         "input": [
           "text"
@@ -101339,9 +101629,9 @@
         "totalB": 20.38
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0075,
-        "inputPerMTok": 0.075,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.015,
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.5
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -102097,6 +102387,75 @@
       },
       "capabilities": {
         "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 524288,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "upstage/solar-mini-4-5",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Solar Mini 4 5",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.001,
+        "inputPerMTok": 0.01,
+        "outputPerMTok": 0.04
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "upstage-solar-mini-4-5",
+      "trainingComputeFlop": null,
+      "vendorId": "upstage"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -102153,6 +102512,75 @@
       "retiredAt": null,
       "scores": [],
       "slug": "upstage-solar-mini4",
+      "trainingComputeFlop": null,
+      "vendorId": "upstage"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 524288,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "upstage/solar-pro-4-contributor",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Solar PRO 4 Contributor",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.009,
+        "inputPerMTok": 0.09,
+        "outputPerMTok": 0.36
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "upstage-solar-pro-4-contributor",
       "trainingComputeFlop": null,
       "vendorId": "upstage"
     },
@@ -107945,11 +108373,12 @@
         "openWeights": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-03-18",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-25",
       "scores": [],
       "slug": "xiaomi-mimo-v2-tts",
       "trainingComputeFlop": null,
@@ -108024,9 +108453,9 @@
         "totalB": 306.66
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0028,
-        "inputPerMTok": 0.14,
-        "outputPerMTok": 0.28
+        "cachedInputPerMTok": 0.0031,
+        "inputPerMTok": 0.14812,
+        "outputPerMTok": 0.29624
       },
       "provenance": {
         "benchmarks.swe_bench_pro": "models.dev",
@@ -108157,9 +108586,9 @@
         "totalB": 1013.57
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0036,
-        "inputPerMTok": 0.435,
-        "outputPerMTok": 0.87
+        "cachedInputPerMTok": 0.0071,
+        "inputPerMTok": 0.522,
+        "outputPerMTok": 1.7143
       },
       "provenance": {
         "benchmarks.swe_bench_pro": "models.dev",
@@ -108238,7 +108667,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": null,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -108266,12 +108695,11 @@
         "totalB": 1000.19
       },
       "pricing": {
-        "cachedInputPerMTok": 0.0108,
-        "inputPerMTok": 1.305,
-        "outputPerMTok": 2.61
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -108282,9 +108710,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "models.dev",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -108352,11 +108777,12 @@
         "openWeights": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-04-22",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-25",
       "scores": [],
       "slug": "xiaomi-mimo-v2-5-tts",
       "trainingComputeFlop": null,
@@ -108417,11 +108843,12 @@
         "openWeights": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-04-22",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-25",
       "scores": [],
       "slug": "xiaomi-mimo-v2-5-tts-voiceclone",
       "trainingComputeFlop": null,
@@ -108482,11 +108909,12 @@
         "openWeights": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-04-22",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-11-25",
       "scores": [],
       "slug": "xiaomi-mimo-v2-5-tts-voicedesign",
       "trainingComputeFlop": null,
@@ -108599,6 +109027,78 @@
         }
       ],
       "slug": "xiaomi-mimo-v2-6-flash",
+      "trainingComputeFlop": null,
+      "vendorId": "xiaomi"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": null,
+        "structuredOutput": null,
+        "toolCall": null
+      },
+      "coding": [],
+      "contextWindow": 1048576,
+      "firstSeenAt": "2026-11-25T01:43:08.939Z",
+      "id": "xiaomi/mimo-v2.6-flash-mopd",
+      "knowledgeCutoff": null,
+      "license": null,
+      "maxOutput": 32768,
+      "modalities": {
+        "input": [
+          "audio",
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mimo V2.6 Flash Mopd",
+      "openWeights": null,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 1,
+        "sizeTierBasis": "price+naming",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.02,
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.42
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "contextWindow": "openrouter",
+        "maxOutput": "openrouter",
+        "modalities": "openrouter",
+        "name": "derived",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "openrouter",
+        "pricing.inputPerMTok": "openrouter",
+        "pricing.outputPerMTok": "openrouter",
+        "releaseDate": "openrouter",
+        "releaseDatePrecision": "openrouter",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-23",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "xiaomi-mimo-v2-6-flash-mopd",
       "trainingComputeFlop": null,
       "vendorId": "xiaomi"
     },
@@ -108774,8 +109274,8 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "models.dev",
-        "releaseDatePrecision": "models.dev",
+        "releaseDate": "vercel-gateway",
+        "releaseDatePrecision": "vercel-gateway",
         "vendorId": "derived"
       },
       "releaseDate": "2026-09-21",
@@ -112200,12 +112700,12 @@
       },
       "capabilities": {
         "promptCaching": true,
-        "reasoning": null,
+        "reasoning": true,
         "structuredOutput": null,
-        "toolCall": null
+        "toolCall": true
       },
       "coding": [],
-      "contextWindow": 1048576,
+      "contextWindow": 1000000,
       "firstSeenAt": "2026-11-03T01:42:29.100Z",
       "id": "zhipuai/glm-5.3-flashx-legal",
       "knowledgeCutoff": null,
@@ -112214,6 +112714,7 @@
       "modalities": {
         "input": [
           "image",
+          "pdf",
           "text",
           "video"
         ],
@@ -112221,8 +112722,8 @@
           "text"
         ]
       },
-      "name": "GLM 5.3 Flashx Legal",
-      "openWeights": null,
+      "name": "GLM-5.3-FlashX-Legal",
+      "openWeights": false,
       "params": {
         "activeB": null,
         "confidence": "estimated",
@@ -112231,22 +112732,25 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.075,
-        "inputPerMTok": 0.37,
-        "outputPerMTok": 1.25
+        "cachedInputPerMTok": 0.08534,
+        "inputPerMTok": 0.29943,
+        "outputPerMTok": 1.04801
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
-        "contextWindow": "openrouter",
-        "maxOutput": "openrouter",
-        "modalities": "openrouter",
-        "name": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "openrouter",
-        "pricing.inputPerMTok": "openrouter",
-        "pricing.outputPerMTok": "openrouter",
-        "releaseDate": "vercel-gateway",
-        "releaseDatePrecision": "vercel-gateway",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
       },
       "releaseDate": "2026-11-02",
@@ -112645,43 +113149,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 430 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
-      "note": "请求 321 个开源模型，成功 317，失败 4",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
+      "note": "请求 328 个开源模型，成功 324，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
-      "note": "7157 条（对话类 4927 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
+      "note": "7164 条（对话类 4934 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
       "note": "7/7 个分榜，共 354 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
-      "note": "models.json 638 条；api.json 326 provider / 10181 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
+      "note": "models.json 640 条；api.json 326 provider / 10172 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
-      "note": "473 条；已剔除 artificial_analysis 216 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
+      "note": "472 条；已剔除 artificial_analysis 214 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -112690,8 +113194,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-24T13:41:31.247Z",
-      "note": "517 条（language 321 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-25T01:43:08.939Z",
+      "note": "517 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
@@ -112925,6 +113429,16 @@
       "motif": "wanderer",
       "name": "Elorian",
       "nameZh": "Elorian"
+    },
+    {
+      "accentColor": "#7c8da6",
+      "continent": "west",
+      "country": "ZZ",
+      "homepage": null,
+      "id": "elorian-labs",
+      "motif": "wanderer",
+      "name": "Elorian Labs",
+      "nameZh": "Elorian Labs"
     },
     {
       "accentColor": "#7c8da6",
@@ -113285,6 +113799,16 @@
       "motif": "wave",
       "name": "Poolside",
       "nameZh": "Poolside"
+    },
+    {
+      "accentColor": "#7c8da6",
+      "continent": "west",
+      "country": "ZZ",
+      "homepage": null,
+      "id": "prism-ml",
+      "motif": "wanderer",
+      "name": "Prism ML",
+      "nameZh": "Prism ML"
     },
     {
       "accentColor": "#7c8da6",

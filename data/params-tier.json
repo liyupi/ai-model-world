@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-24T13:41:31.247Z",
+  "generatedAt": "2026-11-25T01:43:08.939Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -27,7 +27,7 @@
       "tier": 4
     },
     "alibaba/qwen-omni-turbo": {
-      "basis": "price+naming",
+      "basis": "naming",
       "tier": 1
     },
     "alibaba/qwen-plus": {
@@ -40,11 +40,11 @@
     },
     "alibaba/qwen-vl-max": {
       "basis": "price+naming",
-      "tier": 4
+      "tier": 3
     },
     "alibaba/qwen-vl-plus": {
-      "basis": "price+naming",
-      "tier": 3
+      "basis": "naming",
+      "tier": 5
     },
     "alibaba/qwen3-coder": {
       "basis": "price",
@@ -392,6 +392,10 @@
     },
     "deepseek/deepseek-v4.1-flash-fast": {
       "basis": "price+naming",
+      "tier": 2
+    },
+    "elorian-labs/glimpse-1.0": {
+      "basis": "price",
       "tier": 2
     },
     "elorian/glimpse": {
@@ -742,10 +746,6 @@
       "basis": "price+naming",
       "tier": 4
     },
-    "mistral/mistral-large-4": {
-      "basis": "price+naming",
-      "tier": 4
-    },
     "mistral/mistral-large-4-0": {
       "basis": "price+naming",
       "tier": 4
@@ -757,10 +757,6 @@
     "mistral/mistral-medium-3": {
       "basis": "price",
       "tier": 2
-    },
-    "mistral/mistral-medium-3-5": {
-      "basis": "price",
-      "tier": 3
     },
     "mistral/mistral-medium-3.1": {
       "basis": "price",
@@ -1210,6 +1206,14 @@
       "basis": "price",
       "tier": 2
     },
+    "stepfun/step-1o-turbo-vision": {
+      "basis": "price+naming",
+      "tier": 2
+    },
+    "stepfun/stepaudio-2.5-chat": {
+      "basis": "price",
+      "tier": 2
+    },
     "tencent/hy-mt2-lite": {
       "basis": "price+naming",
       "tier": 1
@@ -1222,14 +1226,6 @@
       "basis": "price+naming",
       "tier": 3
     },
-    "tencent/hy4": {
-      "basis": "price",
-      "tier": 2
-    },
-    "tencent/hy4-flash": {
-      "basis": "price+naming",
-      "tier": 1
-    },
     "unbiased/pareto": {
       "basis": "price",
       "tier": 2
@@ -1238,9 +1234,17 @@
       "basis": "price",
       "tier": 2
     },
+    "upstage/solar-mini-4-5": {
+      "basis": "price+naming",
+      "tier": 1
+    },
     "upstage/solar-mini4": {
       "basis": "price",
       "tier": 1
+    },
+    "upstage/solar-pro-4-contributor": {
+      "basis": "price+naming",
+      "tier": 3
     },
     "upstage/solar-pro2": {
       "basis": "price",
@@ -1369,6 +1373,10 @@
     "xiaomi/mimo-v2-pro": {
       "basis": "price+naming",
       "tier": 4
+    },
+    "xiaomi/mimo-v2.6-flash-mopd": {
+      "basis": "price+naming",
+      "tier": 1
     },
     "zhipuai/glm-4.5-flash": {
       "basis": "naming",
