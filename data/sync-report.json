@@ -1345,12 +1345,12 @@
         "curated": false,
         "file": "spireclimb.csv",
         "inEci": true,
-        "landed": 15,
+        "landed": 16,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 16,
+        "rows": 17,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 16,
+        "scored": 17,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1360,12 +1360,12 @@
         "curated": false,
         "file": "spireclimb_sts1_a20_heart.csv",
         "inEci": false,
-        "landed": 15,
+        "landed": 16,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 16,
+        "rows": 17,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 16,
+        "scored": 17,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1375,12 +1375,12 @@
         "curated": false,
         "file": "spireclimb_sts2_a10.csv",
         "inEci": false,
-        "landed": 15,
+        "landed": 16,
         "multiplier": 100,
         "outOfRange": 0,
-        "rows": 16,
+        "rows": 17,
         "scoreColumn": "Best score (across scorers)",
-        "scored": 16,
+        "scored": 17,
         "selfRun": true,
         "supersededBy": null,
         "unit": "pct",
@@ -1954,7 +1954,7 @@
     },
     "liveModels": 730
   },
-  "generatedAt": "2026-11-25T01:43:08.939Z",
+  "generatedAt": "2026-11-25T13:41:29.763Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2040,18 +2040,7 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2026-10-06",
-      "id": "mistral/mistral-large-4",
-      "to": "2026-10-05"
-    },
-    {
-      "from": "2026-04-29",
-      "id": "mistral/mistral-medium-latest",
-      "to": "2026-04-28"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2066,7 +2055,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "7164 条（对话类 4934 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "7174 条（对话类 4940 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2078,7 +2067,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 640 条；api.json 326 provider / 10172 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "note": "models.json 640 条；api.json 326 provider / 10194 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
@@ -2204,7 +2193,5 @@
     "withFlop": 92
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "2 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }
