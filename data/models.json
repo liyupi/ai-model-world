@@ -39,7 +39,7 @@
     {
       "id": "ale_bench",
       "inEci": false,
-      "models": 166,
+      "models": 168,
       "randomBaseline": null,
       "releaseDate": "2025-06-10",
       "scoreCeiling": null,
@@ -75,7 +75,7 @@
     {
       "id": "arc_agi",
       "inEci": true,
-      "models": 126,
+      "models": 128,
       "randomBaseline": 0,
       "releaseDate": "2019-11-05",
       "scoreCeiling": 100,
@@ -87,7 +87,7 @@
     {
       "id": "arc_agi_2",
       "inEci": true,
-      "models": 127,
+      "models": 129,
       "randomBaseline": 0,
       "releaseDate": "2025-03-24",
       "scoreCeiling": 100,
@@ -375,7 +375,7 @@
     {
       "id": "dtbench",
       "inEci": true,
-      "models": 225,
+      "models": 229,
       "randomBaseline": 40,
       "releaseDate": "2026-08-12",
       "scoreCeiling": 100,
@@ -459,7 +459,7 @@
     {
       "id": "frontier_swe",
       "inEci": true,
-      "models": 27,
+      "models": 30,
       "randomBaseline": 0,
       "releaseDate": "2026-09-02",
       "scoreCeiling": 100,
@@ -711,7 +711,7 @@
     {
       "id": "lmca",
       "inEci": true,
-      "models": 209,
+      "models": 213,
       "randomBaseline": 0,
       "releaseDate": "2026-08-12",
       "scoreCeiling": 85,
@@ -759,7 +759,7 @@
     {
       "id": "mirrorcode",
       "inEci": true,
-      "models": 47,
+      "models": 49,
       "randomBaseline": 0,
       "releaseDate": "2026-06-26",
       "scoreCeiling": 100,
@@ -867,7 +867,7 @@
     {
       "id": "posttrainbench",
       "inEci": true,
-      "models": 22,
+      "models": 24,
       "randomBaseline": 0,
       "releaseDate": "2026-03-11",
       "scoreCeiling": 100,
@@ -903,7 +903,7 @@
     {
       "id": "rli",
       "inEci": true,
-      "models": 26,
+      "models": 27,
       "randomBaseline": 0,
       "releaseDate": "2025-10-29",
       "scoreCeiling": 100,
@@ -1261,7 +1261,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-11-25T13:41:29.763Z",
+  "generatedAt": "2026-11-26T01:43:36.480Z",
   "models": [
     {
       "benchmarks": {
@@ -4448,8 +4448,8 @@
         "totalB": 235.09
       },
       "pricing": {
-        "cachedInputPerMTok": 0.11,
-        "inputPerMTok": 0.199,
+        "cachedInputPerMTok": 0.0574,
+        "inputPerMTok": 0.15,
         "outputPerMTok": 0.6
       },
       "provenance": {
@@ -6169,7 +6169,7 @@
         "webdev_arena_elo": 1273.75
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -6262,7 +6262,7 @@
         "totalB": 480.15
       },
       "pricing": {
-        "cachedInputPerMTok": 1.058,
+        "cachedInputPerMTok": null,
         "inputPerMTok": 0.38,
         "outputPerMTok": 1.6
       },
@@ -6282,7 +6282,6 @@
         "openWeights": "models.dev",
         "params.activeB": "derived",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -7300,7 +7299,7 @@
         "totalB": 81.32
       },
       "pricing": {
-        "cachedInputPerMTok": 0.07,
+        "cachedInputPerMTok": 0.059375,
         "inputPerMTok": 0.1,
         "outputPerMTok": 1.1
       },
@@ -7608,8 +7607,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.11,
-        "inputPerMTok": 0.21,
-        "outputPerMTok": 1.5
+        "inputPerMTok": 0.2,
+        "outputPerMTok": 0.88
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -9081,7 +9080,7 @@
         "totalB": 403.4
       },
       "pricing": {
-        "cachedInputPerMTok": 0.22,
+        "cachedInputPerMTok": 0.3,
         "inputPerMTok": 0.6,
         "outputPerMTok": 3.6
       },
@@ -9353,7 +9352,7 @@
       "pricing": {
         "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.1,
-        "outputPerMTok": 0.18
+        "outputPerMTok": 0.167
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -12191,7 +12190,7 @@
       "id": "alibaba/qwen3.7-plus",
       "knowledgeCutoff": "2025-04",
       "license": null,
-      "maxOutput": 64000,
+      "maxOutput": 131072,
       "modalities": {
         "input": [
           "image",
@@ -12516,8 +12515,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.4,
-        "outputPerMTok": 2.5
+        "inputPerMTok": 0.33,
+        "outputPerMTok": 2.42
       },
       "provenance": {
         "benchmarks.arc_agi_2": "epoch.ai",
@@ -14105,7 +14104,16 @@
         "structuredOutput": null,
         "toolCall": true
       },
-      "coding": [],
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 47.78,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        }
+      ],
       "contextWindow": 1000000,
       "firstSeenAt": "2026-11-16T13:56:50.490Z",
       "id": "alibaba/qwen4-max",
@@ -14143,6 +14151,7 @@
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
+        "coding": "derived",
         "contextWindow": "models.dev",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
@@ -14213,6 +14222,14 @@
           "attribution": "third-party",
           "league": "gpqa_diamond",
           "score": 94,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 47.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
@@ -19111,9 +19128,9 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
+        "pricing.cachedInputPerMTok": "litellm",
+        "pricing.inputPerMTok": "litellm",
+        "pricing.outputPerMTok": "litellm",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -25125,7 +25142,7 @@
       "contextWindow": 200000,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "anthropic/claude-sonnet-4-5",
-      "knowledgeCutoff": "2025-07-31",
+      "knowledgeCutoff": "2025-01-31",
       "license": null,
       "maxOutput": 64000,
       "modalities": {
@@ -25595,7 +25612,7 @@
       "contextWindow": 200000,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "anthropic/claude-sonnet-4-5-20250929",
-      "knowledgeCutoff": "2025-07-31",
+      "knowledgeCutoff": "2025-01-31",
       "license": null,
       "maxOutput": 64000,
       "modalities": {
@@ -29069,7 +29086,7 @@
       "id": "bytedance-seed/seed-2.0-lite",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 32000,
+      "maxOutput": 131072,
       "modalities": {
         "input": [
           "audio",
@@ -29144,7 +29161,7 @@
       "id": "bytedance-seed/seed-2.0-mini",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 32000,
+      "maxOutput": 131072,
       "modalities": {
         "input": [
           "audio",
@@ -30752,7 +30769,7 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "cohere/command-a-reasoning-08-2025",
       "knowledgeCutoff": "2024-06-01",
-      "license": null,
+      "license": "CC-BY-NC-4.0",
       "maxOutput": 32000,
       "modalities": {
         "input": [
@@ -30766,8 +30783,8 @@
       "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "unknown",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 111.06
       },
       "pricing": {
         "cachedInputPerMTok": null,
@@ -30780,10 +30797,12 @@
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
         "knowledgeCutoff": "models.dev",
+        "license": "huggingface",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
+        "params.totalB": "huggingface",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -30847,7 +30866,7 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "cohere/command-a-translate-08-2025",
       "knowledgeCutoff": "2024-06-01",
-      "license": null,
+      "license": "CC-BY-NC-4.0",
       "maxOutput": 8000,
       "modalities": {
         "input": [
@@ -30861,8 +30880,8 @@
       "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "unknown",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 111.06
       },
       "pricing": {
         "cachedInputPerMTok": null,
@@ -30875,10 +30894,12 @@
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
         "knowledgeCutoff": "models.dev",
+        "license": "huggingface",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
+        "params.totalB": "huggingface",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -30916,7 +30937,7 @@
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "cohere/command-a-vision-07-2025",
       "knowledgeCutoff": "2024-06-01",
-      "license": null,
+      "license": "CC-BY-NC-4.0",
       "maxOutput": 8000,
       "modalities": {
         "input": [
@@ -30931,8 +30952,8 @@
       "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "unknown",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 111.87
       },
       "pricing": {
         "cachedInputPerMTok": null,
@@ -30945,10 +30966,12 @@
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
         "knowledgeCutoff": "models.dev",
+        "license": "huggingface",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
+        "params.totalB": "huggingface",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -37441,8 +37464,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.028,
-        "inputPerMTok": 0.1596,
-        "outputPerMTok": 0.399
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.3
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -38694,7 +38717,7 @@
         "totalB": 1623.5
       },
       "pricing": {
-        "cachedInputPerMTok": 0.047907,
+        "cachedInputPerMTok": 0.044,
         "inputPerMTok": 1.32,
         "outputPerMTok": 3.96
       },
@@ -39066,8 +39089,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.21120372,
-        "outputPerMTok": 0.7485
+        "inputPerMTok": 0.2,
+        "outputPerMTok": 0.74
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -39421,8 +39444,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
-        "inputPerMTok": 0.2907,
-        "outputPerMTok": 1.13
+        "inputPerMTok": 0.27,
+        "outputPerMTok": 1
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -40484,7 +40507,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2024-12-11",
+      "releaseDate": "2025-02-05",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -40674,7 +40697,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2024-12-11",
+      "releaseDate": "2025-02-25",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -41103,7 +41126,7 @@
       "contextWindow": 65536,
       "firstSeenAt": "2026-08-31T10:07:26.393Z",
       "id": "google/gemini-2.5-flash-image",
-      "knowledgeCutoff": "2024-06",
+      "knowledgeCutoff": "2025-06",
       "license": null,
       "maxOutput": 32768,
       "modalities": {
@@ -41126,7 +41149,7 @@
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.075,
+        "cachedInputPerMTok": 0.03,
         "inputPerMTok": 0.3,
         "outputPerMTok": 2.5
       },
@@ -41141,11 +41164,11 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.cachedInputPerMTok": "openrouter",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "models.dev",
-        "releaseDatePrecision": "models.dev",
+        "releaseDate": "vercel-gateway",
+        "releaseDatePrecision": "vercel-gateway",
         "scores": "derived",
         "vendorId": "derived"
       },
@@ -41267,8 +41290,8 @@
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
-        "releaseDate": "models.dev",
-        "releaseDatePrecision": "models.dev",
+        "releaseDate": "epoch.ai",
+        "releaseDatePrecision": "epoch.ai",
         "scores": "derived",
         "vendorId": "derived"
       },
@@ -49258,6 +49281,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "rli",
+          "score": 20,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 92.6,
           "source": "epoch.ai",
@@ -49312,7 +49343,7 @@
     {
       "benchmarks": {
         "aime": 100,
-        "arc_agi_2": null,
+        "arc_agi_2": 92.5,
         "eci": 166.81,
         "fiction_live": null,
         "gpqa_diamond": 96.78,
@@ -49387,6 +49418,7 @@
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
+        "benchmarks.arc_agi_2": "epoch.ai",
         "benchmarks.eci": "epoch.ai",
         "benchmarks.gpqa_diamond": "epoch.ai",
         "capabilities.promptCaching": "derived",
@@ -49438,6 +49470,22 @@
         },
         {
           "attribution": "third-party",
+          "league": "arc_agi",
+          "score": 98.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi_2",
+          "score": 92.5,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "chess_puzzles",
           "score": 60,
           "source": "epoch.ai",
@@ -49450,6 +49498,14 @@
           "score": 61.4,
           "source": "epoch.ai",
           "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "dtbench",
+          "score": 99.2,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
           "unit": "pct"
         },
         {
@@ -49514,6 +49570,14 @@
           "score": 96.78,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "lmca",
+          "score": 59.39,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/lmca",
           "unit": "pct"
         },
         {
@@ -49588,7 +49652,7 @@
     {
       "benchmarks": {
         "aime": 100,
-        "arc_agi_2": null,
+        "arc_agi_2": 93.75,
         "eci": null,
         "fiction_live": null,
         "gpqa_diamond": 96.28,
@@ -49610,6 +49674,14 @@
           "score": 65.4,
           "source": "epoch.ai",
           "sourceUrl": "https://cursor.com/cursorbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 61.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
         }
       ],
@@ -49647,6 +49719,7 @@
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
+        "benchmarks.arc_agi_2": "epoch.ai",
         "benchmarks.gpqa_diamond": "epoch.ai",
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
@@ -49689,6 +49762,22 @@
         },
         {
           "attribution": "third-party",
+          "league": "arc_agi",
+          "score": 98.5,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "arc_agi_2",
+          "score": 93.75,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "chess_puzzles",
           "score": 83,
           "source": "epoch.ai",
@@ -49705,10 +49794,26 @@
         },
         {
           "attribution": "third-party",
+          "league": "dtbench",
+          "score": 99.19,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "ebr_bench",
           "score": 98.1,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontier_swe",
+          "score": 62.43,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.frontierswe.com/",
           "unit": "pct"
         },
         {
@@ -49753,8 +49858,32 @@
         },
         {
           "attribution": "third-party",
+          "league": "lmca",
+          "score": 66.54,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "mirrorcode",
+          "score": 61.11,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "mystery_game_puzzles",
           "score": 85,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "posttrainbench",
+          "score": 40.61,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -49872,7 +50001,7 @@
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
       },
-      "releaseDate": "2025-05-20",
+      "releaseDate": "2025-07-14",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [],
@@ -50957,9 +51086,9 @@
         "totalB": 27.43
       },
       "pricing": {
-        "cachedInputPerMTok": 0.07935,
-        "inputPerMTok": 0.1,
-        "outputPerMTok": 0.2992
+        "cachedInputPerMTok": 0.04,
+        "inputPerMTok": 0.099,
+        "outputPerMTok": 0.299
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -51456,9 +51585,9 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.05,
-        "inputPerMTok": 0.09,
-        "outputPerMTok": 0.3
+        "cachedInputPerMTok": 0.0425,
+        "inputPerMTok": 0.0765,
+        "outputPerMTok": 0.255
       },
       "provenance": {
         "benchmarks.aime": "epoch.ai",
@@ -55189,7 +55318,7 @@
       "firstSeenAt": "2026-11-03T01:42:29.100Z",
       "id": "meituan/longcat-2.5",
       "knowledgeCutoff": null,
-      "license": null,
+      "license": "MIT",
       "maxOutput": 262144,
       "modalities": {
         "input": [
@@ -55201,13 +55330,11 @@
         ]
       },
       "name": "LongCat-2.5",
-      "openWeights": false,
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 2,
-        "sizeTierBasis": "price",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 1778.52
       },
       "pricing": {
         "cachedInputPerMTok": 0.006,
@@ -55219,11 +55346,12 @@
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
+        "license": "huggingface",
         "maxOutput": "models.dev",
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
+        "params.totalB": "huggingface",
         "pricing.cachedInputPerMTok": "models.dev",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
@@ -56846,7 +56974,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.13,
-        "inputPerMTok": 0.6,
+        "inputPerMTok": 0.25,
         "outputPerMTok": 0.71
       },
       "provenance": {
@@ -57489,7 +57617,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": 0.484,
+        "inputPerMTok": 0.055,
         "outputPerMTok": 0.03
       },
       "provenance": {
@@ -59454,6 +59582,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "frontier_swe",
+          "score": 40.24,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.frontierswe.com/",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "lmca",
           "score": 56.84,
           "source": "epoch.ai",
@@ -59669,6 +59805,14 @@
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "index"
+        },
+        {
+          "attribution": "third-party",
+          "league": "frontier_swe",
+          "score": 40.24,
+          "source": "epoch.ai",
+          "sourceUrl": "https://www.frontierswe.com/",
+          "unit": "pct"
         },
         {
           "attribution": "third-party",
@@ -68125,8 +68269,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.015,
-        "inputPerMTok": 0.15,
-        "outputPerMTok": 0.15
+        "inputPerMTok": 0.029,
+        "outputPerMTok": 0.03
       },
       "provenance": {
         "benchmarks.eci": "epoch.ai",
@@ -69787,7 +69931,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": null,
+        "promptCaching": false,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -69817,10 +69961,11 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": null,
-        "outputPerMTok": null
+        "inputPerMTok": 0.04,
+        "outputPerMTok": 0.04
       },
       "provenance": {
+        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -69830,6 +69975,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -72940,9 +73087,9 @@
       },
       "capabilities": {
         "promptCaching": true,
-        "reasoning": null,
+        "reasoning": true,
         "structuredOutput": null,
-        "toolCall": null
+        "toolCall": true
       },
       "coding": [],
       "contextWindow": 1048576,
@@ -72954,20 +73101,19 @@
       "modalities": {
         "input": [
           "image",
-          "text"
+          "text",
+          "video"
         ],
         "output": [
           "text"
         ]
       },
-      "name": "Kimi K3.1 PRO Highspeed",
-      "openWeights": null,
+      "name": "Kimi K3.1 Pro Highspeed",
+      "openWeights": true,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 5,
-        "sizeTierBasis": "price+naming",
-        "totalB": null
+        "confidence": "exact",
+        "totalB": 2722.74
       },
       "pricing": {
         "cachedInputPerMTok": 0.2,
@@ -72976,16 +73122,19 @@
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
-        "contextWindow": "vercel-gateway",
-        "maxOutput": "vercel-gateway",
-        "modalities": "vercel-gateway",
-        "name": "derived",
-        "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "litellm",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
-        "releaseDate": "vercel-gateway",
-        "releaseDatePrecision": "vercel-gateway",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "huggingface",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
       },
       "releaseDate": "2026-10-23",
@@ -73687,8 +73836,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.inputPerMTok": "litellm",
-        "pricing.outputPerMTok": "litellm",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "trainingComputeFlop": "epoch.ai",
@@ -74505,8 +74654,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.025,
-        "inputPerMTok": 0.0971,
-        "outputPerMTok": 0.48
+        "inputPerMTok": 0.075,
+        "outputPerMTok": 0.4
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -89165,7 +89314,7 @@
     {
       "benchmarks": {
         "aime": 99.72,
-        "arc_agi_2": 83.9,
+        "arc_agi_2": 82.5,
         "eci": 160.8,
         "fiction_live": null,
         "gpqa_diamond": 93.31,
@@ -89333,7 +89482,7 @@
         {
           "attribution": "third-party",
           "league": "arc_agi_2",
-          "score": 83.9,
+          "score": 82.5,
           "source": "epoch.ai",
           "sourceUrl": "https://epoch.ai/benchmarks",
           "unit": "pct"
@@ -90154,6 +90303,81 @@
       "retiredAt": null,
       "scores": [],
       "slug": "openai-gpt-6-astra-fast",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "openai/gpt-6-astra-healthcare",
+      "knowledgeCutoff": "2026-04-30",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6 Astra Healthcare",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 5,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 1,
+        "inputPerMTok": 10,
+        "outputPerMTok": 50
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-astra-healthcare",
       "trainingComputeFlop": null,
       "vendorId": "openai"
     },
@@ -91573,6 +91797,81 @@
       },
       "capabilities": {
         "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "openai/gpt-6.1-sol-healthcare",
+      "knowledgeCutoff": "2026-04-30",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol Healthcare",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-1-sol-healthcare",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
         "reasoning": null,
         "structuredOutput": null,
         "toolCall": null
@@ -91980,6 +92279,14 @@
       "coding": [
         {
           "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 3017.12,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
           "league": "mirrorcode",
           "score": 67.78,
           "source": "epoch.ai",
@@ -92055,6 +92362,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 3017.12,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
+        {
+          "attribution": "third-party",
           "league": "apex_agents",
           "score": 72.2,
           "source": "epoch.ai",
@@ -92099,6 +92414,14 @@
           "score": 78,
           "source": "epoch.ai",
           "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "dtbench",
+          "score": 97.6,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
           "unit": "pct"
         },
         {
@@ -92159,6 +92482,14 @@
         },
         {
           "attribution": "third-party",
+          "league": "lmca",
+          "score": 62.09,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "mirrorcode",
           "score": 67.78,
           "source": "epoch.ai",
@@ -92169,6 +92500,14 @@
           "attribution": "third-party",
           "league": "mystery_game_puzzles",
           "score": 95,
+          "source": "epoch.ai",
+          "sourceUrl": null,
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "posttrainbench",
+          "score": 43.49,
           "source": "epoch.ai",
           "sourceUrl": null,
           "unit": "pct"
@@ -92215,6 +92554,81 @@
         }
       ],
       "slug": "openai-gpt-6-2-astra",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "openai/gpt-6.2-astra-healthcare",
+      "knowledgeCutoff": "2026-05-18",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.2 Astra Healthcare",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 4,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.4,
+        "inputPerMTok": 8,
+        "outputPerMTok": 40
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-2-astra-healthcare",
       "trainingComputeFlop": null,
       "vendorId": "openai"
     },
@@ -92307,7 +92721,16 @@
         "structuredOutput": null,
         "toolCall": true
       },
-      "coding": [],
+      "coding": [
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 3036.03,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        }
+      ],
       "contextWindow": 1050000,
       "firstSeenAt": "2026-11-18T01:42:22.612Z",
       "id": "openai/gpt-6.2-sol",
@@ -92343,6 +92766,7 @@
         "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
+        "coding": "derived",
         "contextWindow": "models.dev",
         "knowledgeCutoff": "models.dev",
         "maxOutput": "models.dev",
@@ -92362,6 +92786,14 @@
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
+        {
+          "attribution": "third-party",
+          "league": "ale_bench",
+          "score": 3036.03,
+          "source": "epoch.ai",
+          "sourceUrl": "https://epoch.ai/benchmarks",
+          "unit": "index"
+        },
         {
           "attribution": "third-party",
           "league": "apex_agents",
@@ -92404,6 +92836,22 @@
         },
         {
           "attribution": "third-party",
+          "league": "dtbench",
+          "score": 97.33,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/dtbench",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
+          "league": "lmca",
+          "score": 57.04,
+          "source": "epoch.ai",
+          "sourceUrl": "https://conceptualreasoning.ai/lmca",
+          "unit": "pct"
+        },
+        {
+          "attribution": "third-party",
           "league": "simplebench",
           "score": 69.9,
           "source": "epoch.ai",
@@ -92412,6 +92860,81 @@
         }
       ],
       "slug": "openai-gpt-6-2-sol",
+      "trainingComputeFlop": null,
+      "vendorId": "openai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": true,
+        "reasoning": true,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 1050000,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "openai/gpt-6.2-sol-healthcare",
+      "knowledgeCutoff": "2026-06-01",
+      "license": null,
+      "maxOutput": 128000,
+      "modalities": {
+        "input": [
+          "image",
+          "pdf",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.2 Sol Healthcare",
+      "openWeights": false,
+      "params": {
+        "activeB": null,
+        "confidence": "estimated",
+        "sizeTier": 3,
+        "sizeTierBasis": "price",
+        "totalB": null
+      },
+      "pricing": {
+        "cachedInputPerMTok": 0.1,
+        "inputPerMTok": 2,
+        "outputPerMTok": 10
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "knowledgeCutoff": "models.dev",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-11-24",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "openai-gpt-6-2-sol-healthcare",
       "trainingComputeFlop": null,
       "vendorId": "openai"
     },
@@ -93226,7 +93749,7 @@
         "totalB": 114.66
       },
       "pricing": {
-        "cachedInputPerMTok": 0.066,
+        "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.15,
         "outputPerMTok": 0.6
       },
@@ -93475,7 +93998,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.015,
-        "inputPerMTok": 0.05,
+        "inputPerMTok": 0.045,
         "outputPerMTok": 0.19
       },
       "provenance": {
@@ -93696,8 +94219,8 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.0375,
-        "inputPerMTok": 0.075,
-        "outputPerMTok": 0.24
+        "inputPerMTok": 0.07,
+        "outputPerMTok": 0.2
       },
       "provenance": {
         "capabilities.promptCaching": "derived",
@@ -96480,6 +97003,76 @@
         "swe_bench_pro": null,
         "swe_bench_vendor": null,
         "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": false,
+        "reasoning": false,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 262144,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "pipecat-ai/phonellm-mini-alpha-2",
+      "knowledgeCutoff": null,
+      "license": "BSD-2-Clause",
+      "maxOutput": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "PhoneLLM Mini Alpha 2",
+      "openWeights": true,
+      "params": {
+        "activeB": null,
+        "confidence": "exact",
+        "totalB": 31.58
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": 0.06,
+        "outputPerMTok": 0.24
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "license": "huggingface",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "huggingface",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2026-10-15",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "pipecat-ai-phonellm-mini-alpha-2",
+      "trainingComputeFlop": null,
+      "vendorId": "pipecat-ai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
         "webdev_arena_elo": 1347.49
       },
       "capabilities": {
@@ -97326,7 +97919,7 @@
       },
       "pricing": {
         "cachedInputPerMTok": 0.04,
-        "inputPerMTok": 0.25,
+        "inputPerMTok": 0.3,
         "outputPerMTok": 1
       },
       "provenance": {
@@ -100677,7 +101270,7 @@
         "totalB": 298.79
       },
       "pricing": {
-        "cachedInputPerMTok": 0.033,
+        "cachedInputPerMTok": 0.035,
         "inputPerMTok": 0.14,
         "outputPerMTok": 0.58
       },
@@ -102198,7 +102791,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": null,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": true
@@ -102223,18 +102816,15 @@
       "openWeights": false,
       "params": {
         "activeB": null,
-        "confidence": "estimated",
-        "sizeTier": 2,
-        "sizeTierBasis": "price",
+        "confidence": "unknown",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": 0.03,
-        "inputPerMTok": 0.8,
-        "outputPerMTok": 3.2
+        "cachedInputPerMTok": null,
+        "inputPerMTok": null,
+        "outputPerMTok": null
       },
       "provenance": {
-        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -102242,10 +102832,6 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
-        "params.sizeTier": "derived",
-        "pricing.cachedInputPerMTok": "models.dev",
-        "pricing.inputPerMTok": "models.dev",
-        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -103147,7 +103733,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": null,
+        "promptCaching": false,
         "reasoning": false,
         "structuredOutput": null,
         "toolCall": false
@@ -103177,10 +103763,11 @@
       },
       "pricing": {
         "cachedInputPerMTok": null,
-        "inputPerMTok": null,
-        "outputPerMTok": null
+        "inputPerMTok": 0.15,
+        "outputPerMTok": 0.6
       },
       "provenance": {
+        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -103189,6 +103776,8 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "derived",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -103385,19 +103974,17 @@
       "id": "xai/grok-4-fast-non-reasoning",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 2000000,
+      "maxOutput": 30000,
       "modalities": {
         "input": [
-          "audio",
           "image",
-          "text",
-          "video"
+          "text"
         ],
         "output": [
           "text"
         ]
       },
-      "name": "X-Ai/Grok-4-Fast-Non-Reasoning",
+      "name": "Grok 4 Fast (Non-Reasoning)",
       "openWeights": false,
       "params": {
         "activeB": null,
@@ -103430,7 +104017,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2025-12-18",
+      "releaseDate": "2025-09-19",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -103504,19 +104091,17 @@
       "id": "xai/grok-4-fast-reasoning",
       "knowledgeCutoff": null,
       "license": null,
-      "maxOutput": 2000000,
+      "maxOutput": 30000,
       "modalities": {
         "input": [
-          "audio",
           "image",
-          "text",
-          "video"
+          "text"
         ],
         "output": [
           "text"
         ]
       },
-      "name": "X-Ai/Grok-4-Fast-Reasoning",
+      "name": "Grok 4 Fast",
       "openWeights": false,
       "params": {
         "activeB": null,
@@ -103553,7 +104138,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2025-12-18",
+      "releaseDate": "2025-09-19",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -106886,7 +107471,6 @@
       "modalities": {
         "input": [
           "image",
-          "pdf",
           "text"
         ],
         "output": [
@@ -107365,7 +107949,7 @@
           "text"
         ]
       },
-      "name": "x-AI/Grok-Code-Fast 1",
+      "name": "Grok Code Fast 1",
       "openWeights": false,
       "params": {
         "activeB": null,
@@ -107398,7 +107982,7 @@
         "scores": "derived",
         "vendorId": "derived"
       },
-      "releaseDate": "2025-09-02",
+      "releaseDate": "2025-08-28",
       "releaseDatePrecision": "day",
       "retiredAt": null,
       "scores": [
@@ -109378,6 +109962,76 @@
       "retiredAt": null,
       "scores": [],
       "slug": "zhipuai-autoglm-phone-9b-multilingual",
+      "trainingComputeFlop": null,
+      "vendorId": "zhipuai"
+    },
+    {
+      "benchmarks": {
+        "aime": null,
+        "arc_agi_2": null,
+        "eci": null,
+        "fiction_live": null,
+        "gpqa_diamond": null,
+        "swe_bench_pro": null,
+        "swe_bench_vendor": null,
+        "swe_bench_verified": null,
+        "webdev_arena_elo": null
+      },
+      "capabilities": {
+        "promptCaching": false,
+        "reasoning": false,
+        "structuredOutput": null,
+        "toolCall": true
+      },
+      "coding": [],
+      "contextWindow": 128000,
+      "firstSeenAt": "2026-11-26T01:43:36.480Z",
+      "id": "zhipuai/glm-4-32b-0414-128k",
+      "knowledgeCutoff": null,
+      "license": "MIT",
+      "maxOutput": 16384,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-4-32B-0414-128K",
+      "openWeights": true,
+      "params": {
+        "activeB": null,
+        "confidence": "exact",
+        "totalB": 32.57
+      },
+      "pricing": {
+        "cachedInputPerMTok": null,
+        "inputPerMTok": 0.1,
+        "outputPerMTok": 0.1
+      },
+      "provenance": {
+        "capabilities.promptCaching": "derived",
+        "capabilities.reasoning": "models.dev",
+        "capabilities.toolCall": "models.dev",
+        "contextWindow": "models.dev",
+        "license": "huggingface",
+        "maxOutput": "models.dev",
+        "modalities": "models.dev",
+        "name": "models.dev",
+        "openWeights": "models.dev",
+        "params.totalB": "huggingface",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
+        "releaseDate": "models.dev",
+        "releaseDatePrecision": "models.dev",
+        "vendorId": "derived"
+      },
+      "releaseDate": "2025-04-14",
+      "releaseDatePrecision": "day",
+      "retiredAt": null,
+      "scores": [],
+      "slug": "zhipuai-glm-4-32b-0414-128k",
       "trainingComputeFlop": null,
       "vendorId": "zhipuai"
     },
@@ -112937,7 +113591,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": null,
+        "promptCaching": true,
         "reasoning": true,
         "structuredOutput": null,
         "toolCall": true
@@ -112964,15 +113618,18 @@
       "openWeights": false,
       "params": {
         "activeB": null,
-        "confidence": "unknown",
+        "confidence": "estimated",
+        "sizeTier": 2,
+        "sizeTierBasis": "price",
         "totalB": null
       },
       "pricing": {
-        "cachedInputPerMTok": null,
-        "inputPerMTok": null,
-        "outputPerMTok": null
+        "cachedInputPerMTok": 0.299433,
+        "inputPerMTok": 1.19773,
+        "outputPerMTok": 4.192057
       },
       "provenance": {
+        "capabilities.promptCaching": "derived",
         "capabilities.reasoning": "models.dev",
         "capabilities.toolCall": "models.dev",
         "contextWindow": "models.dev",
@@ -112980,6 +113637,10 @@
         "modalities": "models.dev",
         "name": "models.dev",
         "openWeights": "models.dev",
+        "params.sizeTier": "derived",
+        "pricing.cachedInputPerMTok": "models.dev",
+        "pricing.inputPerMTok": "models.dev",
+        "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
         "releaseDatePrecision": "models.dev",
         "vendorId": "derived"
@@ -113173,43 +113834,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
       "note": "ZIP 92 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 80 个；训练算力 345 行；去重后 430 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
-      "note": "请求 328 个开源模型，成功 324，失败 4",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
+      "note": "请求 332 个开源模型，成功 331，失败 1",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
-      "note": "7174 条（对话类 4940 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
+      "note": "7178 条（对话类 4944 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
       "note": "7/7 个分榜，共 354 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
-      "note": "models.json 640 条；api.json 326 provider / 10194 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
+      "note": "models.json 647 条；api.json 326 provider / 10044 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
-      "note": "472 条；已剔除 artificial_analysis 214 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
+      "note": "474 条；已剔除 artificial_analysis 217 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -113218,7 +113879,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-11-25T13:41:29.763Z",
+      "fetchedAt": "2026-11-26T01:43:36.480Z",
       "note": "517 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
@@ -113813,6 +114474,16 @@
       "motif": "comet",
       "name": "Perplexity",
       "nameZh": "Perplexity"
+    },
+    {
+      "accentColor": "#7c8da6",
+      "continent": "west",
+      "country": "ZZ",
+      "homepage": null,
+      "id": "pipecat-ai",
+      "motif": "wanderer",
+      "name": "Pipecat AI",
+      "nameZh": "Pipecat AI"
     },
     {
       "accentColor": "#00b4d8",

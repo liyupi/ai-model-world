@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-11-25T13:41:29.763Z",
+  "generatedAt": "2026-11-26T01:43:36.480Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -642,10 +642,6 @@
       "basis": "price",
       "tier": 1
     },
-    "meituan/longcat-2.5": {
-      "basis": "price",
-      "tier": 2
-    },
     "meituan/longcat-2.5-preview": {
       "basis": "price",
       "tier": 2
@@ -785,10 +781,6 @@
     "moonshotai/kimi-k3-fast": {
       "basis": "price+naming",
       "tier": 3
-    },
-    "moonshotai/kimi-k3.1-pro-highspeed": {
-      "basis": "price+naming",
-      "tier": 5
     },
     "morph/morph-v3-fast": {
       "basis": "price+naming",
@@ -1014,6 +1006,10 @@
       "basis": "price+naming",
       "tier": 3
     },
+    "openai/gpt-6-astra-healthcare": {
+      "basis": "price",
+      "tier": 5
+    },
     "openai/gpt-6-astra-pro": {
       "basis": "price+naming",
       "tier": 5
@@ -1042,6 +1038,10 @@
       "basis": "price",
       "tier": 3
     },
+    "openai/gpt-6.1-sol-healthcare": {
+      "basis": "price",
+      "tier": 3
+    },
     "openai/gpt-6.1-sol-pro": {
       "basis": "price+naming",
       "tier": 4
@@ -1058,11 +1058,19 @@
       "basis": "price",
       "tier": 4
     },
+    "openai/gpt-6.2-astra-healthcare": {
+      "basis": "price",
+      "tier": 4
+    },
     "openai/gpt-6.2-astra-pro": {
       "basis": "price+naming",
       "tier": 5
     },
     "openai/gpt-6.2-sol": {
+      "basis": "price",
+      "tier": 3
+    },
+    "openai/gpt-6.2-sol-healthcare": {
       "basis": "price",
       "tier": 3
     },
@@ -1227,10 +1235,6 @@
       "tier": 3
     },
     "unbiased/pareto": {
-      "basis": "price",
-      "tier": 2
-    },
-    "unbiased/pareto-26.10": {
       "basis": "price",
       "tier": 2
     },
@@ -1405,6 +1409,10 @@
     "zhipuai/glm-5.3-prime": {
       "basis": "price",
       "tier": 3
+    },
+    "zhipuai/glm-5.4": {
+      "basis": "price",
+      "tier": 2
     },
     "zhipuai/glm-5v-turbo": {
       "basis": "price+naming",
