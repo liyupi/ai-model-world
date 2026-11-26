@@ -1954,7 +1954,7 @@
     },
     "liveModels": 736
   },
-  "generatedAt": "2026-11-26T01:43:36.480Z",
+  "generatedAt": "2026-11-26T13:41:58.779Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 131,
@@ -2040,38 +2040,7 @@
       "zhipuai/glm-5.3-prime"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2024-12-11",
-      "id": "google/gemini-2.0-flash",
-      "to": "2025-02-05"
-    },
-    {
-      "from": "2024-12-11",
-      "id": "google/gemini-2.0-flash-lite",
-      "to": "2025-02-25"
-    },
-    {
-      "from": "2025-05-20",
-      "id": "google/gemini-embedding-001",
-      "to": "2025-07-14"
-    },
-    {
-      "from": "2025-12-18",
-      "id": "xai/grok-4-fast-non-reasoning",
-      "to": "2025-09-19"
-    },
-    {
-      "from": "2025-12-18",
-      "id": "xai/grok-4-fast-reasoning",
-      "to": "2025-09-19"
-    },
-    {
-      "from": "2025-09-02",
-      "id": "xai/grok-code-fast-1",
-      "to": "2025-08-28"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2086,7 +2055,7 @@
       "ok": true
     },
     "litellm": {
-      "note": "7178 条（对话类 4944 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
+      "note": "7190 条（对话类 4945 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
@@ -2098,7 +2067,7 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 647 条；api.json 326 provider / 10044 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
+      "note": "models.json 647 条；api.json 326 provider / 10046 条；benchmarks[] 1215 条，已拦截 AA 血缘 190 条，非编程口径跳过 635 条",
       "ok": true
     },
     "openrouter": {
@@ -2110,7 +2079,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "517 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "518 条（language 322 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
@@ -2224,7 +2193,5 @@
     "withFlop": 92
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "6 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }
